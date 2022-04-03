@@ -1,10 +1,10 @@
 ---
 layout: page_2
-title: "Custom CMS"
+title: "The Caribbean Digital"
 icon: "pe-7s-share"
 thumbnail: "/assets/images/Portfolio/6.jpg"
-category: "web Design"
-filter: "app"
+# category: "web Design"
+# filter: "app"
 ---
 
 <div class="portfolio-header">

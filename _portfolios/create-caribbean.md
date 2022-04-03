@@ -1,10 +1,10 @@
 ---
 layout: page_2
-title: "One Time Delivery"
+title: "Create Caribbean"
 icon: "pe-7s-timer"
 thumbnail: "/assets/images/Portfolio/5.jpg"
-category: "Web Development"
-filter: "app"
+# category: "Web Development"
+# filter: "app"
 ---
 
 <div class="portfolio-header">

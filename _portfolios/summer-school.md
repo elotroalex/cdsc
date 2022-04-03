@@ -1,10 +1,10 @@
 ---
 layout: page_2
-title: "WordPress Theme"
-icon: "pe-7s-share"
-thumbnail: "/assets/images/Portfolio/6.jpg"
-category: "Graphics Design"
-filter: "web"
+title: "Summer School"
+icon: "pe-7s-pen"
+thumbnail: "/assets/images/Portfolio/4.jpg"
+# category: "Programming"
+# filter: "web"
 ---
 
 <div class="portfolio-header">

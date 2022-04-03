@@ -1,10 +1,10 @@
 ---
 layout: page_2
-title: "Fast Delivery"
-icon: "pe-7s-cup"
-thumbnail: "/assets/images/Portfolio/3.jpg"
-category: "Graphics Design"
-filter: "graphics"
+title: "Microgrants"
+icon: "pe-7s-phone"
+thumbnail: "/assets/images/Portfolio/1.jpg"
+# category: "Web Programming"
+# filter: "apps"
 ---
 
 <div class="portfolio-header">

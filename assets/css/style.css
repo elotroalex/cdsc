@@ -4040,6 +4040,35 @@ header.sticky-header + section {
 }
 
 /*--------------------------------------------------------------
+## Round Profile Pictures
+--------------------------------------------------------------*/
+
+.member {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 1rem;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url('/assets/images/team/1.jpg');
+}
+
+.two {
+  background-image: url('/assets/images/team/2.jpg');
+}
+
+.three {
+  background-image: url('/assets/images/team/3.jpg');
+}
+
+
+/*--------------------------------------------------------------
 ## Hexa Grid Shape
 --------------------------------------------------------------*/
 .hexa-grid {

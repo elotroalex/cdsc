@@ -7,7 +7,7 @@ thumbnail: "/assets/images/Portfolio/2.jpg"
 # filter: "graphics"
 ---
 
-<div class="portfolio-header">
+<!-- <div class="portfolio-header">
     <h2 class="portfolio-title">University of Puerto Rico Rio Piedras Campus Digital Humanities Initiative</h2>
     <div class="portfolio-meta">
         <div class="portfolio-cat">
@@ -17,13 +17,13 @@ thumbnail: "/assets/images/Portfolio/2.jpg"
             <span class="time-period">April, 2022</span>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="portfolio-details">
-    <p>This initiative proposes a series of integrated efforts to achieve a comprehensive and sustainable plan to promote DH in Puerto Rico. These initiatives are:</p>
-    <p>1) Digital Humanities Fellow Initiative (DHFI) for capacity building strategies. This part of the project is mostly oriented to training professors, researchers, and librarians. The DH fellow will develop conferences, workshops, and intensive modules in topics related to: DH pedagogy and ethics, DH visualization and data design, and sustainable practices in DH among others.</p>
-    <p>2) DH Scholars-in-Residence Program (DHSRP) for undergraduate students and community partners. This program is designed to foster research competencies in Digital Humanities among students, faculty mentors and community base groups. The objective of this component is to train students and community leaders in areas such related to library science, basic computer programming and digital curation. At the end of the academic year students in collaboration with community groups will create a DH project.</p>
-    <p>3) Digital Humanities Undergraduate Academic Minor (DHUAM) : UPR-RP DH Caribbean Initiative will create the first undergraduate academic sequence on Digital Humanities in Puerto Rico. Knowing that the future of Caribbean DH is in the hands of users, we propose an undergraduate academic minor in Caribbean DH under the
+    <p>The University of Puerto Rico Rio Piedras Campus Digital Humanities Initiative proposes a series of integrated efforts to achieve a comprehensive and sustainable plan to promote DH in Puerto Rico. These efforts are:</p>
+    <p>1) A Digital Humanities Fellow Initiative (DHFI) for capacity building strategies. This part of the project is mostly oriented to training professors, researchers, and librarians. The DH fellow will develop conferences, workshops, and intensive modules in topics related to: DH pedagogy and ethics, DH visualization and data design, and sustainable practices in DH among others.</p>
+    <p>2) A DH Scholars-in-Residence Program (DHSRP) for undergraduate students and community partners. This program is designed to foster research competencies in Digital Humanities among students, faculty mentors and community base groups. The objective of this component is to train students and community leaders in areas such related to library science, basic computer programming and digital curation. At the end of the academic year students in collaboration with community groups will create a DH project.</p>
+    <p>3) Creation of a Digital Humanities Undergraduate Academic Minor (DHUAM) : UPR-RP DH Caribbean Initiative will create the first undergraduate academic sequence on Digital Humanities in Puerto Rico. Knowing that the future of Caribbean DH is in the hands of users, we propose an undergraduate academic minor in Caribbean DH under the
         <a href="http://humanidades.uprrp.edu/prei/">Interdisciplinary Studies Program</a>
         at the College of Humanities UPR-RP.</p>
     <p>UPR-RP professors Mirerza González-Vélez and Nadjah Ríos Villarini will lead these efforts and related activities with the help of UPR institutional partner

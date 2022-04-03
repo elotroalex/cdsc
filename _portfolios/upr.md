@@ -30,7 +30,6 @@ thumbnail: "/assets/images/Portfolio/2.jpg"
         <a href="http://www.criiasupr.org/">CRiiAS</a>
         and community-based partners, as well as in conversation with the CDSC. We estimate that, by the end of the project, over 120 professors and librarians (DHFI), 65 undergraduate students (DHSRP + DHUAM), and 15 community organizations (DHSRP) will directly benefit from the UPR-RP DH Caribbean Initiative.
     </p>
-
 <div class="project-demo-btn">
     <a class="btn project-btn" href="#">Go to Project Page</a>
 </div>

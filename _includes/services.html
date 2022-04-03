@@ -1,0 +1,31 @@
+
+<section class="our-service pd-tb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title">Our Service</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">                
+                <div class="service-slider owl-carousel">
+                   {% for service in site.services %}
+                    <div class="item">
+                        {% if service.icon %}
+                        <div class="thumb-icon">
+                            <i class="{{service.icon}}"></i>
+                        </div>
+                        {% endif %}
+                        <div class="service-desc">
+                            <h3 class="service-title">{{service.title}}</h3>
+                            <p class="service-content">{{service.excerpt | strip_html | truncatewords: "15"}}</p>
+                            <a href="{{service.url}}" class="call-to-link-3 mt-4">Read More</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    

@@ -1,0 +1,64 @@
+---
+layout: white_default
+---
+
+{% include page_header.html %}
+<!-- Blog Page Content
+================================================== -->
+<section class="blog-section-content pd-tb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-lg-9">
+                <div class="list-of-blog blog-single-page">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <article class="post">
+                            	{% if page.post_image %}
+                                <figure class="article-thumb">
+                                    <img class="img-fluid" src="{{page.post_image}}" alt="{{page.title}}"/>
+                                </figure>
+                                {% endif %}
+                                <div class="article-header">
+                                    <div class="entry-meta">
+                                        <div class="entry-date">{{page.date | date_to_long_string }}</div>
+                                        {% assign category_name = page.categories[0] | downcase %}
+                                        {% if category_name %}
+	                                        <div class="entry-cat">
+	                                           <a href="{{relative_url}}/category/{{ category_name }}" class="tag_link">{{category_name | capitalize}}</a>
+	                                        </div>
+                                         {% endif %}
+                                         {% if page.tags %}
+                                         {% assign tags_length = page.tags.size %}
+                                         {% if tags_length > 0 %}
+	                                        <div class="entry-tag">
+	                                        	{{page | tags | replace: ",", " , "}}
+	                                        </div>
+	                                     {% endif %}
+                                         {% endif %}
+                                    </div>
+                                </div>
+                                <div class="article-content mt-2">
+                                    {{page.content}}
+                                </div>
+                                {% include social_share.html %}
+                            </article>
+
+                            <div id="comments" class="comments-area">
+                                <div class="comments-main-content">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            {% include disqus_comments.html %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-lg-3">
+              {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>

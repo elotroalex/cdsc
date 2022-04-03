@@ -1,0 +1,22 @@
+<section class="policy-block bg-snow pd-t-90-b-30">
+    <div class="container">
+        <div class="policy-container policy-xs-slider item-4 row">
+           {% for feature in site.features %}
+            <div class="col-lg-4">
+              <div class="item py-5 shadow">
+                {% if feature.icon %}
+                <div class="thumb-icon">
+                    <i class="{{feature.icon}}"></i>
+                </div>
+                {% endif %}
+                <div class="policy-desc">
+                    <h3 class="policy-title">{{feature.title}}</h3>
+                    <p class="policy-content px-3">{{feature.excerpt | truncatewords: "15" | strip_html }}</p>
+                    <a href="{{feature.url}}" class="call-to-link-2 mt-4">Read More</a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

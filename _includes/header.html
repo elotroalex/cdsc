@@ -1,0 +1,28 @@
+<header class="site-header bg-bl-russian" id="site-header">
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-5 col-sm-6 col-md-6 col-lg-6 col-xl-2">
+                <div class="header-left">                    
+                    <div class="site-logo">
+                        <a href="{{site.url}}">
+                            <img src="{{site.logo_url}}" alt="{{site.title}}"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-xl-block col-md-8">
+                <div class="header-middle">                    
+                   {% include navigation.html %}
+                </div>
+            </div>
+            <div class="col-7 col-sm-6 col-md-6 col-lg-6 col-xl-2">
+                <div class="header-right">                    
+                    <ul class="right-menu">
+                        <li><a href="#" class="search-extend"><i class="pe-7s-search"></i></a></li>
+                        <li><a href="#" class="hamburger-menu"><i class="icon-arrows-hamburger-2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

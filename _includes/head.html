@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html class="no-js">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
+    <link rel="shortcut icon" href="{{relative_url}}/assets/images/site-icon.png"/>
+    <link rel="apple-touch-icon" href="{{relative_url}}/assets/images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="{{relative_url}}/assets/images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="{{relative_url}}/assets/images/apple-touch-icon-114x114.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7cPoppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/> 
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/plugins.min.css"/>
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/icons.min.css"/>
+    <link rel="stylesheet" href="{{relative_url}}/assets/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"/>
+    <link rel="stylesheet" href="{{relative_url}}/assets/css/linea-arrows.css"/>
+    <link rel="stylesheet" type="text/css" href="{{relative_url}}/assets/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" type="text/css" href="{{relative_url}}/assets/revolution/fonts/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="{{relative_url}}/assets/revolution/css/settings.css">
+	<link rel="stylesheet" href="{{relative_url}}/assets/revolution-addons/filmstrip/css/revolution.addon.filmstrip.css" type='text/css' media='all' />
+	<link rel="stylesheet" href="{{relative_url}}/assets/css/style.css"/>
+    <script src="{{relative_url}}/assets/js/modernizr.min.js"></script>
+    {% if site.google_analytics %}
+     {% include analytics.html %}
+    {% endif %}
+</head>

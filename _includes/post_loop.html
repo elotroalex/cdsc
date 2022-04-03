@@ -1,0 +1,22 @@
+<div class="item col-md-6">
+    <article class="post">
+        {% if post.post_image %}
+        <figure class="article-thumb">
+            <a href="{{post.url}}"><img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/></a>
+        </figure>
+        {% endif %}
+        <div class="article-header">
+            <div class="entry-meta">
+                <div class="entry-date">{{post.date | date_to_long_string }}</div>
+                <div class="entry-cat">
+                    {% assign category_name = post.categories[0] |downcase %}
+                    <a href="{{relative_url}}/category/{{ category_name }}" class="tag_link">{{category_name | capitalize}}</a>
+                </div>
+            </div>
+            <h2 class="entry-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+        </div>
+        <div class="article-content">
+            <p>{{post.excerpt | strip_html | truncatewords: "15"}}</p>
+        </div>
+    </article>
+</div>

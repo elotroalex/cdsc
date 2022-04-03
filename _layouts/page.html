@@ -1,0 +1,21 @@
+---
+layout: white_default
+---
+
+{% include page_header.html %}
+<div class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mx-auto pt-90 pb-80">
+				{% if page.thumbnail %}
+				<div class="page-thumbnail mb-4">
+					<img src="{{page.thumbnail}}" alt="{{page.title}}" class="img-fluid"/>
+				</div>
+				{% endif %}
+				<div class="content">
+					{{page.content}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

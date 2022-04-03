@@ -1,0 +1,17 @@
+<form class="newsletter-form  validate" method="post" action="{{site.form_action_url}}">
+    <div class="row align-items-center">
+        <div class="col-md-3">
+            <h2 class="form-title">Newsletter</h2>
+        </div><!--  /.col-md-3 -->
+        <div class="col-md-6">
+            <input type="email" class="form-controller" name="subescrbe_mail" placeholder="Enter your email" required />
+        </div><!--  /.col-md-6 -->
+        <div class="col-md-3">
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+        </div><!--  /.col-md-3 -->
+    </div><!--  /.row -->
+    <div class="newsletter-message">                    
+        <div class="subscription-success"></div>
+        <div class="subscription-error"></div>
+    </div><!--  /.message -->
+</form>

@@ -1,0 +1,39 @@
+<!-- Blog Block
+================================================== -->
+<section class="blog-block pd-tb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title">From the blog</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-slider owl-carousel">
+                   {% for post in site.posts %}
+                    <div class="item">
+                        <article class="post">
+                            {% if post.post_image %}
+                            <figure class="article-thumb">
+                                <a href="{{post.url}}">
+                                    <img src="{{post.post_image}}" alt="{{post.title | truncatewords: '5' }}"/>
+                                </a>
+                            </figure>
+                            {% endif %}
+                            <div class="article-header">
+                                <div class="entry-meta">
+                                    <div class="entry-date">{{post.date | date_to_long_string }}</div>
+                                </div>
+                                <h2 class="entry-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+                            </div>
+                            <div class="article-content">
+                                <p>{{post.excerpt | strip_html | truncatewords: "15" }}</p>
+                            </div>
+                        </article>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

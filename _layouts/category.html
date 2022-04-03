@@ -1,0 +1,31 @@
+---
+layout: white_default
+title: "Our Latest Story"
+permalink: "/blog/"
+pagination:
+  enabled: true
+  collection: category
+---
+
+{% include page_header.html %}
+<section class="blog-section-content pd-tb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-lg-9">
+                <div class="bsm-tab-content" id="blog-style-grid">
+                    <div class="grid-of-blog">                    
+                        <div class="row item-2">
+                            {% for post in page.posts %}
+                             {% include post_loop.html %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-lg-3">
+              {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>
+

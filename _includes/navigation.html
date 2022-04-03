@@ -1,0 +1,26 @@
+<nav class="navigation">
+    <div class="menu-wrapper">
+        <div class="menu-content">
+            <ul class="mainmenu">
+                {% assign nav_info = site.data.navigation %}
+                {% for nav in nav_info%}
+                {% if nav.submenu %}
+                <li>
+                    <a href="{{nav.url}}">{{nav.text}} <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        {% assign submenu_data = nav.submenu %}
+                        {% for submenu_list in submenu_data %}
+                        <li><a href="{{ submenu_list.url }}">{{submenu_list.text}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% else %}
+                <li>
+                    <a class="{% if page.url contains nav.url %} active {% endif %}" href="{{nav.url}}">{{ nav.text }}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div> 
+    </div>
+</nav>

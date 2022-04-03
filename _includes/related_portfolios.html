@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-12">
+        <h2 class="portfolio-related-title">You may also like:</h2>
+        <div class="portfolio-related-slider owl-carousel">
+         {% for portfolio in site.portfolios %}
+          <div class="item">
+             <a href="{{portfolio.url}}"><img class="img-fluid" src="{{portfolio.thumbnail}}" alt="{{portfolio.title}}"/></a>
+          </div>
+         {% endfor %}                
+        </div>
+    </div>
+</div>

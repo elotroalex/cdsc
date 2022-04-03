@@ -4256,7 +4256,7 @@ header.sticky-header + section {
   top: 0;
   left: 0;
   padding: 20px;
-  background: rgba(3, 222, 223, 0.9);
+  background: #00D9FF;
   height: 100%;
   width: 100%;
   opacity: 0;

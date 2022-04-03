@@ -81,7 +81,7 @@ html {
 body {
   background-color: white;
   font-family: "DinNext", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1.45em;
   color: #636363;
@@ -1982,7 +1982,7 @@ a:hover, a:active {
   .navigation .mainmenu > li > a {
     display: block;
     padding: 35px 18px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;

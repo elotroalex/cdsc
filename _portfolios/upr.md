@@ -1,6 +1,6 @@
 ---
 layout: page_2
-title: "University of Puerto Rico"
+title: "UPR Rio Piedras Campus Digital Humanities Initiative"
 icon: "pe-7s-light"
 thumbnail: "/assets/images/Portfolio/2.jpg"
 # category: "Graphics Design" 
@@ -8,57 +8,30 @@ thumbnail: "/assets/images/Portfolio/2.jpg"
 ---
 
 <div class="portfolio-header">
-    <h2 class="portfolio-title">{{page.title}}</h2>
+    <h2 class="portfolio-title">University of Puerto Rico Rio Piedras Campus Digital Humanities Initiative</h2>
     <div class="portfolio-meta">
         <div class="portfolio-cat">
             <a href="#">{{page.category}}</a>
         </div>
         <div class="portfolio-other">
-            <span class="time-period">24 May, 2014</span>
-            <span class="devider">|</span>
-            <span class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-empty"></i>
-            </span>
+            <span class="time-period">April, 2022</span>
         </div>
     </div>
 </div>
 
 <div class="portfolio-details">
-    <p>
-        Curabitur eleifend ex a iaculis pretium. Fusce accumsan consequat velit. Integer elementum eu elit at volutpat. Etiam lorem massa, aliquet eget porttitor at, hendrerit id massa. Maecenas aliquam velit at est blandit.
+    <p>This initiative proposes a series of integrated efforts to achieve a comprehensive and sustainable plan to promote DH in Puerto Rico. These initiatives are:</p>
+    <p>1) Digital Humanities Fellow Initiative (DHFI) for capacity building strategies. This part of the project is mostly oriented to training professors, researchers, and librarians. The DH fellow will develop conferences, workshops, and intensive modules in topics related to: DH pedagogy and ethics, DH visualization and data design, and sustainable practices in DH among others.</p>
+    <p>2) DH Scholars-in-Residence Program (DHSRP) for undergraduate students and community partners. This program is designed to foster research competencies in Digital Humanities among students, faculty mentors and community base groups. The objective of this component is to train students and community leaders in areas such related to library science, basic computer programming and digital curation. At the end of the academic year students in collaboration with community groups will create a DH project.</p>
+    <p>3) Digital Humanities Undergraduate Academic Minor (DHUAM) : UPR-RP DH Caribbean Initiative will create the first undergraduate academic sequence on Digital Humanities in Puerto Rico. Knowing that the future of Caribbean DH is in the hands of users, we propose an undergraduate academic minor in Caribbean DH under the
+        <a href="http://humanidades.uprrp.edu/prei/">Interdisciplinary Studies Program</a>
+        at the College of Humanities UPR-RP.</p>
+    <p>UPR-RP professors Mirerza González-Vélez and Nadjah Ríos Villarini will lead these efforts and related activities with the help of UPR institutional partner
+        <a href="http://www.criiasupr.org/">CRiiAS</a>
+        and community-based partners, as well as in conversation with the CDSC. We estimate that, by the end of the project, over 120 professors and librarians (DHFI), 65 undergraduate students (DHSRP + DHUAM), and 15 community organizations (DHSRP) will directly benefit from the UPR-RP DH Caribbean Initiative.
     </p>
-    <table class="project-details">
-        <tr>
-            <th>Customer:</th>
-            <td>Johan Doe</td>
-        </tr>
-        <tr>
-            <th>Live Demo:</th>
-            <td><a href="#">www.livedemo.com</a></td>
-        </tr>
-        <tr>
-            <th>Category:</th>
-            <td><a href="#">3D Graphics Design</a></td>
-        </tr>
-        <tr>
-            <th>Skill:</th>
-            <td>3DMax, Cinima 4D, Photoshop</td>
-        </tr>
-        <tr>
-            <th>Date Post:</th>
-            <td>05 November, 2020</td>
-        </tr>
-        <tr>
-            <th>Tag:</th>
-            <td><a href="#">Awesome</a>, <a href="#">3D</a>, <a href="#">Graphic</a>, <a href="#">Creative</a></td>
-        </tr>
-    </table>
-    <div class="project-demo-btn">
-        <a href="#" class="btn project-btn">Download</a>
-        <a href="#" class="btn project-btn">Lunch Project</a>
-    </div>
+
+<div class="project-demo-btn">
+    <a class="btn project-btn" href="#">Go to Project Page</a>
+</div>
 </div>

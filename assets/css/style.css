@@ -182,7 +182,7 @@ h4 a:hover {
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -1924,7 +1924,7 @@ object {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: inherit;
+  color: #00ABFF;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
 }

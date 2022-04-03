@@ -67,13 +67,20 @@ Version: 1.0
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+@font-face {
+  font-family: DinNext;
+  src: url("/assets/fonts/DINNextRoundedLTPro-Regular.otf") format("opentype");
+}
+
+
+
 html {
   font-size: 100%;
 }
 
 body {
   background-color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.45em;
@@ -82,7 +89,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   line-height: 1.4em;
   color: #1d1d1f;
   font-weight: 500;
@@ -1036,7 +1043,7 @@ dd {
   font-weight: 600;
   text-transform: uppercase;
   color: #1d1d1f !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
 }
 /*---------------------------------------------------------
 # Company Logo section
@@ -1980,7 +1987,7 @@ a:hover, a:active {
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
-    font-family: "Montserrat", sans-serif;
+    font-family: "DinNext", sans-serif;
     color: #ffffff;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -2068,7 +2075,7 @@ a:hover, a:active {
   .mainmenu .sub-menu li a {
     background-image: none;
     color: #f7f7f7;
-    font-family: "Montserrat", sans-serif;
+    font-family: "DinNext", sans-serif;
     border-right: 0 none;
     text-align: left;
     display: block;
@@ -2475,7 +2482,7 @@ pagination
 }
 
 .expand-block .hamburger-content ul li a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   color: #e6e6e6;
   border-top: 1px solid rgba(221, 221, 221, 0.1);
   display: block;
@@ -2588,7 +2595,7 @@ pagination
 }
 
 .expand-block .main-mobile-menu ul li a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   color: #e6e6e6;
   border-top: 1px solid rgba(221, 221, 221, 0.1);
   display: block;
@@ -3168,7 +3175,7 @@ header.sticky-header + section {
 }
 
 .login-register-modal {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
 }
 
 .login-register-modal .modal-header {
@@ -3748,7 +3755,7 @@ header.sticky-header + section {
 
 .policy-container .policy-desc .policy-title {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   color: inherit;
@@ -3835,7 +3842,7 @@ header.sticky-header + section {
 
 .service-slider .item .service-desc .service-title {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "DinNext", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   color: inherit;

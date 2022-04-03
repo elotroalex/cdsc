@@ -8,7 +8,7 @@
 - text: "About"
   url: "/about"
 - text: "Programs"
-  url: "/#"
+  url: "/#programs"
   # submenu:
   # - text: "The Caribbean Digital"
   #   url: "/#"

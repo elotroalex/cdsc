@@ -1,11 +1,11 @@
-title: "Litmus Jekyll Theme"
-email: "tortoizthemes@gmail.com"
+title: "Caribbean Digital Scholarship Collective"
+email: "contact@cdscollective.org"
 description: >- # this means to ignore newlines until "baseurl:"
-  Litmus is a modern presentation Jekyll Portfolio Template.
+  Informational website for the Caribbean Digital Scholaship Collective and its programs.
 baseurl: "" # the subpath of your site, e.g. /blog
-author: "tortoizthemes"
-keywords: "HTML5, Template, Design, portfolio, Litmus, Single portfolio"
-url: "https://litmus-jk.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+author: "Alex Gil"
+keywords: "Mellon foundation, Digital humanities, Caribbean studies"
+url: "https://cdscollective.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Google Analytics
 google_analytics: "UA—XXXXXXXX-X"
@@ -14,11 +14,6 @@ google_analytics: "UA—XXXXXXXX-X"
 # General Settings
 logo_url: "/assets/images/logo.png"
 logo_url_2: "/assets/images/white_logo.png"
-
-facebook_url: "https://www.facebook.com/tortoizthemes"
-twitter_url: "https://twitter.com/tortoizthemes"
-youtube_url: "https://www.youtube.com/tortoizthemes"
-instagram_url: "https://www.instagram.com/tortoizthemes"
 
 form_action_url: "https://formsubmit.io/send/colibri.alex@gmail.com"
 

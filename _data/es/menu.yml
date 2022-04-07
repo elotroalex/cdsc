@@ -1,0 +1,6 @@
+- text: "Indice"
+  url: "/"
+- text: "Acerca de"
+  url: "/about"
+- text: "Programas"
+  url: "/#programs"

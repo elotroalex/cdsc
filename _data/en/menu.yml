@@ -1,0 +1,6 @@
+- text: "Home"
+  url: "/"
+- text: "About"
+  url: "/about"
+- text: "Programs"
+  url: "/#programs"

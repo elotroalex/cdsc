@@ -1,8 +1,8 @@
-- text: "Inicio"
+- text: "Accueil"
   url: "/"
-- text: "Acerca de"
+- text: "À propos"
   url: "/about"
-- text: "Programas"
+- text: "Programmes"
   url: "/#programs"
 # - text: "Lengua"
 #   submenu:

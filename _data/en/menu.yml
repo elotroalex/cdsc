@@ -4,3 +4,9 @@
   url: "/about"
 - text: "Programs"
   url: "/#programs"
+# - text: "Language"
+#   submenu:
+#   - text: "Spanish"
+#     url: "/es/"
+#   - text: "English"
+#     url: "/"

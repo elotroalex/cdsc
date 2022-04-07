@@ -20,6 +20,18 @@
                 </li>
                 {% endif %}
                 {% endfor %}
+                <li>
+                    <a href="{{nav.url}}">{{ site.data["global"]["language"]}}<i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        {% for language in site.languages %}                
+                        <li><a {% static_href %}href="{% if language == site.default_lang %}{{ "" | absolute_url}}{{page.url}}{% else %}{{"" | absolute_url}}{{ language }}{{page.url}}{% endif %}" {% endstatic_href %}>{% for i in site.data.languages %}
+                            {% if i.iso == language %} 
+                              {% assign language_name = i.description %}
+                            {% endif%}                
+                              {% endfor %}{{ language_name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
             </ul>
         </div> 
     </div>

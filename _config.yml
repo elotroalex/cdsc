@@ -105,3 +105,20 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+# --------------------------------------------------------------
+# POLYGLOT I18N LOCALIZATION
+# https://github.com/untra/polyglot
+# --------------------------------------------------------------
+#
+
+plugins:
+  - jekyll-polyglot
+
+languages: ["en", "es", "fr"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+
+sass:
+    sourcemap: never

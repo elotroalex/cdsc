@@ -2,8 +2,8 @@
     <div class="menu-wrapper">
         <div class="menu-content">
             <ul class="mainmenu">
-                {% assign nav_info = site.data.navigation %}
-                {% for nav in nav_info%}
+            
+                {% for nav in site.data[site.active_lang]["menu"] %}
                 {% if nav.submenu %}
                 <li>
                     <a href="{{nav.url}}">{{nav.text}} <i class="fa fa-angle-down"></i></a>

@@ -2895,7 +2895,7 @@ header.sticky-header + section {
 .header-right .right-menu li a .icon-arrows-hamburger-2 {
   font-size: 32px;
   position: relative;
-  top: -6px;
+  top: -2px;
 }
 
 .top-header {

@@ -72,6 +72,11 @@ Version: 1.0
   src: url("/assets/fonts/DINNextRoundedLTPro-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: DinNextMediumCond;
+  src: url("/assets/fonts/DINNextLTPro-MediumCond.otf") format("opentype");
+}
+
 html {
   font-size: 100%;
 }
@@ -92,10 +97,9 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "DinNext", sans-serif;
+  font-family: "DinNextMediumCond", sans-serif;
   line-height: 1.4em;
   color: #1d1d1f;
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -524,11 +528,12 @@ dd {
 
 .banner-text {
   background-color: white;
+  font-family: "DinNextMediumCond", sans-serif;
   color: black;
   opacity: 0.96;
-  font-size: 36vw;
+  font-size: 40vw;
   font-weight: 800;
-  line-height: 36vw;
+  line-height: 40vw;
   text-transform: capitalize;
   margin: 0 auto;
   padding-top: 4vw;

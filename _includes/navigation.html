@@ -21,32 +21,25 @@
                 {% endif %}
                 {% endfor %}
                 
-                <!-- LANGUAGE SELECTION -->
-                 
-                {% for language in site.languages %} 
-                {% if language == site.active_lang %}{%else%}               
-                <li><a style="color: #0080ff;" {% static_href %}href="{% if language == site.default_lang %}{{ "" | absolute_url}}{{page.url}}{% else %}{{"" | absolute_url}}{{ language }}{{page.url}}{% endif %}" {% endstatic_href %}>
-                    {% for i in site.data.languages %}
-                    {% if i.iso == language %} 
-                      {% assign language_name = i.description %}
-                    {% endif%}                
-                      {% endfor %}{{ language_name }}</a></li>
+                <!-- LANGUAGE SELECTION -->                 
+
+                <li>           
+                {% if page.lang == 'en' %}
+                    {% if page.name contains "index" %}        
+                    <a style="color: #0080ff;" href="{{ site.baseurl | append: "/es" }}">En español</a>
+                    {% else %}
+                    <a style="color: #0080ff;" href="{{ site.baseurl | append: "/es" | append: page.handle }}">En español</a>
+                    {% endif %}
+                {% elsif page.lang == 'es' %}
+                    {% if page.name contains "index" %}        
+                    <a style="color: #0080ff;" href="{{ site.baseurl }}/">English</a>
+                    {% else %}
+                    <a style="color: #0080ff;" href="{{ site.baseurl | append: page.handle }}">English</a>
+                    {% endif %}
                 {% endif %}
-                {% endfor %}
+                </li>
+
                 
-               
-                <!-- <li>
-                    <a href="{{nav.url}}">{{ site.data["global"]["language"]}}<i class="fa fa-angle-down"></i></a>
-                    <ul class="sub-menu">
-                        {% for language in site.languages %}                
-                        <li><a {% static_href %}href="{% if language == site.default_lang %}{{ "" | absolute_url}}{{page.url}}{% else %}{{"" | absolute_url}}{{ language }}{{page.url}}{% endif %}" {% endstatic_href %}>{% for i in site.data.languages %}
-                            {% if i.iso == language %} 
-                              {% assign language_name = i.description %}
-                            {% endif%}                
-                              {% endfor %}{{ language_name }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li> -->
             </ul>
         </div> 
     </div>

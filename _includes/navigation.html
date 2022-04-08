@@ -19,28 +19,33 @@
         <li>
           <a
             class="{% if page.url contains nav.url %} active {% endif %}"
-            href="{{nav.url}}"
+            href="{{nav.url | relative_url }}"
             >{{ nav.text }}</a
           >
         </li>
-        {% endif %} {% endfor %}
-
-        <!-- LANGUAGE SELECTION -->
-        {% if site.active_lang == "es" %}
+        {% endif %} {% endfor %} {% if site.active_lang == 'es' %}
         <li>
           <a
             {%
             static_href
-            %}href="{{site.baseurl}}{{page.url }}"
+            %}href="{{ '' | absolute_url }}"
             {%
             endstatic_href
             %}
             >English</a
           >
         </li>
-        {% else %}
+        {% elsif site.active_lang == site.default_lang %}
         <li>
-          <a href="{{ 'es' | append: page.url | relative_url }}">En español</a>
+          <a
+            {%
+            static_href
+            %}href="{{ 'es' | absolute_url }}"
+            {%
+            endstatic_href
+            %}
+            >En español</a
+          >
         </li>
         {% endif %}
       </ul>

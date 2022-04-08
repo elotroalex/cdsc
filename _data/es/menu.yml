@@ -3,10 +3,4 @@
 - text: "Acerca de"
   url: "/about"
 - text: "Programas"
-  url: "/#programs"
-# - text: "Lengua"
-#   submenu:
-#   - text: "Español"
-#     url: "/es/"
-#   - text: "Inglés"
-#     url: "/"
+  url: "/es/#programs"

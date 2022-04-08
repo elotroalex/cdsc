@@ -1,6 +1,6 @@
 ---
 layout: page_2
-title: "Create Caribbean Research Institute"
+title: "Create Caribbean"
 icon: "pe-7s-timer"
 thumbnail: "/assets/images/Portfolio/5.jpg"
 # category: "Web Development"
@@ -36,8 +36,6 @@ thumbnail: "/assets/images/Portfolio/5.jpg"
     <a class="btn project-btn" href="http://createcaribbean.org" target="_blank">Learn More</a>
     </div>  
 </div>
-
-
 
 <!-- <table class="project-details">
         <tr>

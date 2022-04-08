@@ -2,8 +2,8 @@
 layout: page_2
 title: "UPR Rio Piedras Campus Digital Humanities Initiative"
 icon: "pe-7s-light"
-thumbnail: "/assets/images/Portfolio/2.jpg"
-# category: "Graphics Design" 
+thumbnail: "/assets/images/Portfolio/4.jpg"
+# category: "Graphics Design"
 # filter: "graphics"
 ---
 

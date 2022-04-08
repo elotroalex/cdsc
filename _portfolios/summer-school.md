@@ -2,7 +2,7 @@
 layout: page_2
 title: "Summer School"
 icon: "pe-7s-pen"
-thumbnail: "/assets/images/Portfolio/4.jpg"
+thumbnail: "/assets/images/Portfolio/2.jpg"
 # category: "Programming"
 # filter: "web"
 ---

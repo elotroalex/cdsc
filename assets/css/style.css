@@ -2259,14 +2259,13 @@ a:active {
   }
   /* Sub Menu CSS */
   .mainmenu .sub-menu {
-    min-width: 300px;
     position: absolute;
     z-index: 999;
     margin: 0;
     padding: 20px;
     background-color: #080d18;
     opacity: 0;
-    top: 102%;
+    border: 1px solid gray;
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
     -webkit-transition: transform 0.3s, opacity 0.3s;

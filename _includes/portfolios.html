@@ -1,45 +1,36 @@
 <section id="programs" class="portfolio-block pd-tb-90">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="section-title">Our Programs</h2>
-            </div>
-            <!-- <div class="col-md-6">
-                <div class="float-right mb-fl-none">                    
-                    <ul class="portfolio-menu">
-                        <li>
-                            <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter +</a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="#" data-filter="*">All</a></li>
-                                <li><a href="#" data-filter=".apps">Apps</a></li>
-                                <li><a href="#" data-filter=".web">Web Development</a></li>
-                                <li><a href="#" data-filter=".graphics">Graphics Design</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row item-4 portfolio-grid">
-                   {% for portfolio in site.portfolios %}
-                    <div class="item col-sm-6 col-md-6 col-lg-4 {{portfolio.filter}}">
-                        <figure class="portfolio-thumb">
-                            <img class="img-fluid" src="{{portfolio.thumbnail}}" alt="{{portfolio.title}}"/>
-                            <div class="hover-content">
-                                <div class="hover-details">      
-                                    <a href="{{portfolio.url}}" class="ajax-single-link">
-                                        <h5>{{portfolio.title}}</h5>
-                                        <span>- {{portfolio.category}} -</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="section-title">Our Programs</h2>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row item-4 portfolio-grid">
+          {% for portfolio in site.portfolios %}
+          <div class="item col-sm-6 col-md-6 col-lg-4 {{portfolio.filter}}">
+            <figure class="portfolio-thumb">
+              <img
+                class="img-fluid"
+                src="{{portfolio.thumbnail}}"
+                alt="{{portfolio.title}}"
+              />
+              <div class="hover-content">
+                <div class="hover-details">
+                  <a href="{{portfolio.url}}" class="ajax-single-link">
+                    <span style="line-height: 1rem; padding-bottom: 1rem"
+                      >⬤⬤<br />⬤⬤</span
+                    >
+                    <h5>{{portfolio.title}}</h5>
+                  </a>
+                </div>
+              </div>
+            </figure>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

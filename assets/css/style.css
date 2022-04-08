@@ -392,6 +392,15 @@ section.banner {
   height: 500px;
 }
 
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
 .banner-image-container {
   background-image: url("/assets/images/cdsc-background.png");
   background-color: black;
@@ -399,18 +408,19 @@ section.banner {
   background-position: 40px 40px;
   position: relative;
   height: 100%;
+  animation: animatedBackground 10s linear infinite alternate;
 }
 
 .banner-text {
   background-color: white;
   color: black;
   opacity: 0.96;
-  font-size: 30vw;
+  font-size: 36vw;
   font-weight: 800;
-  line-height: 30vw;
+  line-height: 36vw;
   text-transform: capitalize;
   margin: 0 auto;
-  padding: 100px;
+  padding: 20px;
   padding-bottom: 100%;
   width: 100%;
   text-align: center;

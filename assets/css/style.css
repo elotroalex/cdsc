@@ -543,23 +543,6 @@ dd {
   -webkit-font-smoothing: antialiased;
 }
 
-.banner-text:before,
-.banner-text:after {
-  content: attr(title);
-  padding: 50px;
-  color: rgba(255, 255, 255, 0.4);
-  position: absolute;
-}
-
-.banner-text:before {
-  top: 10px;
-  left: 10px;
-}
-.banner-text:after {
-  top: 20px;
-  left: 20px;
-}
-
 /*--------------------------------------------------------------
 # Post, Page, Comments Table
 --------------------------------------------------------------*/

@@ -8766,6 +8766,7 @@ input[type="checkbox"]::-ms-check {
 --------------------------------------------------------------*/
 .site-footer {
   color: #8b8b8b;
+  margin-top: 6rem;
 }
 
 .site-footer a:hover {
@@ -8774,6 +8775,11 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .footer-top {
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
+  height: 18rem;
+}
+
+.site-footer .footer-top .container {
+  padding-top: 5rem;
 }
 
 @media only screen and (max-width: 992px) {

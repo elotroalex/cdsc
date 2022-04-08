@@ -1,39 +1,49 @@
 <nav class="navigation">
-    <div class="menu-wrapper">
-        <div class="menu-content">
-            <ul class="mainmenu">
-            
-                {% for nav in site.data[site.active_lang]["menu"] %}
-                {% if nav.submenu %}
-                <li>
-                    <a href="{{nav.url}}">{{nav.text}} <i class="fa fa-angle-down"></i></a>
-                    <ul class="sub-menu">
-                        {% assign submenu_data = nav.submenu %}
-                        {% for submenu_list in submenu_data %}
-                        <li><a href="{{ submenu_list.url }}">{{submenu_list.text}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                {% else %}
-                <li>
-                    <a class="{% if page.url contains nav.url %} active {% endif %}" href="{{nav.url}}">{{ nav.text }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-                
-                <!-- LANGUAGE SELECTION -->                 
-                
-                {% for language in site.languages %}
-                {% if language == site.active_lang %}{% else %}
-                <li><a style="color: #0080ff;" {% static_href %}href="{% if language == site.default_lang %}{{ "" | absolute_url}}{{page.url | remove: "/"}}{% else %}{{"" | absolute_url}}{{ language }}{{page.url}}{% endif %}"{% endstatic_href %} >
-                  {% for i in site.data.languages %}
-                  {% if i.iso == language %} 
-                    {% assign language_name = i.description %}
-                  {% endif%}                
-                {% endfor %}{{ language_name }}</a></li>{%endif%}
-                  {% endfor %}
-                
-            </ul>
-        </div> 
+  <div class="menu-wrapper">
+    <div class="menu-content">
+      <ul class="mainmenu">
+        {% for nav in site.data[site.active_lang]["menu"] %} {% if nav.submenu
+        %}
+        <li>
+          <a href="{{nav.url}}"
+            >{{nav.text}} <i class="fa fa-angle-down"></i
+          ></a>
+          <ul class="sub-menu">
+            {% assign submenu_data = nav.submenu %} {% for submenu_list in
+            submenu_data %}
+            <li><a href="{{ submenu_list.url }}">{{submenu_list.text}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
+        <li>
+          <a
+            class="{% if page.url contains nav.url %} active {% endif %}"
+            href="{{nav.url}}"
+            >{{ nav.text }}</a
+          >
+        </li>
+        {% endif %} {% endfor %}
+
+        <!-- LANGUAGE SELECTION -->
+        {% if site.active_lang == "es" %}
+        <li>
+          <a
+            {%
+            static_href
+            %}href="{{site.baseurl}}{{page.url }}"
+            {%
+            endstatic_href
+            %}
+            >English</a
+          >
+        </li>
+        {% else %}
+        <li>
+          <a href="{{ 'es' | append: page.url | relative_url }}">En español</a>
+        </li>
+        {% endif %}
+      </ul>
     </div>
+  </div>
 </nav>

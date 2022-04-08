@@ -111,7 +111,7 @@ plugins:
 languages: ["en", "es"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
-parallel_localization: true
+parallel_localization: false
 
 sass:
   sourcemap: never

@@ -388,21 +388,26 @@ dd {
 # Homepage Banner
 --------------------------------------------------------------*/
 
+section.banner {
+  height: 500px;
+}
+
 .banner-image-container {
   background-image: url("/assets/images/cdsc-background.png");
-  background-size: cover;
   background-color: black;
+  background-repeat: repeat;
+  background-position: 40px 40px;
   position: relative;
-  height: 500px;
+  height: 100%;
 }
 
 .banner-text {
   background-color: white;
   color: black;
-  opacity: 0.8;
-  font-size: 24vw;
-  font-weight: 600;
-  line-height: 24vw;
+  opacity: 0.96;
+  font-size: 30vw;
+  font-weight: 800;
+  line-height: 30vw;
   text-transform: capitalize;
   margin: 0 auto;
   padding: 100px;
@@ -414,6 +419,7 @@ dd {
   left: 0%;
   transform: translate(-0%, -0%);
   mix-blend-mode: screen;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*--------------------------------------------------------------

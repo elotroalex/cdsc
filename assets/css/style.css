@@ -967,7 +967,7 @@ dd {
 }
 
 .color-orange {
-  color: #ffa800 !important;
+  color: #00abff !important;
 }
 
 .color-snow {
@@ -1189,7 +1189,7 @@ dd {
 }
 
 .breadcrumbs.orange-theme .last-item {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .accordion .card {
@@ -1469,9 +1469,9 @@ a.more-content {
 }
 
 .slider-btn-round.orange-btn {
-  border-color: #ffa800;
+  border-color: #00abff;
   color: #ffffff;
-  background: #ffa800;
+  background: #00abff;
 }
 
 .slider-btn-round.citrus-btn {
@@ -2549,7 +2549,7 @@ pagination
 }
 
 .pagination-position.orange-theme a.active {
-  color: #ffa800;
+  color: #00abff;
 }
 
 /*--------------------------------------------------------------
@@ -3181,13 +3181,13 @@ header.sticky-header + section {
 
 @media only screen and (min-width: 1199px) {
   .orange-theme .navigation .mainmenu > li > a:after {
-    border-bottom-color: #ffa800;
+    border-bottom-color: #00abff;
   }
 }
 
 .orange-theme .navigation .mainmenu > li > a.active,
 .orange-theme .navigation .mainmenu > li > a:hover {
-  color: #ffa800;
+  color: #00abff;
 }
 
 @media only screen and (min-width: 1199px) {
@@ -3217,12 +3217,12 @@ header.sticky-header + section {
 }
 
 .orange-theme .expand-block .hamburger-content ul li a:after {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .orange-theme .purchase-btn {
-  border: 2px solid #ffa800 !important;
-  color: #ffa800 !important;
+  border: 2px solid #00abff !important;
+  color: #00abff !important;
 }
 
 .orange-theme input:focus,
@@ -3232,9 +3232,9 @@ header.sticky-header + section {
 .orange-theme input[type="email"]:focus,
 .orange-theme input[type="number"]:focus,
 .orange-theme textarea.bsm-textarea:focus {
-  border-bottom: 1px solid #ffa800 !important;
-  -webkit-box-shadow: 0 1px 0 0 #ffa800 !important;
-  box-shadow: 0 1px 0 0 #ffa800 !important;
+  border-bottom: 1px solid #00abff !important;
+  -webkit-box-shadow: 0 1px 0 0 #00abff !important;
+  box-shadow: 0 1px 0 0 #00abff !important;
 }
 
 .orange-theme input[type="text"]:-webkit-input-placeholder {
@@ -3261,16 +3261,16 @@ header.sticky-header + section {
 
 .orange-theme.login-register-modal .bsm-tabs .bsm-tab a:hover,
 .orange-theme.login-register-modal .bsm-tabs .bsm-tab a.active {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .orange-theme.login-register-modal .bsm-tabs .bsm-indicator {
-  background-color: #ffa800;
+  background-color: #00abff;
 }
 
 .orange-theme.login-register-modal .bsm-btn {
-  color: #ffa800 !important;
-  border-color: #ffa800 !important;
+  color: #00abff !important;
+  border-color: #00abff !important;
 }
 
 .orange-theme.login-register-modal
@@ -3291,26 +3291,26 @@ header.sticky-header + section {
 .orange-theme.login-register-modal
   textarea.bsm-textarea:focus:not([readonly])
   + label {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .orange-theme.login-register-modal [type="checkbox"]:checked + label:before {
-  border-right: 2px solid #ffa800;
-  border-bottom: 2px solid #ffa800;
+  border-right: 2px solid #00abff;
+  border-bottom: 2px solid #00abff;
 }
 
 .orange-theme.overlay-search .search-footer-title span {
-  color: #ffa800 !important;
+  color: #00abff !important;
 }
 
 .orange-theme .widget-content a:hover,
 .orange-theme ul li a:hover {
-  color: #ffa800 !important;
+  color: #00abff !important;
 }
 
 .orange-theme .social-link li a:hover {
-  border-color: #ffa800;
-  color: #ffa800;
+  border-color: #00abff;
+  color: #00abff;
 }
 
 .header-three .navigation .mainmenu > li > a {
@@ -3322,7 +3322,7 @@ header.sticky-header + section {
   .header-three .navigation .mainmenu > li > a:after {
     bottom: auto;
     top: 0;
-    border-bottom-color: #ffa800;
+    border-bottom-color: #00abff;
   }
 }
 
@@ -4669,7 +4669,7 @@ header.sticky-header + section {
 .portfolio-menu.orange-theme .dropdown-menu li a:hover,
 .portfolio-menu.orange-theme .dropdown-menu li a:focus,
 .portfolio-menu.orange-theme .dropdown-menu li a:active {
-  background-color: #ffa800 !important;
+  background-color: #00abff !important;
 }
 
 .container-portfolio {
@@ -6214,7 +6214,7 @@ header.sticky-header + section {
 .category-link .cat-box.ver-big .big-title {
   font-family: "Mr Dafoe", cursive;
   font-size: 42px;
-  color: #ffa800;
+  color: #00abff;
   margin-bottom: 0;
 }
 
@@ -6232,8 +6232,8 @@ header.sticky-header + section {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 30px;
-  border: 2px solid #ffa800;
-  color: #ffa800;
+  border: 2px solid #00abff;
+  color: #00abff;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
@@ -6315,7 +6315,7 @@ header.sticky-header + section {
 
 .woo-menu-item .badge-discount {
   position: absolute;
-  background: #ffa800;
+  background: #00abff;
   color: #fff;
   padding: 10px 22px;
   border-top-left-radius: 20px;
@@ -6333,7 +6333,7 @@ header.sticky-header + section {
 }
 
 .woo-menu-item.discount .menu-price .price {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .woo-menu-item.discount .menu-price .price del {
@@ -6392,7 +6392,7 @@ header.sticky-header + section {
 .category-link .cat-box.ver-big .big-title {
   font-family: "Mr Dafoe", cursive;
   font-size: 42px;
-  color: #ffa800;
+  color: #00abff;
   margin-bottom: 0;
 }
 
@@ -6422,8 +6422,8 @@ header.sticky-header + section {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 30px;
-  border: 2px solid #ffa800;
-  color: #ffa800;
+  border: 2px solid #00abff;
+  color: #00abff;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
@@ -6509,7 +6509,7 @@ header.sticky-header + section {
 
 .woo-menu-item .badge-discount {
   position: absolute;
-  background: #ffa800;
+  background: #00abff;
   color: #fff;
   padding: 10px 22px;
   border-top-left-radius: 20px;
@@ -6527,7 +6527,7 @@ header.sticky-header + section {
 }
 
 .woo-menu-item.discount .menu-price .price {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .woo-menu-item.discount .menu-price .price del {
@@ -6647,7 +6647,7 @@ header.sticky-header + section {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #ffa800;
+  color: #00abff;
   border: 1px solid;
   padding: 8px 17px;
   display: inline-block;
@@ -6658,8 +6658,8 @@ header.sticky-header + section {
 }
 
 .woo-menu-item.woo-list .order-block .order-btn:hover {
-  background: #ffa800;
-  border-color: #ffa800;
+  background: #00abff;
+  border-color: #00abff;
   color: #ffffff;
 }
 
@@ -6681,8 +6681,8 @@ header.sticky-header + section {
 }
 
 .woo-menu-item.woo-list .order-block .wishlist-btn:hover {
-  background: #ffa800;
-  border-color: #ffa800;
+  background: #00abff;
+  border-color: #00abff;
   color: #ffffff;
 }
 
@@ -6720,7 +6720,7 @@ header.sticky-header + section {
 
 .woo-single-products.new-arrival-item .menu-thumbnail .badge-discount {
   position: absolute;
-  background: #ffa800;
+  background: #00abff;
   color: #fff;
   padding: 10px 22px;
   border-top-left-radius: 20px;
@@ -6748,7 +6748,7 @@ header.sticky-header + section {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #ffa800;
+  color: #00abff;
 }
 
 .woo-best-seller-slider .owl-nav > div.disabled {
@@ -6787,7 +6787,7 @@ header.sticky-header + section {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #ffa800;
+  color: #00abff;
 }
 
 .new-arrival-slider .owl-nav > div.disabled {
@@ -6987,8 +6987,8 @@ header.sticky-header + section {
   font-size: 14px;
   padding: 15px 30px;
   border-radius: 30px;
-  border: 2px solid #ffa800;
-  color: #ffa800;
+  border: 2px solid #00abff;
+  color: #00abff;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
@@ -7025,14 +7025,14 @@ header.sticky-header + section {
 }
 
 .new-arrival-item .wishlist-btn:hover {
-  background: #ffa800;
-  border-color: #ffa800;
+  background: #00abff;
+  border-color: #00abff;
   color: #ffffff;
 }
 
 .new-arrival-item .wishlist-btn.active {
-  background: #ffa800;
-  border-color: #ffa800;
+  background: #00abff;
+  border-color: #00abff;
   color: #ffffff;
 }
 
@@ -7099,7 +7099,7 @@ header.sticky-header + section {
 }
 
 .insta-title-content .insta_user {
-  color: #ffa800;
+  color: #00abff;
   font-weight: 500;
   font-size: 18px;
 }
@@ -7253,7 +7253,7 @@ header.sticky-header + section {
 }
 
 .post .article-v2 .article-footer .more-link {
-  color: #ffa800;
+  color: #00abff;
 }
 
 .post .article-v2 .article-footer .footer-meta a {
@@ -7387,7 +7387,7 @@ header.sticky-header + section {
 }
 
 .blog-layout-tab-menu.orange-theme .bsm-tab a.active {
-  color: #ffa800 !important;
+  color: #00abff !important;
 }
 
 .blog-slider {

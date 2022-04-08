@@ -25,27 +25,11 @@
         </li>
         {% endif %} {% endfor %} {% if site.active_lang == 'es' %}
         <li>
-          <a
-            {%
-            static_href
-            %}href="{{ '' | absolute_url }}"
-            {%
-            endstatic_href
-            %}
-            >English</a
-          >
+          <a href="http://cdsc-dev.elotroalex.com/">English</a>
         </li>
         {% elsif site.active_lang == site.default_lang %}
         <li>
-          <a
-            {%
-            static_href
-            %}href="{{ 'es' | absolute_url }}"
-            {%
-            endstatic_href
-            %}
-            >En español</a
-          >
+          <a href="{{ 'es' | absolute_url }}">En español</a>
         </li>
         {% endif %}
       </ul>

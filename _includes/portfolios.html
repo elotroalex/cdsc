@@ -2,7 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        {% if site.active_lang == 'en' %}
         <h2 class="section-title">Our Programs</h2>
+        {% elsif site.active_lang == 'es' %}
+        <h2 class="section-title">Nuestros Programas</h2>
+        {% endif %}
       </div>
     </div>
     <div class="row">

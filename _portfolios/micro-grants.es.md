@@ -1,10 +1,10 @@
 ---
 layout: program
-title: "Summer School"
-icon: "pe-7s-pen"
-thumbnail: "/assets/images/Portfolio/2.jpg"
-permalink: summer-school/
-lang: en
+title: "Microgrants"
+icon: "pe-7s-phone"
+thumbnail: "/assets/images/Portfolio/1.jpg"
+permalink: micro-grants/
+lang: es
 ---
 
 <div class="portfolio-header">

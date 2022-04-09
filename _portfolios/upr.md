@@ -3,21 +3,9 @@ layout: program
 title: "UPR Rio Piedras Campus Digital Humanities Initiative"
 icon: "pe-7s-light"
 thumbnail: "/assets/images/Portfolio/4.jpg"
-# category: "Graphics Design"
-# filter: "graphics"
+permalink: upr/
+lang: en
 ---
-
-<!-- <div class="portfolio-header">
-    <h2 class="portfolio-title">University of Puerto Rico Rio Piedras Campus Digital Humanities Initiative</h2>
-    <div class="portfolio-meta">
-        <div class="portfolio-cat">
-            <a href="#">{{page.category}}</a>
-        </div>
-        <div class="portfolio-other">
-            <span class="time-period">April, 2022</span>
-        </div>
-    </div>
-</div> -->
 
 <div class="portfolio-details">
     <p>The University of Puerto Rico Rio Piedras Campus Digital Humanities Initiative proposes a series of integrated efforts to achieve a comprehensive and sustainable plan to promote DH in Puerto Rico. These efforts are:</p>

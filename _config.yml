@@ -16,12 +16,11 @@ logo_es: "/assets/images/logo_es.png"
 
 form_action_url: "https://formsubmit.io/send/colibri.alex@gmail.com"
 
-permalink: "/:title"
-
 #collections
 collections:
   portfolios:
     output: true
+    permalink: /:collection/:name
 
 # --------------------------------------------------------------
 # POLYGLOT I18N LOCALIZATION

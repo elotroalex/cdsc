@@ -3,8 +3,8 @@ layout: program
 title: "Microgrants"
 icon: "pe-7s-phone"
 thumbnail: "/assets/images/Portfolio/1.jpg"
-# category: "Web Programming"
-# filter: "apps"
+permalink: micro-grants/
+lang: en
 ---
 
 <div class="portfolio-header">

@@ -1,10 +1,10 @@
 ---
 layout: program
-title: "Summer School"
-icon: "pe-7s-pen"
-thumbnail: "/assets/images/Portfolio/2.jpg"
-permalink: summer-school/
-lang: en
+title: "The Caribbean Digital"
+icon: "pe-7s-share"
+thumbnail: "/assets/images/Portfolio/6.jpg"
+permalink: tcd/
+lang: es
 ---
 
 <div class="portfolio-header">

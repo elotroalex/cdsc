@@ -3,8 +3,8 @@ layout: program
 title: "The Caribbean Digital"
 icon: "pe-7s-share"
 thumbnail: "/assets/images/Portfolio/6.jpg"
-# category: "web Design"
-# filter: "app"
+permalink: tcd/
+lang: en
 ---
 
 <div class="portfolio-header">

@@ -17,22 +17,34 @@
       <!-- Hamburger Widget Area -->
       <div class="hamburger-widget-area">
         <div class="widget">
-          <h2 class="widget-title">About Us</h2>
+          {% if site.active_lang == 'en'%}
+          <h2 class="widget-title">CDSC</h2>
           <div class="widget-content">
             <p>
-              Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
-              libero, sit amet adipiscing sem neque sed ipsum.
+              The Caribbean Digital Scholarship Collective offers a series of
+              programs aimed to nurture digital scholarship.
             </p>
-            <a href="#" class="btn purchase-btn">Stay in Touch</a>
+            <a href="#" class="btn purchase-btn">Subscribe</a>
+            {% elsif site.active_lang == 'es' %}
+            <h2 class="widget-title">CECD</h2>
+            <div class="widget-content">
+              <p>
+                El Colectivo Estudio Caribe Digital ofrece una serie de
+                programas destinados a fomentar los estudios digitales en y para
+                el Caribe.
+              </p>
+              <a href="#" class="btn purchase-btn">Subscribete</a>
+              {% endif %}
+            </div>
+            <!--  /.widget-content -->
           </div>
-          <!--  /.widget-content -->
+          <!--  /.widget -->
         </div>
-        <!--  /.widget -->
+        <!--  /.hamburger-widget-area -->
       </div>
-      <!--  /.hamburger-widget-area -->
+      <!-- /.menu-wrapper -->
     </div>
-    <!-- /.menu-wrapper -->
+    <!-- /.site-navigation -->
   </div>
-  <!-- /.site-navigation -->
+  <!--  /.hamburger-block -->
 </div>
-<!--  /.hamburger-block -->

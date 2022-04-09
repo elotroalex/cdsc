@@ -1,6 +1,6 @@
 ---
 layout: program
-title: "The Caribbean Digital"
+title: "El Caribe Digital"
 icon: "pe-7s-share"
 thumbnail: "/assets/images/Portfolio/6.jpg"
 permalink: tcd/

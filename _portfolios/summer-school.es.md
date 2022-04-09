@@ -1,6 +1,6 @@
 ---
 layout: program
-title: "Summer School"
+title: "Escuelita de verano"
 icon: "pe-7s-pen"
 thumbnail: "/assets/images/Portfolio/2.jpg"
 permalink: summer-school/

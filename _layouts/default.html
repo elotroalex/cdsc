@@ -3,7 +3,11 @@
   {% include sidebar_menu.html %}
   {% include header.html %}
    {{content}}
-  {% include footer.html %} 
+  {% if site.active_lang == 'en'%}
+  {% include footer.html %}
+  {% elsif site.active_lang == 'es' %}
+  {% include footer.es.html %}
+  {% endif %}
   {% include scripts.html %}
 </body>
 </html>

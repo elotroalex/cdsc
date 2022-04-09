@@ -1,5 +1,5 @@
 ---
-layout: page_2
+layout: page
 title: "The Caribbean Digital"
 icon: "pe-7s-share"
 thumbnail: "/assets/images/Portfolio/6.jpg"

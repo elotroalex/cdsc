@@ -1,5 +1,5 @@
 ---
-layout: page_2
+layout: page
 title: "Create Caribbean"
 icon: "pe-7s-timer"
 thumbnail: "/assets/images/Portfolio/5.jpg"

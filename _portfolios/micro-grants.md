@@ -1,5 +1,5 @@
 ---
-layout: page_2
+layout: page
 title: "Microgrants"
 icon: "pe-7s-phone"
 thumbnail: "/assets/images/Portfolio/1.jpg"

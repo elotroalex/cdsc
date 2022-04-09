@@ -1,5 +1,5 @@
 ---
-layout: page_2
+layout: page
 title: "Summer School"
 icon: "pe-7s-pen"
 thumbnail: "/assets/images/Portfolio/2.jpg"

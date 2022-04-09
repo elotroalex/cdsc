@@ -3,21 +3,25 @@ layout: default
 ---
 
 {% include page_header.html %}
-<div class="page-wrapper">
+
+<section class="portfolio-details-block pd-t-60-b-90">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 mx-auto pt-90 pb-80">
-        {% if page.thumbnail %}
-        <div class="page-thumbnail mb-4">
+      {% if page.thumbnail %}
+      <div class="col-md-5">
+        <figure class="portfolio-thumb">
           <img
+            class="img-fluid"
             src="{{page.thumbnail}}"
             alt="{{page.title}}"
-            class="img-fluid"
           />
-        </div>
-        {% endif %}
-        <div class="content">{{page.content}}</div>
+        </figure>
       </div>
+      {% endif %}
+      <div class="col-md-7">{{page.content}}</div>
     </div>
+    <div class="clearfix"></div>
+    <div class="pd-tb-15"></div>
+    {% include related_portfolios.html %}
   </div>
-</div>
+</section>

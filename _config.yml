@@ -20,10 +20,6 @@ permalink: "/:title"
 
 #collections
 collections:
-  features:
-    output: true
-  services:
-    output: true
   portfolios:
     output: true
 

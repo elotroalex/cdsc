@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: program
 title: "UPR Rio Piedras Campus Digital Humanities Initiative"
 icon: "pe-7s-light"
 thumbnail: "/assets/images/Portfolio/4.jpg"

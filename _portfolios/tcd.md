@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: program
 title: "The Caribbean Digital"
 icon: "pe-7s-share"
 thumbnail: "/assets/images/Portfolio/6.jpg"

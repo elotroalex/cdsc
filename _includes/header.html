@@ -4,8 +4,12 @@
       <div class="col-5 col-sm-6 col-md-6 col-lg-6 col-xl-2">
         <div class="header-left">
           <div class="site-logo">
-            <a href="{{site.url}}">
-              <img src="{{site.logo_url_2}}" alt="{{site.title}}" />
+            <a href="/">
+              {% if site.active_lang == 'en' %}
+              <img src="{{site.logo}}" alt="{{site.title}}" />
+              {% elsif site.active_lang == 'es' %}
+              <img src="{{site.logo_es}}" alt="{{site.title}}" />
+              {% endif %}
             </a>
           </div>
         </div>
@@ -16,9 +20,6 @@
       <div class="col-7 col-sm-6 col-md-6 col-lg-6 col-xl-2">
         <div class="header-right">
           <ul class="right-menu">
-            <!-- <li>
-              <a href="#" class="search-extend"><i class="pe-7s-search"></i></a>
-            </li> -->
             <li>
               <a href="#" class="hamburger-menu"
                 ><i class="icon-arrows-hamburger-2"></i

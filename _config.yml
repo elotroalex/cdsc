@@ -34,7 +34,7 @@ plugins:
 languages: ["en", "es"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
-parallel_localization: false
+parallel_localization: true
 
 sass:
   sourcemap: never

@@ -4525,6 +4525,17 @@ header.sticky-header + section {
   .portfolio-thumb img {
     width: 100%;
   }
+
+  .mobile-content {
+    height: 20%;
+    background-color: #00d9ff;
+    padding: 0.5rem 1rem 0.05rem 1rem;
+  }
+
+  p {
+    line-height: 1.25rem;
+    font-size: 1rem;
+  }
 }
 
 .portfolio-thumb .hover-content {

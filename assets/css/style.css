@@ -4526,16 +4526,12 @@ header.sticky-header + section {
     width: 100%;
   }
 
-  .mobile-content {
-    height: 20%;
-    background-color: #00d9ff;
-    padding: 0.5rem 1rem 0.05rem 1rem;
+  p {
+    line-height: 1.6rem;
+    font-size: 1.2rem;
   }
 
-  p {
-    line-height: 1.25rem;
-    font-size: 1rem;
-  }
+
 }
 
 .portfolio-thumb .hover-content {
@@ -8791,7 +8787,7 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .footer-top {
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
-  height: 18rem;
+  height: 24rem;
 }
 
 .site-footer .footer-top .container {

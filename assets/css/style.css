@@ -2179,7 +2179,7 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 768px) {
   #mobile-menu {
     display: none;
   }
@@ -2436,7 +2436,7 @@ a:active {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1100px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1100px) {
   .navigation .mainmenu > li > a {
     padding: 10px 18px;
   }
@@ -2446,7 +2446,7 @@ a:active {
   .navigation .menu-list > li > a {
     padding: 10px 23px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 ## Pagination

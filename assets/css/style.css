@@ -8833,8 +8833,9 @@ input[type="checkbox"]::-ms-check {
 }
 
 .site-footer .footer-middle.bg-snow .widget-title {
-  color: inherit;
-  font-weight: 600;
+  color: #222;
+  letter-spacing: 0.5px;
+  font-weight: 400;
 }
 
 .site-footer .footer-middle.bg-snow .social-link li a {
@@ -8848,6 +8849,7 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .footer-bottom .copyright-text {
   margin-bottom: 0;
+  font-size: 0.8rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -8899,6 +8901,7 @@ input[type="checkbox"]::-ms-check {
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -8939,7 +8942,7 @@ input[type="checkbox"]::-ms-check {
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.008em;
+  letter-spacing: 2px;
   width: 100%;
   background: transparent;
   font-size: 15px;
@@ -8982,11 +8985,11 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .widget .widget-title {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 500;
   word-spacing: 0.25em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .site-footer .widget .widget-thumb {

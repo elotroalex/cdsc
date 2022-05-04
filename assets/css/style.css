@@ -8799,7 +8799,7 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .footer-top {
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
-  height: 24rem;
+  height: 48vh;
 }
 
 .site-footer .footer-top .container {

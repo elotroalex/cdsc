@@ -1006,6 +1006,10 @@ dd {
   background: #d2d2d2;
 }
 
+.bg-light {
+  background: #f5faff;
+}
+
 .bg-black {
   background-color: #000000;
 }

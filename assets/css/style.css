@@ -8815,7 +8815,7 @@ input[type="checkbox"]::-ms-check {
 }
 
 .site-footer .footer-top .container {
-  padding: 5rem 3rem;
+  padding: 5rem 1rem;
 }
 
 @media only screen and (max-width: 992px) {
@@ -8857,6 +8857,10 @@ input[type="checkbox"]::-ms-check {
 .site-footer .footer-bottom {
   border-top: 1px solid rgba(221, 221, 221, 0.1);
   padding: 30px 0;
+}
+
+.copyright-text {
+  color: #aaa;
 }
 
 .site-footer .footer-bottom .copyright-text {

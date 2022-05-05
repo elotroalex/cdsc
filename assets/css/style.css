@@ -551,7 +551,7 @@ dd {
   text-transform: capitalize;
   margin: 0 auto;
   padding-top: 4vw;
-  padding-bottom: 100%;
+  /* padding-bottom: 100%; */
   width: 100%;
   text-align: center;
   position: absolute;

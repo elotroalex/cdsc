@@ -8812,11 +8812,10 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .footer-top {
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
-  height: 48vh;
 }
 
 .site-footer .footer-top .container {
-  padding-top: 5rem;
+  padding: 5rem 3rem;
 }
 
 @media only screen and (max-width: 992px) {

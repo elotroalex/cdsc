@@ -1,4 +1,4 @@
 - text: "About"
   url: "/about"
 - text: "Programs"
-  url: "/#programs"
+  url: "/programs"

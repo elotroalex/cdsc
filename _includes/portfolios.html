@@ -20,11 +20,6 @@
                 src="{{portfolio.thumbnail}}"
                 alt="{{portfolio.title}}"
               />
-              <!-- <div class="mobile-content">
-                <a href="{{portfolio.url}}" class="ajax-single-link">
-                  <h5>{{portfolio.title}}</h5>
-                </a>
-              </div> -->
               <div class="hover-content">
                 <div class="hover-details">
                   <a href="{{portfolio.url}}" class="ajax-single-link">
@@ -38,6 +33,15 @@
             </figure>
           </div>
           {% endfor %}
+          <div class="item col-sm-6 col-md-6 col-lg-4">
+            <figure class="portfolio-thumb shadow-none">
+              <img
+                class="img-fluid"
+                src="{{site.baseurl}}/assets/images/Portfolio/cdsc-logo.png"
+                alt="CDSC logo"
+              />
+            </figure>
+          </div>
         </div>
       </div>
     </div>

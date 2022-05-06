@@ -1,7 +1,7 @@
 ---
 layout: program
 title: "Micro becas"
-icon: "pe-7s-phone"
+long_title: "Micro becas"
 thumbnail: "/assets/images/Portfolio/1.jpg"
 permalink: micro-grants/
 lang: es

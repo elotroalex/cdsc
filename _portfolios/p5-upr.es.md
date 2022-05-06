@@ -1,7 +1,7 @@
 ---
 layout: program
-title: "UPR Rio Piedras Iniciativa<br>Humanidades Digitales"
-icon: "pe-7s-light"
+title: "UPR-RP Iniciativa HD"
+long_title: "Universidad de Puerto Rico, Recinto de Rio Piedras<br>Iniciativa en Humanidades Digitales"
 thumbnail: "/assets/images/Portfolio/4.jpg"
 permalink: upr/
 lang: es

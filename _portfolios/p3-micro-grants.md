@@ -2,7 +2,6 @@
 layout: program
 title: "Microgrants"
 long_title: "Migrogrants for Caribbean Digital Scholarship"
-icon: "pe-7s-phone"
 thumbnail: "/assets/images/Portfolio/1.jpg"
 permalink: micro-grants/
 lang: en

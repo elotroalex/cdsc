@@ -2,7 +2,6 @@
 layout: program
 title: "Summer Institute"
 long_title: The Caribbean Digital Scholarship Summer Institute
-icon: "pe-7s-pen"
 thumbnail: "/assets/images/Portfolio/2.jpg"
 permalink: summer-school/
 lang: en

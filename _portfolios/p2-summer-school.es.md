@@ -1,7 +1,7 @@
 ---
 layout: program
 title: "Instituto de verano"
-icon: "pe-7s-pen"
+long_title: "Instituto de verano"
 thumbnail: "/assets/images/Portfolio/2.jpg"
 permalink: summer-school/
 lang: es

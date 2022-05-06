@@ -1,7 +1,7 @@
 ---
 layout: program
 title: "El Caribe Digital"
-icon: "pe-7s-share"
+long_title: "Conferencia anual Caribe Digital"
 thumbnail: "/assets/images/Portfolio/6.jpg"
 permalink: tcd/
 lang: es

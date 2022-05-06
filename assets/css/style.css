@@ -4540,6 +4540,10 @@ header.sticky-header + section {
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.04);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.04);
   overflow: hidden;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
 .portfolio-thumb img {

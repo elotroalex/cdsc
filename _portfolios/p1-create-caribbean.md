@@ -13,6 +13,6 @@ lang: en
     <p>The first is to expand the RTC (Research, Technology, Community) Internship programme at Dominica State College and other regional colleges, to include a Caribbean Digital Studies Certificate, funding for student interns, &amp; apprenticeships with several community partners working on history and culture preservation to apply digital skills to preserving and sharing content. The second is the Community Partners Program that invites agencies and organizations working in areas related to cultural heritage, education and preservation to strengthen content development and local programming using digital technology. This will include a sponsored summer intensive training for community partners.</p>
     <p>CCRI has operated from Dominica since 2014 and hosts a range of programmes and activities in addition to the ones outlined here, including Create and Code Summer Tech Camp.</p>
     <div class="project-demo-btn">
-    <a class="btn project-btn" href="http://createcaribbean.org" target="_blank">Learn More</a>
+    <a class="btn project-btn" href="http://createcaribbean.org" target="_blank">Visit Create Caribbean</a>
     </div>  
 </div>

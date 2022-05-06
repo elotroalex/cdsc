@@ -1,12 +1,24 @@
 <div class="row">
+  <div class="container">
     <div class="col-12">
-        <h2 class="portfolio-related-title">Our other programs:</h2>
-        <div class="portfolio-related-slider owl-carousel">
-         {% for portfolio in site.portfolios %}
-          <div class="item">
-             <a href="{{portfolio.url}}"><img class="img-fluid" src="{{portfolio.thumbnail}}" alt="{{portfolio.title}}"/></a>
-          </div>
-         {% endfor %}                
+      <h3 class="portfolio-related-title section-title">
+        A Quick Look At Our Programs
+      </h3>
+      <div class="portfolio-related-slider owl-carousel">
+        {% for portfolio in site.portfolios %}
+        <div class="item">
+          <a href="{{portfolio.url}}"
+            ><img
+              class="img-fluid"
+              src="{{portfolio.thumbnail}}"
+              alt="{{portfolio.title}}"
+            />
+            <h5 class="pt-3">{{portfolio.title}}</h5></a
+          >
         </div>
+
+        {% endfor %}
+      </div>
     </div>
+  </div>
 </div>

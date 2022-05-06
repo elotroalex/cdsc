@@ -1,6 +1,7 @@
 ---
 layout: program
-title: "UPR Rio Piedras Campus<br>Digital Humanities Initiative"
+title: "UPR-RP DH Initiative"
+long-title: "UPR Rio Piedras Campus<br>Digital Humanities Initiative"
 icon: "pe-7s-light"
 thumbnail: "/assets/images/Portfolio/4.jpg"
 permalink: upr/

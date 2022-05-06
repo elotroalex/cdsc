@@ -4802,8 +4802,8 @@ header.sticky-header + section {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.015em;
-  background: transparent;
-  font-size: 1.1rem;
+  background: #f5faff;
+  font-size: 1rem;
   color: #0080ff;
   margin-right: 20px;
   margin-bottom: 15px;
@@ -8956,8 +8956,8 @@ input[type="checkbox"]::-ms-check {
 
 .site-footer .newsletter-form .newsletter-btn {
   display: inline-block;
-  border: 2px solid #0080ff;
-  color: #0080ff;
+  border: 2px solid #00abff;
+  color: #00abff;
   padding: 16px 45px;
   border-radius: 30px;
   text-transform: uppercase;

@@ -1,64 +1,15 @@
 ---
 layout: program
 title: "Microgrants"
+long_title: "Migrogrants for Caribbean Digital Scholarship"
 icon: "pe-7s-phone"
 thumbnail: "/assets/images/Portfolio/1.jpg"
 permalink: micro-grants/
 lang: en
 ---
 
-<div class="portfolio-header">
-    <h2 class="portfolio-title">{{page.title}}</h2>
-    <div class="portfolio-meta">
-        <div class="portfolio-cat">
-            <a href="#">{{page.category}}</a>
-        </div>
-        <div class="portfolio-other">
-            <span class="time-period">24 May, 2014</span>
-            <span class="devider">|</span>
-            <span class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-empty"></i>
-            </span>
-        </div>
-    </div>
-</div>
-
 <div class="portfolio-details">
-    <p>
-        Curabitur eleifend ex a iaculis pretium. Fusce accumsan consequat velit. Integer elementum eu elit at volutpat. Etiam lorem massa, aliquet eget porttitor at, hendrerit id massa. Maecenas aliquam velit at est blandit.
-    </p>
-    <table class="project-details">
-        <tr>
-            <th>Customer:</th>
-            <td>Johan Doe</td>
-        </tr>
-        <tr>
-            <th>Live Demo:</th>
-            <td><a href="#">www.livedemo.com</a></td>
-        </tr>
-        <tr>
-            <th>Category:</th>
-            <td><a href="#">3D Graphics Design</a></td>
-        </tr>
-        <tr>
-            <th>Skill:</th>
-            <td>3DMax, Cinima 4D, Photoshop</td>
-        </tr>
-        <tr>
-            <th>Date Post:</th>
-            <td>05 November, 2020</td>
-        </tr>
-        <tr>
-            <th>Tag:</th>
-            <td><a href="#">Awesome</a>, <a href="#">3D</a>, <a href="#">Graphic</a>, <a href="#">Creative</a></td>
-        </tr>
-    </table>
-    <div class="project-demo-btn">
-        <a href="#" class="btn project-btn">Download</a>
-        <a href="#" class="btn project-btn">Lunch Project</a>
-    </div>
+    <p>Curabitur eleifend ex a iaculis pretium. Fusce accumsan consequat velit. Integer elementum eu elit at volutpat. Etiam lorem massa, aliquet eget porttitor at, hendrerit id massa. Maecenas aliquam velit at est blandit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Orci dapibus ultrices in iaculis nunc sed. Blandit aliquam etiam erat velit scelerisque. Sem nulla pharetra diam sit amet nisl suscipit. Orci eu lobortis elementum nibh tellus molestie. Ac odio tempor orci dapibus ultrices in iaculis nunc. Venenatis tellus in metus vulputate eu scelerisque felis. Elit pellentesque habitant morbi tristique. Morbi blandit cursus risus at ultrices. Quis enim lobortis scelerisque fermentum dui faucibus in ornare. Libero volutpat sed cras ornare arcu dui. Imperdiet dui accumsan sit amet. Tristique senectus et netus et malesuada fames. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Odio eu feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis.</p>
+    <p>Arcu bibendum at varius vel pharetra. Suspendisse in est ante in nibh mauris cursus. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Pellentesque elit ullamcorper dignissim cras. Ut tristique et egestas quis. Aliquet risus feugiat in ante metus dictum at tempor. Fermentum dui faucibus in ornare quam. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Mauris pharetra et ultrices neque ornare aenean euismod elementum. Et ligula ullamcorper malesuada proin libero nunc. Ultricies integer quis auctor elit sed vulputate mi sit amet. Fames ac turpis egestas sed tempus urna. Enim sed faucibus turpis in eu mi. Id neque aliquam vestibulum morbi blandit cursus risus. Et sollicitudin ac orci phasellus egestas tellus. Volutpat commodo sed egestas egestas fringilla phasellus faucibus.</p>
 </div>

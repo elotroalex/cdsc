@@ -120,7 +120,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.4rem;
+  font-weight: 200;
 }
 
 h6 {
@@ -4853,6 +4854,10 @@ header.sticky-header + section {
   .portfolio-details-block .owl-nav {
     display: none;
   }
+}
+
+div.portfolio-details {
+  margin-bottom: 5rem;
 }
 
 /*--------------------------------------------------------------

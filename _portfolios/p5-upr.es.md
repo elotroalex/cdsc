@@ -18,6 +18,6 @@ lang: es
     <p>Las profesoras Mirerza González Vélez de la Facultad de Humanidades y Nadjah Ríos Villarini de la Facultad de Estudios Generales liderarán estos esfuerzos con la ayuda administrativa y académica del Centro de Recursos de Investigación Interdisciplinaria y Creación Subgraduadas (<a href="http://www.criiasupr.org/">CRiiAS</a>). A estos esfuerzos también se unen los grupos comunitarios participantes. Se estima que le proyecto en su totalidad impacte a 120 profesores y bibliotecarios (DHFI), 65 estudiantes (DHSRP + DHUAM), y 15 organizaciones comunitarias (DHSRP).
     </p>
 <div class="project-demo-btn">
-    <a class="btn project-btn" href="#">Aprender mas...</a>
+    <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Aprender mas...</a>
 </div>
 </div>

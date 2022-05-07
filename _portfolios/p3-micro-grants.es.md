@@ -7,58 +7,10 @@ permalink: micro-grants/
 lang: es
 ---
 
-<div class="portfolio-header">
-    <h2 class="portfolio-title">{{page.title}}</h2>
-    <div class="portfolio-meta">
-        <div class="portfolio-cat">
-            <a href="#">{{page.category}}</a>
-        </div>
-        <div class="portfolio-other">
-            <span class="time-period">24 May, 2014</span>
-            <span class="devider">|</span>
-            <span class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-empty"></i>
-            </span>
-        </div>
-    </div>
-</div>
-
 <div class="portfolio-details">
-    <p>
-        Curabitur eleifend ex a iaculis pretium. Fusce accumsan consequat velit. Integer elementum eu elit at volutpat. Etiam lorem massa, aliquet eget porttitor at, hendrerit id massa. Maecenas aliquam velit at est blandit.
-    </p>
-    <table class="project-details">
-        <tr>
-            <th>Customer:</th>
-            <td>Johan Doe</td>
-        </tr>
-        <tr>
-            <th>Live Demo:</th>
-            <td><a href="#">www.livedemo.com</a></td>
-        </tr>
-        <tr>
-            <th>Category:</th>
-            <td><a href="#">3D Graphics Design</a></td>
-        </tr>
-        <tr>
-            <th>Skill:</th>
-            <td>3DMax, Cinima 4D, Photoshop</td>
-        </tr>
-        <tr>
-            <th>Date Post:</th>
-            <td>05 November, 2020</td>
-        </tr>
-        <tr>
-            <th>Tag:</th>
-            <td><a href="#">Awesome</a>, <a href="#">3D</a>, <a href="#">Graphic</a>, <a href="#">Creative</a></td>
-        </tr>
-    </table>
-    <div class="project-demo-btn">
-        <a href="#" class="btn project-btn">Download</a>
-        <a href="#" class="btn project-btn">Lunch Project</a>
-    </div>
+    <p>La investigación computacional y los proyectos de humanidades públicas son los ejercicios centrales de las humanidades digitales. La producción de proyectos de las humanidades digitales en la región del Caribe y/o por parte de académicos de Estudios del Caribe adolece de cinco obstáculos comunes: falta de fondos, falta de capacitación, falta de orientación, falta de equipos y falta de tiempo. Los institutos y los programas académicos ayudarán a abordar estas brechas. Sin embargo, con el fin de fomentar el trabajo más allá de las etapas de capacitación o de “incubación”, proponemos el desembolso de microbecas para el apoyo a proyectos de humanidades digitales del Caribe más pequeños como una segunda etapa de desarrollo, más allá de la creación temprana de prototipos. Este programa de microsubvenciones servirá como una versión más pequeña y condensada de las subvenciones tradicionales de puesta en marcha o implementación.
+</p>
+    <p>La selección de proyectos a ser financiados más allá de los programas de estudio será realizada por un consejo editorial compuesto por tres miembros: el coordinador del programa de microbecas, Alex Gil, un miembro rotatorio del CECD, y un miembro de jurado externo a ser rotado cada año. Remuneraremos a cada miembro externo invitado para asegurar el quórum. Desplegaremos una campaña de llamado a propuestas en América del Norte y en el Caribe. La junta leerá las propuestas en dos rondas de selección, utilizando criterios diseñados para <a href="https://archipelagosjournal.org/reviewers.html" target="_blank">revista de archipiélagos</a>, en particular, la contribución académica en general, equidad e inclusión (cuando corresponda), el buen diseño y la estrategia de preservación. Proveeremos ayuda en la preparación de propuestas. Ofreceremos tres rondas de microbecas durante la duración de la beca, de 2023 a 2025. Cada año apoyaremos 4-5 proyectos, ofreciendo recursos financieros (becas de entre $10,000 a $25,000 USD) y tutoría, con mentores elegidos del Colectivo o colegas académicos del Caribe o E.E.U.U. remunerados. Los mentores se reunirán con los beneficiarios en un mínimo de tres consultas, una al principio, a la mitad y al final del proceso, y estarán disponibles en un canal del proyecto para preguntas y consultas según sea necesario. Los mentores ayudarán a los beneficiarios a determinar la mejor manera de utilizar sus recursos, el alcance adecuado, responder preguntas tecnológicas cuando sea posible o señalar una respuesta, y hacer recomendaciones para la gestión de proyectos. </p>
+    <p>Las microconcesiones pueden impulsar la producción de trabajos innovadores y muy necesarios. Para preparar el escenario, en cada ronda de adjudicación se asignará una microsubvención para proyectos emblemáticos producidos por el equipo de subvención. Estos proyectos emblemáticos servirán como modelos para la comunidad en general y pueden impulsar el campo de la teoría y la práctica en direcciones innovadoras para Caribbean Digital Scholarship en particular y Digital Scholarship en general. <a href="https://sameboats.org/" target="_blank">In The Same Boats</a>, un conjunto de visualizaciones cartográficas interactivas que rastrean los movimientos de importantes actores culturales del Caribe, América en general, África, y Europa dentro del mundo afroatlántico del siglo XX, es un ejemplo de uno de estos posibles proyectos emblemáticos.</p>
+    <p>La primera convocatoria de propuestas se anunciará en el otoño de 2022.</p>
 </div>

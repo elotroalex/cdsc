@@ -3,7 +3,7 @@ desc 'Publishing the website via rsync and testing'
 require 'colorize'
 require 'html-proofer'
 
-task :mock do
+task :dev do
   puts 'First, let\'s build your site...'.green
   sh "jekyll build"
   puts "\n"

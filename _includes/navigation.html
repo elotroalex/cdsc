@@ -23,24 +23,14 @@
             >{{ nav.text }}</a
           >
         </li>
-        {% endif %} {% endfor %} {% if site.active_lang == 'es' %}
-        <li>
-          <!-- <a href="http://cdsc-dev.elotroalex.com/">English</a> -->
-          <a
-            {%
-            static_href
-            %}href="{{site.baseurl}}{{page.url}}"
-            {%
-            endstatic_href
-            %}
-            >English</a
-          >
-        </li>
-        {% elsif site.active_lang == site.default_lang %}
-        <li>
-          <a href="{{site.baseurl}}/es{{page.url}}">En español</a>
-        </li>
-        {% endif %}
+        {% endif %} {% endfor %} {% for lang in site.languages %} {% assign
+        lang_name = site.data[lang].language.lang_name %} {% if lang ==
+        site.active_lang %} {{ lang_name }} {% else %} {% if lang ==
+        site.default_lang %}
+        <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
+        {% else %}
+        <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>
+        {% endif %} {% endif %} {% endfor %}
       </ul>
     </div>
   </div>

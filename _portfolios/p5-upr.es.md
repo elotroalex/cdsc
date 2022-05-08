@@ -17,6 +17,7 @@ lang: es
     <p>3) Concentración Menor a nivel Subgraduado en Humanidades Digitales (Digital Humanities Undergraduate Academic Minor DHUAM):  La iniciativa propone la creación de la primera concentración menor en Humanidades Digitales en Puerto Rico bajo el <a href="http://humanidades.uprrp.edu/prei/">Programa de Estudios Interdisciplinarios de la Facultad de Humanidades UPR-RP.</a></p>
     <p>Las profesoras Mirerza González Vélez de la Facultad de Humanidades y Nadjah Ríos Villarini de la Facultad de Estudios Generales liderarán estos esfuerzos con la ayuda administrativa y académica del Centro de Recursos de Investigación Interdisciplinaria y Creación Subgraduadas (<a href="http://www.criiasupr.org/">CRiiAS</a>). A estos esfuerzos también se unen los grupos comunitarios participantes. Se estima que le proyecto en su totalidad impacte a 120 profesores y bibliotecarios (DHFI), 65 estudiantes (DHSRP + DHUAM), y 15 organizaciones comunitarias (DHSRP).
     </p>
+        <div><h5>Coordinadoras del programa: Mirerza González Vélez y Nadjah Ríos Villarini</h5></div>
 <div class="project-demo-btn">
     <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Aprender mas...</a>
 </div>

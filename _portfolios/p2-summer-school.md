@@ -14,5 +14,6 @@ The Caribbean Digital Scholarship Summer Institute (CDSsi) will train scholars i
 <p>Selected Caribbean studies scholars and practitioners will serve as instructors and their courses will include a focus on computational approaches to corpora (text and media analysis, general use of computation, statistics, data science); academic organizing on digital networks; digital pedagogy; and/or the design and implementation of knowledge systems (digital archives, exhibits, maps, visualizations) beyond the use of templated solutions.</p>
 
 <p>Thanks to generous Mellon funding for the program, we will be able to support  travel for up to 30 scholars to attend the CDSsi in summer 2023-25. Applications are forthcoming in early Spring 2023.</p>
+<div><h5>Program Coordinator: Kelly B. Josephs</h5></div>
  
 </div>

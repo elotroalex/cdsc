@@ -1,7 +1,10 @@
 title: "Caribbean Digital Scholarship Collective"
+title_es: "Colectivo Estudios Digitales Caribe"
 email: "contact@cdscollective.org"
 description: >- # this means to ignore newlines until "baseurl:"
   Informational website for the Caribbean Digital Scholaship Collective and its programs.
+description_es: >-
+  Sitio web informativo del Colectivo de Estudios Digitales del Caribe y sus programas.
 baseurl: "" # the subpath of your site, e.g. /blog
 author: "Alex Gil"
 keywords: "Mellon foundation, Digital humanities, Caribbean studies"

@@ -7,13 +7,87 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    {% if site.active_lang == 'en' %}
     <meta name="description" content="{{ site.description }}" />
+    {% elsif site.active_lang == 'es' %}
+    <meta name="description" content="{{ site.description_es }}" />
+    {% endif %}
     <meta name="keywords" content="{{ site.keywords }}" />
     <meta name="author" content="{{ site.author }}" />
     <title>
-      {% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif
-      %}
+      {% if page.title %} {{ page.title }} {% else %} {% if site.active_lang ==
+      'en' %}{{ site.title }} {% elsif site.active_lang == 'es' %} {{
+      site.title_es }} {% endif %} {% endif %}
     </title>
+
+    <!-- Open Graph -->
+    {% if site.active_lang == 'en' %} {% if page.layout == "default" %}
+    <meta property="og:title" content="{{site.title}}" />
+    {% else %}
+    <meta property="og:title" content="{{page.title}} | {{site.title}}" />
+    {% endif %}
+    <meta property="og:description" content="{{site.description}}" />
+    <meta property="fb:admins" content="elotroalex" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site.baseurl}}{{page.url}}" />
+    <meta property="fb:app_id" content="589495744558280" />
+    <meta
+      property="og:image"
+      content="{{site.baseurl}}/assets/images/open-graph.png"
+    />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+
+    <!-- Twitter -->
+
+    <meta property="twitter:url" content="https://" />
+    <meta property="twitter:title" content="{{site.title}}" />
+    <meta property="twitter:description" content="{{site.description}}" />
+    <meta
+      property="twitter:image"
+      content="{{site.baseurl}}/assets/images/open-graph.png"
+    />
+    <meta property="twitter:domain" content="{{site.description}}" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:creator" content="@elotroalex" />
+    <meta property="twitter:site" content="@elotroalex" />
+
+    {% elsif site.active_lang == 'es' %}
+    <!-- Open Graph -->
+
+    {% if page.layout == "default" %}
+    <meta property="og:title" content="{{site.title_es}}" />
+    {% else %}
+    <meta property="og:title" content="{{page.title}} | {{site.title_es}}" />
+    {% endif %}
+    <meta property="og:description" content="{{site.description_es}}" />
+    <meta property="fb:admins" content="elotroalex" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site.baseurl}}{{page.url}}" />
+    <meta property="fb:app_id" content="589495744558280" />
+    <meta
+      property="og:image"
+      content="{{site.baseurl}}/assets/images/open-graph.png"
+    />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+
+    <!-- Twitter -->
+
+    <meta property="twitter:url" content="https://" />
+    <meta property="twitter:title" content="{{site.title_es}}" />
+    <meta property="twitter:description" content="{{site.description_es}}" />
+    <meta
+      property="twitter:image"
+      content="{{site.baseurl}}/assets/images/open-graph.png"
+    />
+    <meta property="twitter:domain" content="{{site.description_es}}" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:creator" content="@elotroalex" />
+    <meta property="twitter:site" content="@elotroalex" />
+    {% endif %}
+
+    <!-- LINKS -->
     <link
       rel="shortcut icon"
       href="{{relative_url}}/assets/images/favicon.ico"

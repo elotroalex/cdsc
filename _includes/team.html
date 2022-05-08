@@ -4,7 +4,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
+        {% if site.active_lang == 'en' %}
         <h3 class="section-title">Our Team</h3>
+        {% elsif site.active_lang == 'es' %}
+        <h3 class="section-title">Nuestro equipo</h3>
+        {% endif %}
       </div>
       <!-- /.col-md-12 -->
     </div>
@@ -20,7 +24,11 @@
         />
         <div style="line-height: 1rem">
           <h3 class="mt-0 mb-1">Schuyler Esprit</h3>
+          {% if site.active_lang == 'en' %}
           <p class="m-0 h5">Co-Principal Investigator</p>
+          {% elsif site.active_lang == 'es' %}
+          <p class="m-0 h5">Investigadora co-principal</p>
+          {% endif %}
           <p class="mt-0 mb-5">Create Caribbean</p>
         </div>
       </div>
@@ -32,7 +40,11 @@
           data-holder-rendered="true"
         />
         <h3 class="my-0">Alex Gil</h3>
+        {% if site.active_lang == 'en' %}
         <p class="m-0 h5">Co-Principal Investigator</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 h5">Investigador co-principal</p>
+        {% endif %}
         <p class="mt-0 mb-5">Columbia University</p>
       </div>
       <div class="col-md-3 mb-2">
@@ -43,7 +55,11 @@
           data-holder-rendered="true"
         />
         <h3 class="my-0">Kaiama L. Glover</h3>
+        {% if site.active_lang == 'en' %}
         <p class="m-0 h5">Principal Investigator</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 h5">Investigatora principal</p>
+        {% endif %}
         <p class="mt-0 mb-5">Barnard College</p>
       </div>
     </div>
@@ -56,8 +72,13 @@
           data-holder-rendered="true"
         />
         <h3 class="my-0">Mirerza González Vélez</h3>
+        {% if site.active_lang == 'en' %}
         <p class="m-0 h5">Co-Principal Investigator</p>
         <p class="mt-0 mb-5">University of Puerto Rico</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 h5">Investigadora co-principal</p>
+        <p class="mt-0 mb-5">Universidad de Puerto Rico</p>
+        {% endif %}
       </div>
       <div class="col-md-3 mb-2">
         <img
@@ -67,7 +88,11 @@
           data-holder-rendered="true"
         />
         <h3 class="my-0">Kelly Baker Josephs</h3>
+        {% if site.active_lang == 'en' %}
         <p class="m-0 h5">Co-Principal Investigator</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 h5">Investigadora co-principal</p>
+        {% endif %}
         <p class="mt-0 mb-5">City University of New York</p>
       </div>
       <div class="col-md-3 mb-2">
@@ -78,8 +103,13 @@
           data-holder-rendered="true"
         />
         <h3 class="my-0">Nadjah Ríos Villarini</h3>
+        {% if site.active_lang == 'en' %}
         <p class="m-0 h5">Co-Principal Investigator</p>
         <p class="mt-0 mb-5">University of Puerto Rico</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 h5">Investigadora co-principal</p>
+        <p class="mt-0 mb-5">Universidad de Puerto Rico</p>
+        {% endif %}
       </div>
     </div>
   </div>

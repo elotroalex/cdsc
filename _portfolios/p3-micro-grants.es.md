@@ -19,5 +19,5 @@ lang: es
      <p>Al final de cada período de subvención, el consejo editorial elegirá un proyecto emblemático. Estos proyectos emblemáticos servirán como modelos para la comunidad en general y pueden impulsar el campo de la teoría y la práctica en direcciones innovadoras para los estudios del Caribbe Digital y, en general, para los estudios digitales. <a href="https://sameboats.org/" target="_blank">In The Same Boats</a>, un conjunto de visualizaciones cartográficas interactivas que rastrean los movimientos de importantes actores culturales del Caribe, América en general, África, y Europa dentro del mundo afroatlántico del siglo XX, es un ejemplo de uno de estos posibles proyectos emblemáticos.</p>
     <h4>Mantente al Día</h4>
  <p>Suscríbete a nuestro boletín para recibir notificaciones sobre la convocatoria de micro-becas y noticias de la CDEC.</p>
-    <div><h5>Coordinador del programa: Alex Gil y Andreína Soto</h5></div>
+    <div><h5>Coordinadores del programa: Alex Gil y Andreína Soto</h5></div>
 </div>

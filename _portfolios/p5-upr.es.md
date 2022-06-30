@@ -18,6 +18,6 @@ lang: es
     </p>
         <div><h5>Coordinadoras del programa: Mirerza González Vélez y Nadjah Ríos Villarini</h5></div>
 <div class="project-demo-btn">
-    <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Aprender mas...</a>
+    <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Sigue a UPR Caribe Digital en Facebook</a>
 </div>
 </div>

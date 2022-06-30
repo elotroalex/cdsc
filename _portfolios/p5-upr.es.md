@@ -1,6 +1,6 @@
 ---
 layout: program
-title: "UPR-RP Iniciativa HD"
+title: "UPR Caribe Digital"
 long_title: "UPR Caribe Digital"
 thumbnail: "/assets/images/Portfolio/4.jpg"
 permalink: upr/

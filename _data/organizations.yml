@@ -1,6 +1,12 @@
+- org: Andanza
+  logo: andanza.png
+  link: http://www.andanzapr.com/
 - org: Archivo Histórico de Vieques
   logo: ahv.jpg
   link: https://www.facebook.com/ArchivoHistoricodeVieques/
+- org: Asociación de Artistas de Circo y Artes de Calle de Puerto Rico
+  logo: acirc.png
+  link: https://www.acircpr.com/
 - org: Bosque Modelo de Puerto Rico
   logo: bosque-modelo.png
   link: https://bosquemodelopr.org/somos/
@@ -10,6 +16,9 @@
 - org: Centro de Recursos de Investigación y Aprendizaje Subgraduado
   logo: criias.png
   link: http://www.criiasupr.org/
+- org: Corporacion De Servicios De Salud Primaria Y Desarrollo Socioeconomico El Otoao
+  logo: cossao.png
+  link: https://www.facebook.com/cossaoutuado/
 - org: Fe que transforma
   logo: fe.png
   link: http://www.fequetransforma.com/
@@ -22,6 +31,9 @@
 - org: Fundación Juan Mari Brás
   logo: juan-mari-bras.png
   link: http://juanmaribras.org/
+- org: La Calle Loíza
+  logo: calle-loiza.jpg
+  link: https://www.lacalleloiza.com/
 - org: Siempre Vivas Metro
   logo: siempre-vivas.png
   link: https://cie.uprrp.edu/siempre-vivas-metro/
@@ -31,3 +43,4 @@
 - org: Create Caribbean
   logo: create-caribbean.png
   link: https://createcaribbean.org/
+

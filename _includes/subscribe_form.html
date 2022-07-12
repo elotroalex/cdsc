@@ -4,40 +4,25 @@
   target="_blank"
   action="{{site.form_action_url}}"
 >
-  <div id="subscribe" class="row align-items-center">
+  <div id="subscribe" class="row col-md-12 align-items-center">
+    <div class="col-md-6 text-center">
     {% if site.active_lang == 'en' %}
-    <div class="col-md-3 text-right">
       <h2 class="form-title">Newsletter</h2>
-    </div>
-    <!-- <div class="col-md-5">
-      <input
-        type="email"
-        class="form-controller"
-        name="subescrbe_mail"
-        placeholder="Enter your email"
-        required
-      />
-    </div> -->
-    <div class="col-md-3">
-      <button type="submit" class="newsletter-btn">Subscribe</button>
-    </div>
+
     {% elsif site.active_lang == 'es' %}
-    <div class="col-md-3 text-right">
       <h2 class="form-title">Boletín informativo</h2>
-    </div>
-    <!-- <div class="col-md-6">
-      <input
-        type="email"
-        class="form-controller"
-        name="subescrbe_mail"
-        placeholder="Su dirección de correo electrónico"
-        required
-      />
-    </div> -->
-    <div class="col-md-3">
-      <button type="submit" class="newsletter-btn">Subscríbete</button>
-    </div>
+
     {% endif %}
+    </div>
+    <div class="col-md-4 text-center">
+      {% if site.active_lang == 'en' %}
+
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      {% elsif site.active_lang == 'es' %}
+
+        <button type="submit" class="newsletter-btn">Subscríbete</button>
+      {% endif %}
+      </div>       
   </div>
   <!--  /.row -->
   <div class="newsletter-message">

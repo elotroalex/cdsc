@@ -1,46 +1,74 @@
 - org: Andanza
+  place: Puerto Rico
   logo: andanza.png
   link: http://www.andanzapr.com/
 - org: Archivo Histórico de Vieques
+  place: Puerto Rico
   logo: ahv.jpg
   link: https://www.facebook.com/ArchivoHistoricodeVieques/
 - org: Asociación de Artistas de Circo y Artes de Calle de Puerto Rico
+  place: Puerto Rico
   logo: acirc.png
   link: https://www.acircpr.com/
 - org: Bosque Modelo de Puerto Rico
+  place: Puerto Rico
   logo: bosque-modelo.png
   link: https://bosquemodelopr.org/somos/
 - org: Casa Pueblo
+  place: Puerto Rico
   logo: casa-pueblo.jpg
   link: https://casapueblo.org/
 - org: Centro de Recursos de Investigación y Aprendizaje Subgraduado
+  place: Puerto Rico
   logo: criias.png
   link: http://www.criiasupr.org/
 - org: Corporacion De Servicios De Salud Primaria Y Desarrollo Socioeconomico El Otoao
+  place: Puerto Rico
   logo: cossao.png
   link: https://www.facebook.com/cossaoutuado/
 - org: Fe que transforma
+  place: Puerto Rico
   logo: fe.png
   link: http://www.fequetransforma.com/
 - org: Fundación de Culebra
+  place: Puerto Rico
   logo: fundacion-culebra.png
   link: https://www.fundaciondeculebra.org/main
 - org: Taller communidad la Goyco
+  place: Puerto Rico
   logo: goyco.png
   link: https://www.lagoyco.org/
 - org: Fundación Juan Mari Brás
+  place: Puerto Rico
   logo: juan-mari-bras.png
   link: http://juanmaribras.org/
 - org: La Calle Loíza
+  place: Puerto Rico
   logo: calle-loiza.jpg
   link: https://www.lacalleloiza.com/
 - org: Siempre Vivas Metro
+  place: Puerto Rico
   logo: siempre-vivas.png
   link: https://cie.uprrp.edu/siempre-vivas-metro/
 - org: Waves Ahead Puerto Rico
+  place: Puerto Rico
   logo: waves-ahead.jpg
   link: https://wavesahead.org/
 - org: Create Caribbean
+  place: Puerto Rico
   logo: create-caribbean.png
   link: https://createcaribbean.org/
+- org: The Dominica Chronicle
+  place: Dominica
+  logo: chronicle.png
+  link: https://thedominicachronicle.com/
+- org: Dominica Library & Information Science
+  place: Dominica
+  logo: dlis.png
+  link: https://dlis.gov.dm/
+- org: One Seed a Day Initiative
+  place: Dominica
+  logo: osadi.jpg
+  link: https://www.facebook.com/1.seed.a.day/
+
 

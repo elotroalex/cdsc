@@ -54,10 +54,10 @@
   place: Puerto Rico
   logo: waves-ahead.jpg
   link: https://wavesahead.org/
-- org: Create Caribbean
-  place: Puerto Rico
-  logo: create-caribbean.png
-  link: https://createcaribbean.org/
+# - org: Create Caribbean
+#   place: Puerto Rico
+#   logo: create-caribbean.png
+#   link: https://createcaribbean.org/
 - org: The Dominica Chronicle
   place: Dominica
   logo: chronicle.png

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alternative Free Way To Be A Prodessional Designer"
+long_title: "Alternative Free Way To Be A Prodessional Designer"
 date: 2022-02-09 20:37:13 +0600
 author: Tortoiz
 permalink: news/alternative/

@@ -22,7 +22,19 @@
           </div>
         </div>
         <div class="widget-area sidebar-footer-2 col-sm-8 col-md-4">
-          <div id="nav_menu-2" class="widget widget_nav_menu"></div>
+          <div id="nav_menu-2" class="widget widget_nav_menu">
+            <h2 class="widget-title">{{ site.data.language.select }}</h2>
+            <ul>
+            {% for lang in site.languages %} {% assign
+              lang_name = site.data[lang].language.lang_name %} {% if lang ==
+              site.active_lang %} {{ lang_name }} {% else %} {% if lang ==
+              site.default_lang %}
+              <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
+              {% else %}
+              <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>
+              {% endif %} {% endif %} {% endfor %}
+            </ul>
+          </div>
         </div>
         <div class="widget-area sidebar-footer-4 col-sm-8 col-md-4 text-right">
           <div id="custom_html-2" class="widget_text widget widget_custom_html">

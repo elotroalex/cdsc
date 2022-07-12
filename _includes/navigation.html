@@ -23,14 +23,7 @@
             >{{ nav.text }}</a
           >
         </li>
-        {% endif %} {% endfor %} {% for lang in site.languages %} {% assign
-        lang_name = site.data[lang].language.lang_name %} {% if lang ==
-        site.active_lang %} {{ lang_name }} {% else %} {% if lang ==
-        site.default_lang %}
-        <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
-        {% else %}
-        <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>
-        {% endif %} {% endif %} {% endfor %}
+        {% endif %} {% endfor %} 
       </ul>
     </div>
   </div>

@@ -15,14 +15,14 @@ pagination:
         <div class="bsm-tab-content" id="blog-style-grid">
           <div class="grid-of-blog">
             <div class="row item-2">
-              {% for post in paginator.posts %} {% include post_loop.html %} {%
+              {% for post in paginator.posts %}  {% include post_loop.html %} {%
               endfor %}
             </div>
             {% include pagination.html %}
           </div>
         </div>
       </div>
-      <div class="col-lg-4 order-lg-3">{% include sidebar.html %}</div>
+      <!-- <div class="col-lg-4 order-lg-3">{% include sidebar.html %}</div> -->
     </div>
   </div>
 </section>

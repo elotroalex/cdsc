@@ -19,11 +19,18 @@ logo_es: "/assets/images/logo_es.png"
 
 form_action_url: "https://formsubmit.io/send/colibri.alex@gmail.com"
 
-#collections
+# Collections
+
 collections:
   portfolios:
     output: true
     permalink: /:collection/:name
+
+
+# Pagination
+
+paginate: 5
+paginate_path: "/news/page:num/"
 
 # --------------------------------------------------------------
 # POLYGLOT I18N LOCALIZATION
@@ -33,6 +40,7 @@ collections:
 
 plugins:
   - jekyll-polyglot
+  - jekyll-paginate
 
 languages: ["en", "es"]
 default_lang: "en"
@@ -41,3 +49,5 @@ parallel_localization: true
 
 sass:
   sourcemap: never
+
+

@@ -1,4 +1,6 @@
 - text: "À propos"
   url: "/about"
+- text: "nouvelles"
+  url: "/news"
 - text: "Programmes"
   url: "/programs"

@@ -1,9 +1,4 @@
-<form
-  class="newsletter-form validate"
-  method="post"
-  target="_blank"
-  action="{{site.form_action_url}}"
->
+<form class="newsletter-form validate">
   <div id="subscribe" class="row col-md-12 align-items-center">
     <div class="col-md-6 text-center">
     {% if site.active_lang == 'en' %}
@@ -17,17 +12,11 @@
     <div class="col-md-4 text-center">
       {% if site.active_lang == 'en' %}
 
-        <button type="submit" class="newsletter-btn">Subscribe</button>
+        <a href="subscribe/" type="submit" class="newsletter-btn">Subscribe</a>
       {% elsif site.active_lang == 'es' %}
 
-        <button type="submit" class="newsletter-btn">Subscríbete</button>
+        <a href="subscribe/" type="submit" class="newsletter-btn">Subscríbete</a>
       {% endif %}
       </div>       
   </div>
-  <!--  /.row -->
-  <div class="newsletter-message">
-    <div class="subscription-success"></div>
-    <div class="subscription-error"></div>
-  </div>
-  <!--  /.message -->
 </form>

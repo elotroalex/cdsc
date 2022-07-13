@@ -1,8 +1,10 @@
 <footer class="site-footer">
+  {% if page.title != 'Subscribe' %}
   <div class="footer-top bg-bl-russian">
     <div class="container">{% include subscribe_form.html %}</div>
-    <!--  /.container -->
   </div>
+  {% endif %}
+
   <!--  /.footer-top -->
   <div class="footer-middle bg-snow orange-theme">
     <div class="container">

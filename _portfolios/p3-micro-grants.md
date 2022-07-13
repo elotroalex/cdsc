@@ -18,7 +18,7 @@ lang: en
     <p>The board might pair the awardees with mentors. Mentors will be available for light consultation and meet with awardees for a minimum of three sessions (one at the beginning, middle, and end of the process). The mentors can make themselves available for queries and consultations as needed on a CDSC channel created for the cohort as a whole. Mentors will help awardees determine how best to use their resources, scope properly, answer technical questions when possible or point towards an answer, and make recommendations for project management.</p>
     <p>At the end of the funding period, the CDSC will earmark one awardee in each award round as a flagship project. These flagship projects will serve as models to the community at large, and they can nudge the field of theory and practice in creative directions for Caribbean Digital Scholarship in particular and Digital Scholarship in general. <a href="https://sameboats.org/" target="_blank">In The Same Boats</a>, a set of interactive mapping visualizations that trace the movements of significant cultural actors from the Caribbean and wider Americas, Africa, and Europe within the 20th century Afro-Atlantic world, is an example of one of these possible flagship projects.</p>
     <div class="project-demo-btn">
-        <a class="btn project-btn" href="#">Call for Proposals 2022</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2022/">Call for Proposals 2022</a>
     </div>
     <h4>Stay up to date</h4>
     <p>Sign up for our newsletter to receive notifications about the micro-grant Call for Proposals and news from the CDSC.</p>

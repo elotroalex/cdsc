@@ -28,6 +28,9 @@ collections:
   portfolios:
     output: true
     permalink: /:collection/:name
+  micro-grants:
+    output: true
+    permalink: /:collection/:name
 
 
 # Pagination

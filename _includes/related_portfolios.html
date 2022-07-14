@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-12">
       <h3 class="portfolio-related-title section-title">
-        A Quick Look At Our Programs
+        {{site.data[site.active_lang].global.programs}}
       </h3>
       <div class="portfolio-related-slider owl-carousel">
         {% for portfolio in site.portfolios %}

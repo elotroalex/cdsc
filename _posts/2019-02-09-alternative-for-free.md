@@ -1,20 +1,29 @@
 ---
 layout: post
-title: "Alternative Free Way To Be A Prodessional Designer"
+title: "Starting Strong"
 long_title: "Alternative Free Way To Be A Prodessional Designer"
-date: 2022-02-09 20:37:13 +0600
-author: Tortoiz
-permalink: news/alternative/
-post_image: "/assets/images/news/01.jpg"
+date: 2022-07-15 20:37:13 +0600
+author: CDSC
+permalink: news/starting-strong/
+post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
 ---
 
-<h4>Alternative Free Way To Be A Prodessional Designer </h4>
-<p>11 time-saving pro tips for web designers working in Webflow11 <a href="#">time-saving pro</a> tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper semper ridiculus, accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium, id facere atque eum! sit nonummy tellus velit vivamus, eu sagittis gravida ut ante. Ut voluptas vestibulum leo pellentesque nulla, taciti congue, vitae nunc metus, imperdiet orci neque sed vestibulum, vestibulum magna ullamcorper posuere massa interdum </p>
-<h4>Risus sociis urna elementum ultricies justo quisque </h4> <p> mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet ultricies vitae dui tempor </p>
-<blockquote class="blockquote single-quote">
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo non labore totam tempora sed neque repellat numquam eaque inventore! Iusto saepe ipsum, ex, commodi asperiores iure dolores amet dolorem eos voluptatum, aliquid incidunt non perferendis earum dignissimos quod iste accusantium deleniti.Risus sociis urna elementum ultricies justo quisque, mattis in eros facilisis mauris vestibulum sed, luctus proin nibh nonummy integer, nullam sit eget cum duis. Et sodales blandit, libero pede suscipit, tincidunt amet </p>
-</blockquote>
-<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-<p>eleifend hac porta faucibus aliquam eros, massa facilisis, sed pede maecenas porttitor id magnis. Ac sed aliquam in felis amet, adipiscing pede a amet faucibus sit, quis in et ullamcorper vel commodo. Volutpat ut pede sem ipsum non, sapien adipiscing, suspendisse neque, quis dolor donec dolor. Sit voluptatibus, scelerisque in semper lacus nostra, ac integer dolor mauris tempus eget</p>
+<h2>Starting Strong</h2> 
 
-Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium
+<p>The CDSC assembles a team of seasoned scholars and educators, in partnership with community groups and academic institutions, to offer various <a href="http://cdscollective.org/programs/" target="_blank">programs</a>
+at nurturing digital scholarship in and for the Caribbean. For the past months, our members have worked arduously developing different initiatives. Have a read at some of our latest news!</p>
+
+<h3>The Caribbean Digital Virtual Artist's Residency</h3>
+<p>As part of the CDSC, the Caribbean Digital Virtual Artist's Residency program will fund an artist per year for a residency tied to <a href="http://caribbeandigitalnyc.net//" target="_blank">The Caribbean Digital conference</a>. The residency program, coordinated by <a href="https://kbjosephs.net/=en" target="_blank">prof. Kelly Baker Josephs </a> in partnership with the art collective <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, offers a cash stipend to fund six months of part-time research, creative work, and mentorship for emerging digital artists in the Caribbean.</p>
+
+<p>Artist <a href="https://www.instagram.com/mahrinnart/?hl=en" target="_blank">Marinna Shareef</a> from Trinidad and Tobago will be the TCD's inaugural Virtual Artist's Residency. Shareef is an early-career artist who graduated in 2019 with a BA in visual art from the University of the West Indies, St. Augustine. Read more about the <a href="http://caribbeandigitalnyc.net/residency/" target="_blank">TCD Artist Residency</a></p>
+
+<h3>UPR Caribe Digital educational programs</h3> 
+<p><a href="http://cdscollective.org/upr/" target="_blank">UPR Caribe Digital</a> recently launched two educational programs to promote digital scholarship in Puerto Rico. UPR Caribe Digital selected <a href="https://hcommons.org/members/milaapontegonzalez/" target="_blank">prof. Mila Aponte</a> as their Fellow Resident, and <a href="https://www.linkedin.com/in/v%C3%ADctor-torres-rodr%C3%ADguez-497130194/" target="_blank">prof. Víctor Torres Rodríguez</a> as their Instructional Designer. Together, Aponte and Torres Rodríguez will develop a comprehensive program on digital literacy that will benefit the university’s students, librarians, professors, and researchers.</p>
+
+<p>UPR Caribe Digital also selected the beneficiaries of their inaugural DH Scholars in Residence program, which brings together university students and community partners to learn about digital preservation, curatorship, and digital content. Throughout the 2022-23 academic year, ten undergraduate students from the University of Puerto Rico-Río Piedras will work with five community partners to develop a DH project. This year's community partners include Taller Comunidad La Goyco, Fundación Juan Mar Brás, Siempre Vivas Metro, Fundación Culebra, and Organización Waves Ahead.</p>
+
+<h3>Create Caribbean</h3> 
+<p>On June 24, 2022, <a href=" https://createcaribbean.org/create/" target="_blank"> Create Caribbean</a> hosted its RTC Research Internship Symposium. The RTC Internship Symposium is the annual capstone event for the Research, Technology, and Community (RTC) Internship Program at Dominica State College. During the event, the students showcased their projects which employed various digital tools to analyze Caribbean literature from creative angles. Learn more about the <a href="https://schuyleresprit.com/his115/symposium/" target="_blank">2022 RTC Symposium</a></p>
+
+<p>Create Caribbean is also accepting applications for their upcoming Summer Intensive Training, aimed at teaching digital tools to community organizations in Dominica, and their Research and Service Learning Internship, a paid internship that brings Dominica students into the world of Digital Humanities. Check out the Create Caribbean <a href="https://createcaribbean.substack.com/p/new-opportunities-with-create?utm_source=substack&utm_medium=email&utm_content=share" target="_blank">upcoming activities</a></p> 

@@ -11,7 +11,7 @@ post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
 <h2>Starting Strong</h2> 
 
 <p>The CDSC assembles a team of seasoned scholars and educators, in partnership with community groups and academic institutions, to offer various <a href="http://cdscollective.org/programs/" target="_blank">programs</a>
-at nurturing digital scholarship in and for the Caribbean. For the past months, our members have worked arduously developing different initiatives. Have a read at some of our latest news!</p>
+at nurturing digital scholarship in and for the Caribbean. For the past months, our members have worked arduously developing different initiatives. Have a read at some of our latest activities!</p>
 
 <h3>The Caribbean Digital Virtual Artist's Residency</h3>
 <p>As part of the CDSC, the Caribbean Digital Virtual Artist's Residency program will fund an artist per year for a residency tied to <a href="http://caribbeandigitalnyc.net//" target="_blank">The Caribbean Digital conference</a>. The residency program, coordinated by <a href="https://kbjosephs.net/=en" target="_blank">prof. Kelly Baker Josephs </a> in partnership with the art collective <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, offers a cash stipend to fund six months of part-time research, creative work, and mentorship for emerging digital artists in the Caribbean.</p>

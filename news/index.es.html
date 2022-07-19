@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Noticias
 long_title: Noticias
+permalink: news/
 lang: es
 ---
 
-{% include page_header.html %}
 
 <section class="blog-section-content pd-tb-90">
   <div class="container">
@@ -14,10 +14,12 @@ lang: es
         <div class="bsm-tab-content" id="blog-style-grid">
           <div class="grid-of-blog">
             <div class="row item-2">
-              {% for post in paginator.posts %}  {% include post_loop.html %} {%
-              endfor %}
+              {% for post in site.posts %} 
+                {% if post.lang == "es" %}
+                {% include post_loop.html %}
+                {% endif %}
+              {% endfor %}
             </div>
-            {% comment %}{% include pagination.html %}{% endcomment %}
           </div>
         </div>
       </div>

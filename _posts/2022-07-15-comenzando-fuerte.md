@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Starting Strong"
-long_title: "Alternative Free Way To Be A Prodessional Designer"
+long_title: 
 date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/empezando-fuerte/

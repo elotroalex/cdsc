@@ -1,7 +1,7 @@
 ---
 layout: program
-title: "Create Caribbean"
-long_title: "Centro de Investigación Create Caribbean"
+title: "Centro de Investigación Create Caribbean"
+short_title: "Create Caribbean"
 icon: "pe-7s-timer"
 thumbnail: "/assets/images/Portfolio/5.jpg"
 permalink: create-caribbean/

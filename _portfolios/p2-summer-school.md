@@ -1,7 +1,7 @@
 ---
 layout: program
-title: "Summer Institute"
-long_title: The Caribbean Digital Scholarship Summer Institute
+title: The Caribbean Digital Scholarship Summer Institute
+short_title: "Summer Institute"
 thumbnail: "/assets/images/Portfolio/2.jpg"
 permalink: summer-school/
 lang: en

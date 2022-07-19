@@ -1,7 +1,7 @@
 ---
 layout: program
-title: "UPR Caribe Digital"
-long_title: "UPR Caribe Digital"
+title: "Universidad Puerto Rico - Rio Piedras<br>Caribe Digital"
+short_title: "UPR Caribe Digital"
 thumbnail: "/assets/images/Portfolio/4.jpg"
 permalink: upr/
 lang: es

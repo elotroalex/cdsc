@@ -1,7 +1,7 @@
 ---
 layout: program
-title: "El Caribe Digital"
-long_title: "Conferencia anual El Caribe Digital"
+title: "Conferencia anual El Caribe Digital"
+short_title: "El Caribe Digital"
 thumbnail: "/assets/images/Portfolio/6.jpg"
 permalink: tcd/
 lang: es

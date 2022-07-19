@@ -1,8 +1,7 @@
 ---
 layout: program
-title: "The Caribbean Digital"
-long_title: "The Caribbean Digital"
-icon: "pe-7s-share"
+title: "The Caribbean Digital Conference"
+short_title: "The Caribbean Digital"
 thumbnail: "/assets/images/Portfolio/6.jpg"
 permalink: tcd/
 lang: en

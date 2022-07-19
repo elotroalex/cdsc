@@ -1,7 +1,7 @@
 ---
 layout: program
 title: "Micro-becas"
-long_title: "Micro-becas"
+short_title: "Micro-becas"
 thumbnail: "/assets/images/Portfolio/1.jpg"
 permalink: micro-grants/
 lang: es

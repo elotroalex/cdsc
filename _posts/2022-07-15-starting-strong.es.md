@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Starting Strong"
-long_title: 
+title: "Empezando fuerte"
 date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/empezando-fuerte/
 post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
+lang: es
 ---
 
 <h2>Empezando fuerte</h2>
@@ -13,7 +13,7 @@ post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
 <p>El CDSC reúne a un equipo de académicos y educadores, en asociación con grupos comunitarios e instituciones académicas, para ofrecer varios <a href="http://cdscollective.org/programs/" target="_blank">programas</a> que promueven los digitales desde y para el Caribe. Nuestros miembros han trabajado arduamente durante los últimos meses para darle vida a esta visión. ¡Aquí les compartimos algunas de nuestras actividades recientes!</p>
 
 <h3>Residencia de artistas virtuales digitales del Caribe</h3>
-<p>Como parte del CDSC, el programa Caribbean Digital Virtual Artist's Residency financiará a un artista por año para una residencia vinculada a la conferencia <a href="http://caribbeandigitalnyc.net//" target="_blank">El Caribe Digital</a>. El programa de residencia, coordinado por la <a href="https://kbjosephs.net/=en" target="_blank">prof. Kelly Baker Josephs</a> en asociación con el colectivo de arte <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, ofrece un estipendio en efectivo para financiar seis meses de investigación, trabajo creativo y tutoría para artistas digitales emergentes en el Caribe.</p>
+<p>Como parte del CDSC, el programa <em>Caribbean Digital Virtual Artist's Residency</em> financiará a un artista por año para una residencia vinculada a la conferencia <a href="http://caribbeandigitalnyc.net//" target="_blank">El Caribe Digital</a>. El programa de residencia, coordinado por la <a href="https://kbjosephs.net/=en" target="_blank">prof. Kelly Baker Josephs</a> en asociación con el colectivo de arte <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, ofrece un estipendio en efectivo para financiar seis meses de investigación, trabajo creativo y tutoría para artistas digitales emergentes en el Caribe.</p>
 
 <p>La artista <a href="https://www.instagram.com/mahrinnart/?hl=en" target="_blank">Marinna Shareef</a> de Trinidad y Tobago será la residencia virtual inaugural de artistas de El Caribe Digital. Shareef es un artista que se graduó en 2019 con una licenciatura en artes visuales de la Universidad de las Indias Occidentales, St. Augustine. Obtenga más información sobre la <a href="http://caribbeandigitalnyc.net/residency/" target="_blank">Residencia de artistas de El Caribe Digital</a></p>
 

@@ -6,6 +6,7 @@ date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/starting-strong/
 post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
+lang: en
 ---
 
 <h2>Starting Strong</h2> 

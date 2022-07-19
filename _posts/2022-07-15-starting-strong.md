@@ -9,8 +9,6 @@ excerpt: "The CDSC assembles a team of seasoned scholars and educators, in partn
 lang: en
 ---
 
-<h2>Starting Strong</h2> 
-
 <p>The CDSC assembles a team of seasoned scholars and educators, in partnership with community groups and academic institutions, to offer various <a href="http://cdscollective.org/programs/" target="_blank">programs</a>
 that support digital scholarship in and for the Caribbean. Our members have worked arduously for the past months, bringing this vision to life. Please have a read at some of our latest activities!</p>
 

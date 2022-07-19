@@ -12,20 +12,31 @@ layout: default
         <div class="list-of-blog blog-single-page">
           <div class="row">
             <div class="col-md-12">
-              <article class="post">
-                {% if page.post_image %}
-                <figure class="article-thumb">
-                  <img
-                    class="img-fluid"
-                    src="{{page.post_image}}"
-                    alt="{{page.title}}"
-                  />
-                </figure>
-                {% endif %}
+              <article class="post">               
                 <div class="article-header">
                   <div class="entry-meta">
                     <div class="entry-date">
+                      {% if site.active_lang == "en" %}
                       {{page.date | date_to_long_string }}
+                      {% elsif site.active_lang == "es" %}
+                      {% assign m = page.date | date: "%-m" %}
+                      {{ page.date | date: "%-d" }}
+                      {% case m %}
+                        {% when '1' %}Enero
+                        {% when '2' %}Febrero
+                        {% when '3' %}Marzo
+                        {% when '4' %}Abril
+                        {% when '5' %}Mayo
+                        {% when '6' %}Junio
+                        {% when '7' %}Julio
+                        {% when '8' %}Agosto
+                        {% when '9' %}Septiembre
+                        {% when '10' %}Octubre
+                        {% when '11' %}Noviembre
+                        {% when '12' %}Diciembre
+                      {% endcase %}
+                      {{ page.date | date: "%Y" }}
+                      {% endif %}
                     </div>
                     {% assign category_name = page.categories[0] | downcase %}
                     {% if category_name %}
@@ -45,6 +56,15 @@ layout: default
                   </div>
                 </div>
                 <div class="article-content mt-2">{{page.content}}</div>
+                {% if page.post_image %}
+                <figure class="article-thumb">
+                  <img
+                    class="img-fluid"
+                    src="{{page.post_image}}"
+                    alt="{{page.title}}"
+                  />
+                </figure>
+                {% endif %}
                 {% include social_share.html %}
               </article>
             </div>

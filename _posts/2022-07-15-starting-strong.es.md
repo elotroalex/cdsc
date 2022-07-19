@@ -9,8 +9,6 @@ excerpt: "El CDSC reúne a un equipo de académicos y educadores, en asociación
 lang: es
 ---
 
-<h2>Empezando fuerte</h2>
-
 <p>El CDSC reúne a un equipo de académicos y educadores, en asociación con grupos comunitarios e instituciones académicas, para ofrecer varios <a href="http://cdscollective.org/programs/" target="_blank">programas</a> que promueven los digitales desde y para el Caribe. Nuestros miembros han trabajado arduamente durante los últimos meses para darle vida a esta visión. ¡Aquí les compartimos algunas de nuestras actividades recientes!</p>
 
 <h3>Residencia de artistas virtuales digitales del Caribe</h3>

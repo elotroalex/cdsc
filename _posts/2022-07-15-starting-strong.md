@@ -6,6 +6,7 @@ date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/starting-strong/
 post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
+excerpt: "The CDSC assembles a team of seasoned scholars and educators, in partnership with community groups and academic institutions, to offer various programs that support digital scholarship in and for the Caribbean."
 lang: en
 ---
 

@@ -5,6 +5,7 @@ date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/empezando-fuerte/
 post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
+excerpt: "El CDSC reúne a un equipo de académicos y educadores, en asociación con grupos comunitarios e instituciones académicas, para ofrecer varios programas que promueven los digitales desde y para el Caribe."
 lang: es
 ---
 

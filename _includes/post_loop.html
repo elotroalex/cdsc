@@ -7,7 +7,27 @@
         {% endif %}
         <div class="article-header">
             <div class="entry-meta">
-                <div class="entry-date">{{post.date | date_to_long_string }}</div>
+                <div class="entry-date">            <span class="item-meta">{% if site.active_lang == "en" %}
+                    {{post.date | date_to_long_string }}
+                    {% elsif site.active_lang == "es" %}
+                    {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%-d" }}
+                    {% case m %}
+                      {% when '1' %}Enero
+                      {% when '2' %}Febrero
+                      {% when '3' %}Marzo
+                      {% when '4' %}Abril
+                      {% when '5' %}Mayo
+                      {% when '6' %}Junio
+                      {% when '7' %}Julio
+                      {% when '8' %}Agosto
+                      {% when '9' %}Septiembre
+                      {% when '10' %}Octubre
+                      {% when '11' %}Noviembre
+                      {% when '12' %}Diciembre
+                    {% endcase %}
+                    {{ post.date | date: "%Y" }}
+                    {% endif %}</span></div>
                 <div class="entry-cat">
                     {% assign category_name = post.categories[0] |downcase %}
                     <a href="{{relative_url}}/category/{{ category_name }}" class="tag_link">{{category_name | capitalize}}</a>

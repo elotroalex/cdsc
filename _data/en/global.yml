@@ -2,3 +2,4 @@ test: test
 language: language
 programs: Our Programs
 latest: "Latest News"
+share: "Share on"

@@ -2,3 +2,4 @@ test: prueba
 language: lengua
 programs: "Nuestros programas"
 latest: "Noticias recientes"
+share: "Compártelo en"

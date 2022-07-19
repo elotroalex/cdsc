@@ -51,7 +51,12 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-lg-4 order-lg-3">{% include sidebar.html %}</div>
+      <div class="col-lg-4 order-lg-3">
+        {% if site.active_lang == "en" %}
+          {% include sidebar.html %}
+        {% elsif site.active_lang == "es" %}
+          {% include sidebar.es.html %}</div>
+        {% endif %}
     </div>
   </div>
 </section>

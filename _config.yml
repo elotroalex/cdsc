@@ -41,7 +41,6 @@ collections:
 
 plugins:
   - jekyll-polyglot
-  - jekyll-paginate
 
 languages: ["en", "es"]
 default_lang: "en"

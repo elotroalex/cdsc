@@ -2,8 +2,8 @@
   <aside class="widget clearfix widget_recent_posts">
     <h3 class="widget-title">{{ site.data[site.active_lang].global.latest }}</h3>
     <ul class="widget-feed">
-      {% for post in site.posts limit: "5" %}
-      {% if post.lang == "en" %}
+      {% for post in site.posts limit= "3" %}
+      {% if post.lang == "es" %}
       <li class="feed-wrapper">
         <div class="post-content">
           {% if post.post_image %}

@@ -5,7 +5,7 @@ long_title: "Alternative Free Way To Be A Prodessional Designer"
 date: 2022-07-15 20:37:13 +0600
 author: CDSC
 permalink: news/starting-strong/
-post_image: "/assets/images/news/Marinna-Shareef.jpeg"
+post_image: "/assets/images/news/CDSC-twitter-profile-white.png"
 ---
 
 <h2>Starting Strong</h2> 

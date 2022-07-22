@@ -1,6 +1,6 @@
 ---
 layout: program
-title: "Migro-grants for Caribbean Digital Scholarship"
+title: "Micro-grants for Caribbean Digital Scholarship"
 short_title: "Micro-grants"
 thumbnail: "/assets/images/Portfolio/1.jpg"
 permalink: micro-grants/

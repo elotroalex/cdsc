@@ -20,8 +20,6 @@ google_analytics: "UA—XXXXXXXX-X"
 logo: "/assets/images/logo.png"
 logo_es: "/assets/images/logo_es.png"
 
-form_action_url: "https://formsubmit.io/send/colibri.alex@gmail.com"
-
 # Collections
 
 collections:

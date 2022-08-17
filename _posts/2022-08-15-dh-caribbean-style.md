@@ -3,7 +3,7 @@ layout: post
 title: "DH Caribbean style"
 date: 2022-08-15 20:37:13 +0600
 author: CDSC
-permalink: DH-caribbean-style/
+permalink: dh-caribbean-style/
 post_image: "/assets/images/news/upr-meeting-08-12-22.jpg"
 excerpt: "This month, UPR Caribe Digital had its first meeting for the 2022-23 DH Scholars in Residence Program."
 lang: en

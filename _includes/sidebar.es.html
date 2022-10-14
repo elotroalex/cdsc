@@ -2,7 +2,7 @@
   <aside class="widget clearfix widget_recent_posts">
     <h3 class="widget-title">{{ site.data[site.active_lang].global.latest }}</h3>
     <ul class="widget-feed">
-      {% for post in site.posts limit= "3" %}
+      {% for post in site.posts  %}
       {% if post.lang == "es" %}
       <li class="feed-wrapper">
         <div class="post-content">
@@ -21,10 +21,10 @@
               <a href="{{post.url}}">{{post.title}}</a>
             </h5>
             <span class="item-meta">{% if site.active_lang == "en" %}
-              {{page.date | date_to_long_string }}
+              {{post.date | date_to_long_string }}
               {% elsif site.active_lang == "es" %}
-              {% assign m = page.date | date: "%-m" %}
-              {{ page.date | date: "%-d" }}
+              {% assign m = post.date | date: "%-m" %}
+              {{ post.date | date: "%-d" }}
               {% case m %}
                 {% when '1' %}Enero
                 {% when '2' %}Febrero
@@ -39,7 +39,7 @@
                 {% when '11' %}Noviembre
                 {% when '12' %}Diciembre
               {% endcase %}
-              {{ page.date | date: "%Y" }}
+              {{ post.date | date: "%Y" }}
               {% endif %}</span>
           </div>
         </div>

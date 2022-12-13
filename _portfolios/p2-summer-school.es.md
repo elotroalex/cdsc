@@ -8,7 +8,7 @@ lang: es
 ---
 
 <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2022/">Llamado 2022</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2022/">Convocatoria 2023</a>
     </div>
 <hr>
 <br>

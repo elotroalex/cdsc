@@ -8,7 +8,11 @@ lang: en
 ---
 
 <div class="project-demo-btn">
+<<<<<<< HEAD
         <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2022/">Call for Proposals 2023</a>
+=======
+        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2022/">CFP 2022</a> <a class="btn project-btn" href="https://docs.google.com/document/d/1Lp2Y6SpMaVijGTf2_JNzT20mdaUr4Ndl2zm8r3bYrHY/edit">Appel en français</a>
+>>>>>>> 561d38f (added link to french cfp)
     </div>
 <hr>
 <br>

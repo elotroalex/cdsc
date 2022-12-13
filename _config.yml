@@ -29,6 +29,10 @@ collections:
   micro-grants:
     output: true
     permalink: /:collection/:name
+  cdscsi:
+    output: true
+    permalink: /:collection/:name
+  
 
 
 # --------------------------------------------------------------

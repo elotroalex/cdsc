@@ -7,6 +7,11 @@ permalink: micro-grants/
 lang: en
 ---
 
+<div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/recipients2022/">Recipients 2022</a>
+    </div>
+<hr>
+<br>
 <div class="portfolio-details">
      <p>Computational research and public humanities projects are the core exercises of digital scholarship. The production of digital scholarship projects in the Caribbean region and/or by Caribbean Studies scholars suffers from five common obstacles: lack of funds, lack of training, lack of guidance, lack of teams, and lack of time. To foster the work of digital scholarship in the Caribbean from independent teams, the CDSC will offer micro-grants to support digital scholarship in and about the Caribbean.</p>
     <p>The CDSC micro-grant program will serve as a condensed version of traditional start-up and implementation grants. The program will offer three rounds of micro-grants for the duration of the Mellon grant from 2023 to 2025. Each year we will support a minimum of five (5) projects, offering financial resources ranging from $1,000 to $25,000, depending on need. Each awardee may be assigned a mentor from the CDSC or a remunerated fellow Caribbeanist scholar.</p> 

@@ -29,7 +29,7 @@ collections:
   micro-grants:
     output: true
     permalink: /:collection/:name
-  cdscsi:
+  summer-school:
     output: true
     permalink: /:collection/:name
   

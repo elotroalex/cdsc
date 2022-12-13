@@ -22,9 +22,9 @@ lang: en
     <p>The CDSC will assist applicants when needed in preparing the proposal. The CDSC will host information webinars before the application deadline to answer applicants' questions.</p>
     <p>The board might pair the awardees with mentors who provide light consultation and meet with awardees for a minimum of three sessions (once at the beginning, middle, and end of the process). Mentors will help awardees determine how best to use their resources, scope properly, answer technical questions when possible or point towards an answer, and make recommendations for project management.</p>
     <p> The CDSC will earmark one awardee as a flagship project at the end of each funding period. These flagship projects will serve as models to the community at large. They can nudge the field of theory and practice in creative directions for Caribbean Digital Scholarship in particular and Digital Scholarship in general.</p>
-    <div class="project-demo-btn">
+    <!-- <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2022/">Call for Proposals 2022</a>
-    </div>
+    </div> -->
     <h4>Stay up to date</h4>
     <p>Sign up for our newsletter to receive notifications about the micro-grant Call for Proposals and news from the CDSC.</p>
     <h5>Program coordinators: Alex Gil and Andreina Soto</h5>

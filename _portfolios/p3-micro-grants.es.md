@@ -8,7 +8,7 @@ lang: es
 ---
 
 <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/recipients2022/">Recipients 2022</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Recipients 2022</a>
     </div>
 <hr>
 <br>

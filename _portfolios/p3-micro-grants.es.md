@@ -9,7 +9,7 @@ lang: es
 
 <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Premiados 2022</a>
-        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Llamado 2023-24</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2023/">Llamado 2023-24</a>
     </div>
 <hr>
 <br>

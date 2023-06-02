@@ -8,24 +8,111 @@ lang: es
 ---
 
 <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Recipients 2022</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Premiados 2022</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Llamado 2023-24</a>
     </div>
 <hr>
 <br>
 
 <div class="portfolio-details">
-   <p>La investigación computacional y los proyectos de humanidades públicas son centrales para las humanidades digitales. La producción de proyectos de las humanidades digitales en la región del Caribe y por parte de académicos de Estudios del Caribe adolece de cinco obstáculos comunes: falta de fondos, falta de capacitación, falta de orientación, falta de equipos y falta de tiempo. Con el fin de fomentar el trabajo de estudios digitales en el Caribe de equipos independientes, el CECD propone desembolsar micro-becas para apoyar a proyectos de Humanidades Digitales sobre y desde el Caribe.</p>
-   <p>Este programa servirá como una versión más pequeña y condensada de las subvenciones tradicionales de puesta en marcha o implementación. El CECD ofrecerá tres rondas de micro-becas durante la duración de la subvención de Mellon, desde el año 2023 hasta el 2025. Cada año, apoyaremos a un mínimo de cinco (5) proyectos, ofreciendo recursos financieros que van desde $1,000 hasta $25,000, dependiendo de la necesidad. A su vez, a cada beneficiario se le podría asignar un mentor del CECD o un mentor con experticia en estudios del Caribe.</p>
-   <h4>Proceso de Evaluación y Selección</h4>
-   <p>La selección de proyectos a ser financiados será realizada por un consejo editorial compuesto por cuatro miembros: el coordinador del programa de micro-becas, Alex Gil; la directora asociada del CECD, Andreína Soto; un miembro rotatorio del CECD, y un miembro de jurado externo a ser rotado cada año.</p> 
-   <p>La junta leerá las propuestas en una ronda de selección, utilizando criterios diseñados para <a href="https://archipelagosjournal.org/reviewers.html" target="_blank"><i>archipelagos journal</i></a>, en particular, la contribución académica en general, equidad e inclusión (cuando corresponda), el buen diseño y la estrategia de preservación. A diferencia de <i>archipelagos</i>, las propuestas para el programa de micro-becas no tienen que estar en una etapa avanzada. La convocatoria está abierta a proyectos originales en cualquier etapa, desde su concepción hasta niveles más avanzados de desarrollo.</p> 
-   <h4>Mentoría</h4>
-   <p>El CECD ofrecerá ayuda en la preparación de propuestas y ofrecerá una sesión virtual informativa para responder a las preguntas de los candidatos antes de la fecha límite.</p> 
-   <p>El consejo editorial podría emparejar a los becarios con mentores que se reunirán con los beneficiarios en un mínimo de tres consultas –una al principio, a la mitad y al final del proceso–, y estarán disponibles en un canal del proyecto para preguntas y consultas según sea necesario. Los mentores ayudarán a los beneficiarios a determinar la mejor manera de utilizar sus recursos, el alcance adecuado, responder preguntas tecnológicas cuando sea posible, y hacer recomendaciones para la gestión de proyectos.</p>
-   <p>Al final de cada período de subvención, el consejo editorial elegirá un proyecto emblemático. Estos proyectos emblemáticos servirán como modelos para la comunidad en general y pueden impulsar el campo de la teoría y la práctica en direcciones innovadoras para los estudios del Caribbe Digital y, en general, para los estudios digitales.</p>
-   <!-- <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2022/">Convocatoria 2022</a>
-    </div> -->
+   <p>La investigación computacional y los proyectos de humanidades
+públicas son ejercicios esenciales del conocimiento digital. No
+obstante, la producción de proyectos de humanidades digitales y
+pedagogía digital en la región del Caribe y/o por parte de académicos de
+estudios del Caribe debe superar cinco obstáculos comunes: falta de
+fondos, falta de capacitación, falta de orientación, falta de equipos y
+falta de tiempo. Para fomentar el trabajo de los estudios digitales
+desde y para el Caribe, el CDSC ofrece un programa anual de micro-becas
+para apoyar una amplia gama de proyectos que pueden elevar las
+humanidades digitales y la pedagogía digital del Caribea. Los proyectos
+subvencionados por las micro-becas incluyen: catálogos en línea,
+colecciones digitalizadas, aplicaciones y herramientas digitales,
+plataformas pedagógicas, análisis espacial, análisis textual, e-learning
+y esfuerzos de divulgación pública, entre otros.</p>
+<p>El programa de micro-becas del CDSC funciona como una versión
+condensada de las subvenciones tradicionales de puesta en marcha e
+implementación. El programa ofrece tres rondas de microbecas desde 2023
+hasta 2025. Cada año, el programa apoya al menos cinco proyectos,
+ofreciendo recursos financieros que van desde $1,000 a $20,000, según la
+necesidad de cada propuesta. Cada subvencionado también recibirá un
+pequeño asesoramiento por parte del CDSC.</p>
+<h3 id="requerimientos-generales">Requerimientos generales</h3>
+<p>Los solicitantes deben presentar una propuesta que explique el
+alcance del proyecto; aportes intelectuales; compromiso con métodos y
+herramientas digitales para avanzar en la investigación, la enseñanza,
+el aprendizaje y/o la participación pública; un plan de ejecución; y
+entregables proyectados. Los solicitantes también deben presentar un
+presupuesto detallado y una justificación del presupuesto. La duración
+del proyecto y los productos finales deben completarse en un plazo de 12
+meses.</p>
+<h3 id="elegibilidad">Elegibilidad</h3>
+<ul>
+<li>Individuos y grupos de organizaciones educativas, de investigación y
+comunitarias que trabajan en Estudios del Caribe y se encuentran en
+cualquier parte del mundo.</li>
+<li>Profesionales independientes en cualquier parte del mundo trabajando
+en Estudios del Caribe.</li>
+<li>Profesionales con sede en el Caribe que estén trabajando en cualquier
+área relacionada con Pedagogía Digital o Humanidades Digitales.</li>
+</ul>
+<p>El CDSC dará prioridad a individuos, grupos e instituciones que
+representen a las regiones del Caribe y sus diásporas globales.</p>
+<h3 id="asesoramiento">Asesoramiento</h3>
+<p>El CDSC ayudará a los solicitantes cuando sea necesario en la
+preparación de la propuesta. El CDSC organizará seminarios web
+informativos antes de la fecha límite de solicitud para responder las
+preguntas y dudas. El comité también puede emparejar a los
+subvencionados con mentores que ayudarán a determinar la mejor manera de
+utilizar sus recursos, evaluar propuestas y hacer recomendaciones.</p>
+<p>El CDSC se asoció con <a
+href="https://www.performantsoftware.com/"><u>Performant
+Software</u></a> para obtener descuentos en algunos tipos de proyectos.
+De ser necesario, los aplicantes pueden contratar a Performant para el
+diseño y ejecución de sus proyectos. Si Performant no es la opción
+adecuada para su usted, lo ayudaremos a conectarse con otros
+contratistas de nuestra red. Además, el CDSC proporcionará tutoría y
+apoyo en la gestión de proyectos para los beneficiarios cuando sea
+necesario.</p>
+<h3 id="evaluación-y-selección">Evaluación y Selección</h3>
+<p>Un comité revisará las solicitudes y seleccionará a los ganadores.
+Los coordinadores del programa de micro-becas, un miembro rotativo de
+CDSC y un jurado externo rotatorio formarán el comité.</p>
+<p>El comité evaluará las propuestas utilizando los criterios diseñados
+para <a href="https://archipelagosjournal.org/reviewers.html"
+target="_blank"><em>archipelagos journal</em></a>.
+A diferencia de las presentaciones de <em>archipelagos</em>,
+los proyectos propuestos para la micro-becas no necesitan estar en una
+etapa avanzada. Damos la bienvenida a proyectos originales en cualquier
+etapa, desde su inicio hasta etapas avanzadas.</p>
+<h3 id="expectativas-de-los-beneficiarios">Expectativas de los
+beneficiarios</h3>
+<p>El CDSC espera que los beneficiarios presenten sus proyectos en la
+conferencia <a href="http://caribbeandigitalnyc.net/"><u>The Caribbean
+Digital</u></a>. Los ganadores deben estar dispuestos a que sus
+proyectos se presenten en el sitio web de CDSC, las redes sociales y
+otras comunicaciones; reconocer el apoyo de la CDSC en sus materiales de
+cara al público; y participar en eventos públicos sobre el programa de
+micro-becas.</p>
+<p>Se espera que los beneficiarios participen activamente en una cohorte
+con otros seleccionados. La mayoría de las veces, los proyectos de
+estudios digitales comparten similitudes, así que un conjunto de
+conocimientos compartidos en un espacio común beneficiará a los
+subvencionados. Basado en otros programas de becas y subvenciones,
+esperamos que ser parte de una cohorte ayude a construir una comunidad,
+respalde la resolución de problemas y beneficie los proyectos de cada
+beneficiario.</p>
+<h3 id="recursos">Recursos </h3>
+
+<p><a href="https://archipelagosjournal.org/index.html"><u>Archipelagos
+Journal</u></a><br><a href="https://www.dloc.com/"><u>Digital Library of the
+Caribbean</u></a><br><a href="https://caribbeandigitalnyc.net/caridischo/"><u>Directory of
+Caribbean Digital Scholarship</u></a><br><a
+href="https://poorvucenter.yale.edu/sites/default/files/files/writing_a_grant_proposal_in_the_sciences-1.pdf"><u>Writing
+a Grant Proposal, Yale Graduate Writing Lab</u></a><br><a
+href="https://writing.wisc.edu/handbook/assignments/grants-2/"><u>Planning
+and Writing a Grant Proposal: The Basics</u></a><br><a
+href="https://www.neh.gov/sites/default/files/inline-files/Application%20tips.pdf"><u>Application
+tips for Grant Writing, NEH</u></a></p>
 
    <h4>Mantente al Día</h4>
    <p>Suscríbete a nuestro boletín para recibir notificaciones sobre la convocatoria de micro-becas y noticias de la CECD.</p>

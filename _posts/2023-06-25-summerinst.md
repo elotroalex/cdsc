@@ -5,7 +5,7 @@ date: 2023-06-25 20:37:13 +0600
 author: CDSC
 permalink: summerinst/
 post_image: "/assets/images/news/cdssi23.jpg"
-excerpt: "Learn about this inaugural program"
+excerpt: "Learn about our summerprogram"
 lang: en
 ---
 <p>In June 2023, the CDSC celebrated its first Caribbean Digital Scholarship Summer Institute at the University of Miami, Coral Gables, FL. The <a href= "https://cdscollective.org/summer-school/" target= "_blank">Caribbean Digital Scholarship Summer Institute (CDSsi)</a> seeks to provide training in Caribbean digital scholarship, and this year's courses focused on computational approaches, digital pedagogy, and the design and implementation of knowledge systems beyond the use of templated solutions.</p>

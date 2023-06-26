@@ -4,7 +4,7 @@ title: "The CDSC celebrated its first Summer Institute"
 date: 2023-06-25 20:37:13 +0600
 author: CDSC
 permalink: summerinst/
-post_image: "/assets/images/news/cdssi23.jpg"
+post_image: "/assets/images/news/Group-photo-A.jpg"
 excerpt: "Our new summer program"
 lang: en
 ---

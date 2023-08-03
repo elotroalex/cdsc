@@ -13,7 +13,7 @@ lang: en
 <p>This new version also features significant improvements that we hope will enhance your user experience, including:</p>
 <ul><li>a better interface for selecting time periods</li></ul>
 <ul><li>a more mobile-friendly design</li></ul>
-<ul><li>a zoom feature</li></ul>
+<ul><li>a zoom feature!</li></ul>
 <ul><li>map circles on the "Trajectories" visualization that change size depending on the frequency of a figure's visit to that destination</li></ul>
 <ul><li>time periods in "Intersections" that change degrees of transparency based on the likelihood that figures were in the same place at the same time </li></ul>
 <p>We hope you enjoy exploring "In the Same Boats 2.0". The project PIs will add more data over the following months and years. If you're interested in contributing, contact Glover and Gil via thesameboats@gmail.com.</p>

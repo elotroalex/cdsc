@@ -4,7 +4,7 @@ title: "UPR Caribe Digital Celebrates the completion of their 2022-2023 DH Schol
 date: 2023-09-12
 author: CDSC
 permalink: uprdhscholars/
-post_image:
+post_image: assets/images/news/upr-meeting-08-12-22.jpg
 excerpt: "UPR Caribe Digital's 2022-2023 DH Scholars in Residence Program"
 lang: es
 ---

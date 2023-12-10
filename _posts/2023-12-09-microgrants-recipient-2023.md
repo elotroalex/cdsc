@@ -117,6 +117,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>Total: $10,000</p>
 
 <p><i>Kingston 21</i> will be a digital press dedicated to publishing editions of Caribbean plays. It plans to launch in Fall 2024 with four plays, complete with contextual information (introductions, footnotes, related bibliographies, etc) for scholars and students, and then maintain a publishing schedule of 1-2 editions each year following the launch.</p>
+
 ---
 
 To all the recipients, congratulations! We look forward to see your projects come to fruition. To our community, please stay tuned for more information about the Microgrant program. We look forward to seeing your applications in the next round!

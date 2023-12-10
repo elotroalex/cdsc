@@ -18,7 +18,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>United States</p>
 <p>Total: $5000</p>
  
-<p><i>Recasting Credit and Capital<i/> is a digital mapping Project that connects the Supreme Court decisions based on the debt recovery claims of Atlantic merchants in the Lower Mississippi Valley to how property was bought, sold, and mortgaged locally by planters and merchants. David has mined deed and mortgage records to build a timeline with a slider that corresponds to the history of legal cases over property, the seizing of assets such as slaves, and the effect of international conflicts on the rise of the plantation complex. This mapping Project will allow students and instructors to connect the connections between slavery, the law, and space configuration in the lower Delta.<p>
+<p><i>Recasting Credit and Capital</i> is a digital mapping Project that connects the Supreme Court decisions based on the debt recovery claims of Atlantic merchants in the Lower Mississippi Valley to how property was bought, sold, and mortgaged locally by planters and merchants. David has mined deed and mortgage records to build a timeline with a slider that corresponds to the history of legal cases over property, the seizing of assets such as slaves, and the effect of international conflicts on the rise of the plantation complex. This mapping Project will allow students and instructors to connect the connections between slavery, the law, and space configuration in the lower Delta.</p>
  
 **Memories of Trinidad and Tobago's Black Power Movement**
 <p>Avah Atherton (Independent scholar)</p>
@@ -39,7 +39,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>United States </p>
 <p>Total $4,950</p>
 
-<p></i>From the Caribbean Coast to the Pacific Coast</i> will digitize the archival collection of the Maui Puerto Rican Association (MPRA), an intergenerational nonprofit founded by the first Puerto Rican families who settled in Hawai’i in the 1900s. The collection includes photographs and documents about the history of this diasporic community. Like the organization, the project seeks to question geography's role in history as it seeks to illustrate inter-island connections, surpassing national and regional boundaries. The project will build a counter-archive that decenters the continent and explores how Puerto Ricans in Hawai’i remain connected to the broader diaspora through digital archives and oral histories, stories of displacement and belonging, and shared knowledge across the diaspora.</p>
+<p><i>From the Caribbean Coast to the Pacific Coast</i> will digitize the archival collection of the Maui Puerto Rican Association (MPRA), an intergenerational nonprofit founded by the first Puerto Rican families who settled in Hawai’i in the 1900s. The collection includes photographs and documents about the history of this diasporic community. Like the organization, the project seeks to question geography's role in history as it seeks to illustrate inter-island connections, surpassing national and regional boundaries. The project will build a counter-archive that decenters the continent and explores how Puerto Ricans in Hawai’i remain connected to the broader diaspora through digital archives and oral histories, stories of displacement and belonging, and shared knowledge across the diaspora.</p>
 
 **Guy Gabon: Empreintes d'art dans la ville (Guy Gabon: Art footprints in the city)**
 <p>Alicia Doyen-Rodriguez (University of Massachusetts Boston) and Guy Gabon (Artist)</p>
@@ -60,7 +60,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>Colombia and Venezuela</p>
 <p>Total: $5,000</p>
 
-<p><i>Wikipeetia offline</i>  is a linguistic revitalization project that focuses on people from the Wayuu communities in La Guajira (frontier region between Venezuela and Colombia). Wikipeetia has been working for several years working with Wayuu communities to create Wikipedia pages users can take advantage of to revitalize their language. The microgrant funds will be used to redesign their current interface to create an offline version students and teachers can use from their phones. They also plan to expand the wikimedia pages by adding more information into wayuunaiki.</p>
+<p><i>Wikipeetia offline</i> is a linguistic revitalization project that focuses on people from the Wayuu communities in La Guajira (frontier region between Venezuela and Colombia). Wikipeetia has been working for several years working with Wayuu communities to create Wikipedia pages users can take advantage of to revitalize their language. The microgrant funds will be used to redesign their current interface to create an offline version students and teachers can use from their phones. They also plan to expand the wikimedia pages by adding more information into wayuunaiki.</p>
 
 **In the Streets of Le Cap**
 <p>Carrie Glenn (Niagara University, US) and Camille Cordier (University Lyon Lumièreand, France)</p>
@@ -81,21 +81,21 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>Trinidad and Tobago, Germany, and the United States </p> 
 <p>Total: $7,838</p> 
  
-<p></i>This project will draw from existing digital collections and currently ongoing documentation work to compile a digital archive of personal and community histories from deaf people around the Caribbean, expressed in a variety of indigenous Caribbean signed languages. Communities represented will include those from Trinidad and Tobago, Jamaica, Guyana, Providence Island (Colombia), the Bay Islands (Honduras), and Puerto Rico. Videos will showcase diverse sign languages, and be accompanied by translations in English and Spanish, to provide a broadly accessible resource in an area of community history that has been hitherto almost entirely overlooked. The project will complement a recently established network of Caribbean deaf researchers, helping to further build capacity for deaf-led research in the Caribbean through collaboration and training, and providing an impactful public platform for current documentary work.</p>
+<p>This project will draw from existing digital collections and currently ongoing documentation work to compile a digital archive of personal and community histories from deaf people around the Caribbean, expressed in a variety of indigenous Caribbean signed languages. Communities represented will include those from Trinidad and Tobago, Jamaica, Guyana, Providence Island (Colombia), the Bay Islands (Honduras), and Puerto Rico. Videos will showcase diverse sign languages, and be accompanied by translations in English and Spanish, to provide a broadly accessible resource in an area of community history that has been hitherto almost entirely overlooked. The project will complement a recently established network of Caribbean deaf researchers, helping to further build capacity for deaf-led research in the Caribbean through collaboration and training, and providing an impactful public platform for current documentary work.</p>
 
 **The Cuban Hip-Hop Archive (CHHA): First Database and Digitization Prototype**
 <p>Pablo D. Herrera Veitia (University of Toronto, Canada)</p>
 <p>Cuba and Canada</p>
 <p>Total: $5,010</p>
 
-<p><i/>The Cuban Hip-Hop Archive<i/>operates at the intersection of digital and public humanities to develop the first digitization prototype of Cuban Hip-Hop materials. The project will collaborate with the Critical Digital Humanities Initiative at the University of Toronto to create a platform that will centralize Cuban hip-hop data from press and journal articles, books, magazines, song lyrics, and music in an accessible database.</p>
+<p><i>The Cuban Hip-Hop Archive</i> operates at the intersection of digital and public humanities to develop the first digitization prototype of Cuban Hip-Hop materials. The project will collaborate with the Critical Digital Humanities Initiative at the University of Toronto to create a platform that will centralize Cuban hip-hop data from press and journal articles, books, magazines, song lyrics, and music in an accessible database.</p>
 
 **Shadow Scholars: A Black Woman’s Archive of Dominican Society Dominican Republic**
 <p>Sophia Monegro (University of Texas at Austin)</p>
 <p>Dominican Republic and the United States</p>
 <p>Total: $5,000</p>
 
-<p></i>Shadow Scholars</i> is an open-access digital collection of archival documents, scholarly introductions, biographical sketches, interactive maps, and classroom resources about African and African descendant women thinkers across the long historical milieu of Dominican society. Monegro’s project crafts a genealogy of how organic intellectuals in the first colony of the Americas resisted, accommodated, and endured during the colonial period (1492-1844). Shadow Scholars asks users to expand what constitutes intellectualism in Caribbean history. The main purpose of this collection is to make available a repository of resources that trace the intellectualism of Black women who were rarely literate yet authored enduring legacies in circum-Caribbean spaces. It will show us how digital resources help us better accredit Caribbean actors for the rich intellectual production that abounded beyond the realm of letters.</p>
+<p><i>Shadow Scholars</i> is an open-access digital collection of archival documents, scholarly introductions, biographical sketches, interactive maps, and classroom resources about African and African descendant women thinkers across the long historical milieu of Dominican society. Monegro’s project crafts a genealogy of how organic intellectuals in the first colony of the Americas resisted, accommodated, and endured during the colonial period (1492-1844). Shadow Scholars asks users to expand what constitutes intellectualism in Caribbean history. The main purpose of this collection is to make available a repository of resources that trace the intellectualism of Black women who were rarely literate yet authored enduring legacies in circum-Caribbean spaces. It will show us how digital resources help us better accredit Caribbean actors for the rich intellectual production that abounded beyond the realm of letters.</p>
 
 **Queer Archives of Trinidad & Tobago**
 <p>Angelina V. Nixon, Nikoli A. Attai, Alessandra Hereman, Catherin Shepherd, Keith McNeal (CAISO: Sex and Gender Justice)</p>
@@ -116,7 +116,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>United States</p>
 <p>Total: $10,000</p>
 
-<p></i>Kingston 21<i> will be a digital press dedicated to publishing editions of Caribbean plays. It plans to launch in Fall 2024 with four plays, complete with contextual information (introductions, footnotes, related bibliographies, etc) for scholars and students, and then maintain a publishing schedule of 1-2 editions each year following the launch.</p>
+<p><i>Kingston 21</i> will be a digital press dedicated to publishing editions of Caribbean plays. It plans to launch in Fall 2024 with four plays, complete with contextual information (introductions, footnotes, related bibliographies, etc) for scholars and students, and then maintain a publishing schedule of 1-2 editions each year following the launch.</p>
 ---
 
 To all the recipients, congratulations! We look forward to see your projects come to fruition. To our community, please stay tuned for more information about the Microgrant program. We look forward to seeing your applications in the next round!

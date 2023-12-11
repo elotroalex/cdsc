@@ -4,30 +4,30 @@ title: "Microgrant Recipients 2023"
 date: 2023-12-09
 author: CDSC
 permalink: microgrant-recipients-2023/
-post_image: "/assets/images/news/colibri.jpg"
-excerpt: "Announcing the winners of this year's migrogrant program!"
+post_image: "/assets/images/news/2023-micrograntees.jpeg"
+excerpt: "Announcing the winners of this year's micro-grant program!"
 lang: en
 ---
 
 The Microgrant Coordinators are pleased to announce the selected projects for the 2023-24 CDSC microgrant program. The second round of the microgrant program received an overwhelming response of high-quality applications, with a wide range of applicants, projects, and scholarships demonstrating the richness of the Caribbean. The application exceeded our participation, doubling the number of submissions compared to its inaugural year. Special thanks to this year’s committee members, Kaiama Glover and Katerina Gonzalez Selingman, for your guidance and support during the arduous selection process. We also thank our microgrant mentor, Hope Cullinan. 
 
-The CDSC is proud to have your trust in supporting many of these initiatives, and we hope we can continue fostering a healthy and thriving community around Caribbean Digital scholarship. Below are the awardees for the microgrant program. Congratulations to all the recipients!
+The CDSC is proud to have your trust in supporting many of these initiatives, and we hope we can continue fostering a healthy and thriving community around Caribbean Digital scholarship. Below are the awardees for the microgrant program. 
 
 ---
 
 **Recasting Credit and Capital: A Spatial History of Atlantic Creditors and Debtors in the Lower Mississippi Valley, 1790-1830**
 <p>Elbra David, (Independent scholar)</p>
 <p>United States</p>
-<p>Total: $5000</p>
+<p>Total: $5,000</p>
  
-<p><i>Recasting Credit and Capital</i> is a digital mapping Project that connects the Supreme Court decisions based on the debt recovery claims of Atlantic merchants in the Lower Mississippi Valley to how property was bought, sold, and mortgaged locally by planters and merchants. David has mined deed and mortgage records to build a timeline with a slider that corresponds to the history of legal cases over property, the seizing of assets such as slaves, and the effect of international conflicts on the rise of the plantation complex. This mapping Project will allow students and instructors to connect the connections between slavery, the law, and space configuration in the lower Delta.</p>
+<p><i>Recasting Credit and Capital</i> is a digital mapping Project that connects the Supreme Court decisions based on the debt recovery claims of Atlantic merchants in the Lower Mississippi Valley to how property was bought, sold, and mortgaged locally by planters and merchants. David has mined deed and mortgage records to build a timeline with a slider corresponding to the history of legal cases over property, the seizing of assets such as slaves, and the effect of international conflicts on the rise of the plantation complex. This mapping Project will allow students and instructors to connect the connections between slavery, the law, and space configuration in the lower Delta.</p>
  
 **Memories of Trinidad and Tobago's Black Power Movement**
 <p>Avah Atherton (Independent scholar)</p>
 <p>Trinidad and Tobago</p>
 <p>Total: $5,000</p>
 
-<p><i>Memories of Trinidad and Tobago</i> is a digital preservation project that will archive the oral history of the Black Power Movement in Trinidad and Tobago. Atherton’s project will conduct interviews with those who participated in the movement to shed light on how it impacted Trinidad and Tobago socially, politically and culturally. These interviews will then be processed and archived on an accessible user-friendly digital platform that will not only preserve these oral histories, but also engage communities through collaborative efforts with local schools, museums, and cultural organizations in Trinidad and Tobago. By preserving and sharing these memories, this project aims to connect individuals with their past by fostering a deeper understanding of the complexities of the Movement and its enduring impact on Trinidadian society.</p>
+<p><i>Memories of Trinidad and Tobago</i> is a digital preservation project that will archive the oral history of the Black Power Movement in Trinidad and Tobago. Atherton’s project will conduct interviews with those who participated in the movement to shed light on how it impacted Trinidad and Tobago socially, politically, and culturally. These interviews will then be processed and archived on an accessible, user-friendly digital platform that will preserve these oral histories and engage communities through collaborative efforts with local schools, museums, and cultural organizations in Trinidad and Tobago. By preserving and sharing these memories, this project aims to connect individuals with their past by fostering a deeper understanding of the complexities of the Movement and its enduring impact on Trinidadian society.</p>
 
 **Queerly Stated: A Living Queeribbean Archival Forum**
 <p>Jacqui Brown (Emory University) and Dave-Ann Moses (Independent Communications Consultant)</p>
@@ -62,7 +62,7 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p>Colombia and Venezuela</p>
 <p>Total: $5,000</p>
 
-<p><i>Wikipeetia offline</i> is a linguistic revitalization project that focuses on people from the Wayuu communities in La Guajira (frontier region between Venezuela and Colombia). Wikipeetia has been working for several years working with Wayuu communities to create Wikipedia pages users can take advantage of to revitalize their language. The microgrant funds will be used to redesign their current interface to create an offline version students and teachers can use from their phones. They also plan to expand the wikimedia pages by adding more information into wayuunaiki.</p>
+<p><i>Wikipeetia offline</i> is a linguistic revitalization project that focuses on people from the Wayuu communities in La Guajira (the frontier region between Venezuela and Colombia). Wikipeetia has been working for several years working with Wayuu communities to create Wikipedia pages users can take advantage of to revitalize their language. The microgrant funds will be used to redesign their current interface to create an offline version that students and teachers can use from their phones. They also plan to expand the Wikimedia pages by adding more information to Wayuunaiki.</p>
 
 **In the Streets of Le Cap**
 <p>Carrie Glenn (Niagara University, US) and Camille Cordier (University Lyon Lumièreand, France)</p>
@@ -90,7 +90,7 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p>Cuba and Canada</p>
 <p>Total: $5,010</p>
 
-<p><i>The Cuban Hip-Hop Archive</i> operates at the intersection of digital and public humanities to develop the first digitization prototype of Cuban Hip-Hop materials. The project will collaborate with the Critical Digital Humanities Initiative at the University of Toronto to create a platform that will centralize Cuban hip-hop data from press and journal articles, books, magazines, song lyrics, and music in an accessible database.</p>
+<p><i>The Cuban Hip-Hop Archive</i> operates at the intersection of digital and public humanities to develop the first digitization prototype of Cuban Hip-Hop materials. The project will collaborate with the Critical Digital Humanities Initiative at the University of Toronto to create a platform to centralize Cuban hip-hop data from press and journal articles, books, magazines, song lyrics, and music in an accessible database.</p>
 
 **Shadow Scholars: A Black Woman’s Archive of Dominican Society Dominican Republic**
 <p>Sophia Monegro (University of Texas at Austin)</p>
@@ -111,15 +111,15 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p>Haiti</p>
 <p>Total: $5,000</p>
 
-<p>The BHFIC is the second oldest library in Haiti and currently holds over 10,000 documents. It includes various publications, rare newspapers, original primary sources and assorted collections from famous Haitian writers that span from the Spanish colonial period (1492-1697) to the present. Before the country's situation deteriorated, it had long welcomed students from abroad for their research work: France, Duke University, Harvard (twice), and Haitians living in Haiti and abroad. The library's rare collections are currently in danger and have called for our support in an emergency digitization project of their collections. Funding from the CDSC microgrant will help support an emergency digitization project of their collection that are currently in danger. </p>
+<p>The BHFIC is the second oldest library in Haiti and currently holds over 10,000 documents. It includes various publications, rare newspapers, original primary sources and assorted collections from famous Haitian writers that span from the Spanish colonial period (1492-1697) to the present. Before the country's situation deteriorated, it had long welcomed students from abroad for their research work: France, Duke University, Harvard (twice), and Haitians living in Haiti and abroad. The library's rare collections are currently in danger and have called for our support in an emergency digitization project of their collections. Funding from the CDSC microgrant will help support an emergency digitization project of their collection that is currently in danger. </p>
 
 **Kingston 21: A digital press for Caribbean plays**
 <p>Kelly Baker Josephs (University of Miami)</p>
 <p>United States</p>
 <p>Total: $10,000</p>
 
-<p><i>Kingston 21</i> will be a digital press dedicated to publishing editions of Caribbean plays. It plans to launch in Fall 2024 with four plays, complete with contextual information (introductions, footnotes, related bibliographies, etc) for scholars and students, and then maintain a publishing schedule of 1-2 editions each year following the launch.</p>
+<p><i>Kingston 21</i> will be a digital press dedicated to publishing editions of Caribbean plays. It plans to launch in Fall 2024 with four plays, complete with contextual information (introductions, footnotes, related bibliographies, etc) for scholars and students. It then maintains a publishing schedule of 1-2 editions each year following the launch.</p>
 
 ---
 
-To all the recipients, congratulations! We look forward to see your projects come to fruition. To our community, please stay tuned for more information about the Microgrant program. We look forward to seeing your applications in the next round!
+To all the recipients, congratulations! We are excited to see your projects come to fruition. To our community, please stay tuned for more information about the Micro-grant program. We look forward to seeing your applications in the next round!

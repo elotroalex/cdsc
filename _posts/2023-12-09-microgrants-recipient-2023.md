@@ -24,14 +24,14 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
  
 **Memories of Trinidad and Tobago's Black Power Movement**
 <p>Avah Atherton (Independent scholar)</p>
-<p>United States</p>
+<p>Trinidad and Tobago</p>
 <p>Total: $5,000</p>
 
 <p><i>Memories of Trinidad and Tobago</i> is a digital preservation project that will archive the oral history of the Black Power Movement in Trinidad and Tobago. Atherton’s project will conduct interviews with those who participated in the movement to shed light on how it impacted Trinidad and Tobago socially, politically and culturally. These interviews will then be processed and archived on an accessible user-friendly digital platform that will not only preserve these oral histories, but also engage communities through collaborative efforts with local schools, museums, and cultural organizations in Trinidad and Tobago. By preserving and sharing these memories, this project aims to connect individuals with their past by fostering a deeper understanding of the complexities of the Movement and its enduring impact on Trinidadian society.</p>
 
 **Queerly Stated: A Living Queeribbean Archival Forum**
 <p>Jacqui Brown (Emory University) and Dave-Ann Moses (Independent Communications Consultant)</p>
-<p>United States</p>
+<p>Jamaica and United States</p>
 <p>Total: $5,000</p>
 
 <p><i>Queerly Stated</i> is a diasporic Queeribbean cultural organizing collective that develops multimedia projects and community-building activities between Critical Caribbean Studies scholars and Feminist and Queer Justice practitioners. It is also the core team behind the Under the Sycamore Tree podcast. With the help of the microgrant, this project will extend the work of the podcast by archiving the spaces that Queeribbean practitioners and scholars create for themselves and the influence of this scholarship in near real-time.  The team will also continue creating multimedia projects designed around Queeribbean scholarship to distribute to community members, catalyze rigorous scholarly community conversations, and serve as a template for long-term internal Queeribbean archiving.</p>
@@ -69,14 +69,14 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p>France and the United States </p>
 <p>Total: $4,000</p>
 
-<p><i>In the Streets of Le Cap</i> will visually reconstruct Cap-Français which was the economic and cultural capital of the French colony of Saint-Domingue during the 18th century. The visualization tools will highlight the transformation of this Caribbean city and allow users to search for specific individuals. The PIs have completed the project's first stage by transcribing and translating data for over 5,000 individuals and buildings and georeferencing this data using QGIS software. They will now complete the project's second stage by adding searchable features for their platform to identify specific individuals and find information on dwellings represented in the maps. A final iteration of the project—to be completed later—will allow the public to visualize the city's evolution by navigating from one data layer to another.</p>
+<p>Carrie Glenn and Camille Cordier will visually reconstruct Cap-Français during the 18th century, the economic and cultural capital of the French colony of Saint-Domingue. The visualization tools will highlight the transformation of this Caribbean city and allow users to search for specific individuals. The PIs have completed the project's first stage by transcribing and translating data for over 5,000 individuals and buildings and georeferencing this data with QGIS software. They will now complete the project's second stage by adding searchable features for their platform to identify specific individuals and find information on dwellings represented in the maps. A final iteration of the project—to be completed later—will allow the public to visualize the city's evolution by navigating from one data layer to another.</p>
 
 **Virtual Altar: From an Other through an Unknown to an Elsewhere**
 <p>Christin Washington (University of Maryland)</p>
 <p>Guyana and the United States</p> 
 <p>Total: $7,700</p>
 
-<p><i>Virtual Altar</i> is an immersive media installation that engages cultural memory and possessions. Serving as a multidimensional map, it traces the geographic route of Afro-Caribbean migrants from countries in the Caribbean Sea to new lands they call home to psychic spaces they produce. Visitors to the site will be greeted with sounds and images associated with the African-syncretic spiritual-cum-cultural mourning ritual, Nine Night, which is practiced across the Caribbean, and will witness a house or an altar. It syncretizes spatial technologies such as the body and 3-D terrestrial laser scanning to reclaim African-syncretic rituals that have been subject to legal and social persecution. The project celebrates the lives and memories of those who have endured migration.</p>
+<p><i>Virtual Altar</i> is an immersive media installation that engages cultural memory and possessions. Serving as a multidimensional map, it traces the geographic route of Afro-Caribbean migrants from countries in the Caribbean Sea to new lands they call home to psychic spaces they produce. This installation is an artisanal tech approach that rejects realism and trusts black folks’ perception to become attuned to cultural perspectives on space and memory. It syncretizes spatial technologies such as the body and 3-D terrestrial laser scanning to reclaim African-syncretic rituals that have been subject to legal and social persecution, celebrate the lives and memories that have endured migration, and address the conjuncture of embodied spirituality and geospatial technologies as media capable of enabling or disabling situatedness.</p>
 
 **A Digital Archive of Caribbean Deaf Histories**
 <p>Rehana Omardeen (European Union of the Deaf) and Ben Braithwaite (University of the West Indies, Trinidad and Tobago)</p>
@@ -97,14 +97,14 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p>Dominican Republic and the United States</p>
 <p>Total: $5,000</p>
 
-<p><i>Shadow Scholars</i> is an open-access digital collection of archival documents, scholarly introductions, biographical sketches, interactive maps, and classroom resources about African and African descendant women thinkers across the long historical milieu of Dominican society. Monegro’s project crafts a genealogy of how organic intellectuals in the first colony of the Americas resisted, accommodated, and endured during the colonial period (1492-1844). Shadow Scholars asks users to expand what constitutes intellectualism in Caribbean history. The main purpose of this collection is to make available a repository of resources that trace the intellectualism of Black women who were rarely literate yet authored enduring legacies in circum-Caribbean spaces. It will show us how digital resources help us better accredit Caribbean actors for the rich intellectual production that abounded beyond the realm of letters.</p>
+<p>Sophia will design an open-access digital collection of archival documents, scholarly introductions, biographical sketches, interactive maps, and classroom resources about African and African descendant women thinkers across the long historical milieu of Dominican society. The collection will include a repository of resources that trace the intellectualism of Black women who were rarely literate yet authored enduring legacies in circum-Caribbean spaces. The platform will craft a genealogy of how organic intellectuals in the first colony of the Americas resisted, accommodated, and endured during the colonial period (1492-1844). Shadow Scholars will ask users to expand on what constitutes intellectualism in Caribbean history. It shows us how digital resources help us acknowledge Caribbean actors as part of the rich intellectual production beyond the realm of letters.</p>
 
 **Queer Archives of Trinidad & Tobago**
 <p>Angelina V. Nixon, Nikoli A. Attai, Alessandra Hereman, Catherin Shepherd, Keith McNeal (CAISO: Sex and Gender Justice)</p>
 <p>Trinidad & Tobago </p>
 <p>Total: $10,000</p>
 
-<p><i>The Queer Archives of Trinidad and Tobago</i> is a curation of Trinidad and Tobago’s queer history from 1960 to the present. These archives include two significant collections of queer history: The Cyrus Sylvester Archive and a public Timeline of LGBTQI+ T&T History. The research team is currently cataloging this archival material and identifying aspects that could be available to the public. As young and “living” archives, they have also been thinking critically about their ethical commitment to protecting the persons and material contained within them. </p>
+<p>CAISO is a feminist civil society organization committed to ensuring wholeness, justice, and inclusion for Trinidad and Tobago's LGBTQI+ (Lesbian, Gay, Bisexual, Transgender, Queer, and Intersex) communities, by developing analysis, alliances, and advocacy. Their project, “Queer Archives of Trinidad and Tobago,” is a curation of Trinidad and Tobago’s queer history from 1960 to the present. These archives include two significant collections of queer history: The Cyrus Sylvester Archive and a public Timeline of LGBTQI+ T&T History. The research team is currently cataloging this archival material and identifying aspects that could be available to the public. As young and “living” archives, they have also considered their ethical commitment to protecting the persons and material within them.</p>
 
 **Bibliothèque Haïtienne des Frères de l'Instruciton Chrétiene (Haitian Library of the Brothers of Christian Instruction)**
 <p>Marie-France Guilaume, Wandred PIierre and Notis Mosenor</p>

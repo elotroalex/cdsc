@@ -58,14 +58,14 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p><i>Racially Yours</i> aims to create a digital archive about Floridine “Florence” Pitters, an Afro-Jamaican activist and writer. The digital archive will hold nearly two dozen letters that Pitters wrote to colonial administrators, the “Repatriation Bill of Jamaica and The West Indies” composed by Pitters, newspaper and journal clippings, a fictionalized autobiographical story she submitted to a writing contest months before her death, and oral interviews with family members. The platform will also include a detailed database and lesson plans to navigate the collections. The project will inspire dialogues about Afro-Caribbean women liberators who participated in anti-colonial and Pan-African movements.</p>
 
 **Wikipeetia offline a través de redes locales**
-<p>Leonardi Fernández (Universidad del Zulia, Venezuela)</p>
+<p>Leonardi Fernández (Universidad del Zulia)</p>
 <p>Colombia and Venezuela</p>
 <p>Total: $5,000</p>
 
 <p><i>Wikipeetia offline</i> is a linguistic revitalization project that focuses on people from the Wayuu communities in La Guajira (the frontier region between Venezuela and Colombia). Wikipeetia has been working for several years working with Wayuu communities to create Wikipedia pages users can take advantage of to revitalize their language. The microgrant funds will be used to redesign their current interface to create an offline version that students and teachers can use from their phones. They also plan to expand the Wikimedia pages by adding more information to Wayuunaiki.</p>
 
 **In the Streets of Le Cap**
-<p>Carrie Glenn (Niagara University, US) and Camille Cordier (University Lyon Lumièreand, France)</p>
+<p>Carrie Glenn (Niagara University) and Camille Cordier (University Lyon Lumièreand)</p>
 <p>France and the United States </p>
 <p>Total: $4,000</p>
 
@@ -79,14 +79,14 @@ The CDSC is proud to have your trust in supporting many of these initiatives, an
 <p><i>Virtual Altar</i> is an immersive media installation that engages cultural memory and possessions. Serving as a multidimensional map, it traces the geographic route of Afro-Caribbean migrants from countries in the Caribbean Sea to new lands they call home to psychic spaces they produce. This installation is an artisanal tech approach that rejects realism and trusts black folks’ perception to become attuned to cultural perspectives on space and memory. It syncretizes spatial technologies such as the body and 3-D terrestrial laser scanning to reclaim African-syncretic rituals that have been subject to legal and social persecution, celebrate the lives and memories that have endured migration, and address the conjuncture of embodied spirituality and geospatial technologies as media capable of enabling or disabling situatedness.</p>
 
 **A Digital Archive of Caribbean Deaf Histories**
-<p>Rehana Omardeen (European Union of the Deaf) and Ben Braithwaite (University of the West Indies, Trinidad and Tobago)</p>
+<p>Rehana Omardeen (European Union of the Deaf) and Ben Braithwaite (University of the West Indies)</p>
 <p>Trinidad and Tobago, Germany, and the United States </p> 
 <p>Total: $7,838</p> 
  
 <p>This project will draw from existing digital collections and currently ongoing documentation work to compile a digital archive of personal and community histories from deaf people around the Caribbean, expressed in a variety of indigenous Caribbean signed languages. Communities represented will include those from Trinidad and Tobago, Jamaica, Guyana, Providence Island (Colombia), the Bay Islands (Honduras), and Puerto Rico. Videos will showcase diverse sign languages, and be accompanied by translations in English and Spanish, to provide a broadly accessible resource in an area of community history that has been hitherto almost entirely overlooked. The project will complement a recently established network of Caribbean deaf researchers, helping to further build capacity for deaf-led research in the Caribbean through collaboration and training, and providing an impactful public platform for current documentary work.</p>
 
 **The Cuban Hip-Hop Archive (CHHA): First Database and Digitization Prototype**
-<p>Pablo D. Herrera Veitia (University of Toronto, Canada)</p>
+<p>Pablo D. Herrera Veitia (University of Toronto)</p>
 <p>Cuba and Canada</p>
 <p>Total: $5,010</p>
 

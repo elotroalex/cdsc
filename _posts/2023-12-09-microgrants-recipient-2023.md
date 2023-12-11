@@ -9,7 +9,9 @@ excerpt: "Announcing the winners of this year's migrogrant program!"
 lang: en
 ---
 
-For our second year of the microgrant program, we are thrilled to announce the recipients for the 2023 round cycle. The selection committee picked these outstanding projects out of a pool of more than one hundred applicants with the confidence that their endeavors will make significant contributions to building digital scholarship for and in the Caribbean. All of us at the Caribbean Digital Scholarship Collective are thrilled with the health, energy and enthusiasm for this growing community. Below are the awardees for the inaugural year of our microgrant program. Congratulations to all of the recipients!
+The Microgrant Coordinators are pleased to announce the selected projects for the 2023-24 CDSC microgrant program. The second round of the microgrant program received an overwhelming response of high-quality applications, with a wide range of applicants, projects, and scholarships demonstrating the richness of the Caribbean. The application exceeded our participation, doubling the number of submissions compared to its inaugural year. Special thanks to this year’s committee members, Kaiama Glover and Katerina Gonzalez Selingman, for your guidance and support during the arduous selection process. We also thank our microgrant mentor, Hope Cullinan. 
+
+The CDSC is proud to have your trust in supporting many of these initiatives, and we hope we can continue fostering a healthy and thriving community around Caribbean Digital scholarship. Below are the awardees for the microgrant program. Congratulations to all the recipients!
 
 ---
 
@@ -109,7 +111,7 @@ For our second year of the microgrant program, we are thrilled to announce the r
 <p>Haiti</p>
 <p>Total: $5,000</p>
 
-<p>The BHFIC is the second oldest library in Haiti and currently holds over 10,000 documents. It includes various publications, rare newspapers, original primary sources and assorted collections from famous Haitian writers that span from the Spanish colonial period (1492-1697) to the present. Funding from the CDSC microgrant will help support the BHFIC extensive digitization project of their collection to help preserve this endangered library. </p>
+<p>The BHFIC is the second oldest library in Haiti and currently holds over 10,000 documents. It includes various publications, rare newspapers, original primary sources and assorted collections from famous Haitian writers that span from the Spanish colonial period (1492-1697) to the present. Before the country's situation deteriorated, it had long welcomed students from abroad for their research work: France, Duke University, Harvard (twice), and Haitians living in Haiti and abroad. The library's rare collections are currently in danger and have called for our support in an emergency digitization project of their collections. Funding from the CDSC microgrant will help support an emergency digitization project of their collection that are currently in danger. </p>
 
 **Kingston 21: A digital press for Caribbean plays**
 <p>Kelly Baker Josephs (University of Miami)</p>

@@ -4,7 +4,7 @@ title: "The CDSsi Summer 2024 announces its call for applications"
 date: 2023-12-12
 author: CDSC
 permalink: summerinst2024_announcement/
-post_image: "/assets/images/news/WhatsApp Image 2023-06-20 at 8.08.38 PM.jpeg"
+post_image: "/assets/images/news/summerinstitute-ed.png"
 excerpt: "CDSsi summer program year two"
 lang: en
 ---

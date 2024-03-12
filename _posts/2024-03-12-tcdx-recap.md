@@ -4,7 +4,7 @@ title: "TCD X at Yale 2023"
 date: 2024-01-24 
 author: CDSC
 permalink: tcdx/
-post_image: "/assets/images/news/TCDX Panel B.HEIC
+post_image: "/assets/images/news/TCDX Panel B.HEIC"
 excerpt: "TCD X held at Yale University in December 2023"
 lang: en
 ---

@@ -1,4 +1,3 @@
-YAML
 ---
 layout: post
 title: "TCD X at Yale 2023"

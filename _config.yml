@@ -12,6 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 author: "Alex Gil"
 keywords: "Mellon foundation, Digital humanities, Caribbean studies"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+incremental: false
 
 # Google Analytics
 google_analytics: "UA—XXXXXXXX-X"
@@ -32,8 +33,6 @@ collections:
   summer-school:
     output: true
     permalink: /:collection/:name
-  
-
 
 # --------------------------------------------------------------
 # POLYGLOT I18N LOCALIZATION
@@ -51,5 +50,3 @@ parallel_localization: true
 
 sass:
   sourcemap: never
-
-

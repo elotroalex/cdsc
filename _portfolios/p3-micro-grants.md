@@ -8,7 +8,7 @@ lang: en
 ---
 
 <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Recipients 2022</a>        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2024/">CFP 2023-24</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/microgrant-recipients-2022/">Recipients 2022</a>        <a class="btn project-btn" href="{{site.baseurl}}/micro-grants/cfp2024/">CFP 2024–2025</a>
 
 </div>
 

@@ -2684,6 +2684,8 @@ a.button-apply{
 @media only screen and (max-width: 991px){
   .apply-module{
     margin-bottom: 1em;
+    height: 134px;
+    overflow: initial;
   }
 
   h1.text-blue-01, h1.text-blue-02, h1.text-blue-03, h1.text-blue-04{
@@ -2695,7 +2697,7 @@ a.button-apply{
     right: -30%;
     bottom: 15%;
   }
-  .circle-bg.rgt-btm{
+  .circle-bg{
     display:none;
   }
 }

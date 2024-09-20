@@ -2820,9 +2820,11 @@ a.button-apply{
   display: none;
 }
 
-.main-mobile-menu.mobile-contact{
+.mobile-contact{
   padding-top: 30px;
   padding-left: 18px;
+  position: absolute;
+  bottom: 5%;
 }
 
 .mobile-menu-icons{
@@ -2870,7 +2872,7 @@ header#site-header {
 
 .expand-block {
   /* background: #0f1a30; */
-  height: 100%;
+  /* height: 100%; */
   padding: 30px;
   position: fixed;
   right: -100%;
@@ -2884,6 +2886,7 @@ header#site-header {
   /* update */
   background: #fff;
   width: 95%;
+  height: 100vh;
 }
 
 /* @media only screen and (max-width: 400px) {
@@ -2901,18 +2904,23 @@ header#site-header {
 .expand-block .close-menu {
   /* color: #ffffff; */
   cursor: pointer;
-  height: 30px;
-  right: 15px;
+  /* height: 30px; */
+  /* right: 15px; */
   position: absolute;
-  top: 33px;
+  /* top: 33px; */
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 30px;
-  font-size: 30px;
+  /* width: 30px; */
+  /* font-size: 30px; */
   line-height: 27px;
   text-align: center;
   /* update */
-  color:#333333 ;
+  width: 40px;
+  height: 40px;
+  font-size: 28px;
+  top: 66px;
+  right: 33px;
+
 }
 
 .expand-block .hamburger-content {

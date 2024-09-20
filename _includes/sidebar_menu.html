@@ -3,17 +3,35 @@
 <div class="hamburger-block">
   <div class="overlaybg"></div>
   <div class="hamburger-block-container expand-block">
+
+    <div class="row">
+      <div class="col-6">
+    <div class="header-left">
+      <div class="site-logo">
+        <a href="/">
+          {% if site.active_lang == 'en' %}
+          <img src="{{site.logo}}" alt="{{site.title}}" />
+          {% elsif site.active_lang == 'es' %}
+          <img src="{{site.logo_es}}" alt="{{site.title}}" />
+          {% endif %}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Mobile Nav Close -->
     <div class="close-menu">
       <!-- <i class="pe-7s-close">X</i> -->
       <i class="menu-arrow fa fa-close"></i>
     </div>
-
+  
+  
     <!-- Main Menu Mobile -->
     <div class="main-mobile-menu" id="mobile-main-menu"></div>
     <!--  /.main-mobile-menu -->
     <!-- Contact block -->
-    <div class="main-mobile-menu mobile-contact">
+    <div class="mobile-contact">
       {% if site.active_lang == 'en'%}
       <div class="mrt-45"></div>
       <h5 class="widget-title">Contact us:</h5>

@@ -259,15 +259,18 @@ h4 a:hover {
   margin-bottom: 0;
 }
 
-::-moz-selection {
+/* update */
+/* ::-moz-selection {
   display: inline-block;
   text-shadow: none;
-}
-
+} */
+/* 
 ::selection {
   display: inline-block;
   text-shadow: none;
-}
+} */
+
+
 
 p {
   margin-bottom: 1.3em;
@@ -643,7 +646,7 @@ dd {
 .overlay-bg:before {
   content: "";
   position: absolute;
-  background-color: rgba(13, 20, 34, 0.65);
+  background-color: rgba(213, 213, 213, 0.65);
   left: 0;
   right: 0;
   top: 0;
@@ -2209,6 +2212,10 @@ a:active {
   text-decoration: none;
 }
 
+a.icon{
+  color: #636363;
+}
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -2314,10 +2321,10 @@ a:active {
     position: absolute;
     z-index: 999;
     margin: 0;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #080d18;
     opacity: 0;
-    border: 1px solid gray;
+    /* border: 1px solid #f5faff; */
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
     -webkit-transition: transform 0.3s, opacity 0.3s;
@@ -2325,6 +2332,10 @@ a:active {
     transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    /* update */
+    width: 150%;
+    padding: 10px;
+    top: 75px;
   }
   .header-three .mainmenu .sub-menu {
     background-color: #fff;
@@ -2347,11 +2358,19 @@ a:active {
     text-align: left;
     display: block;
     line-height: 1.5em;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     text-transform: none;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: normal;
+    /* update */
+    text-transform: uppercase;
+    padding: 10px 5px;
+    
+  }
+
+  .mainmenu .sub-menu li a:hover{
+    text-decoration: underline;
   }
   .mainmenu .sub-menu li:last-child a {
     border-bottom: none;
@@ -2417,7 +2436,7 @@ a:active {
     background-color: transparent;
     text-decoration: none;
   }
-  .mainmenu .sub-menu > li > a:hover,
+  /* .mainmenu .sub-menu > li > a:hover, */
   .mainmenu .sub-menu .sub-menu > li > a:hover,
   .mainmenu .sub-menu .sub-menu .sub-menu > li > a:hover {
     background-color: rgba(0, 0, 0, 0.25);
@@ -2467,6 +2486,25 @@ a:active {
     display: table;
     width: auto;
   }
+}
+a.language-switcher {
+  color: #00abff!important;
+  text-transform: capitalize!important;
+  font-weight: 400!important;
+}
+
+a.language-option{
+  color: #00abff!important;
+  text-transform: capitalize!important;
+
+}
+
+.language-switcher .sub-menu li a {
+  color: #00abff;
+}
+
+.language-switcher.fa-angle-down {
+  color: #00abff;
 }
 
 /* @media only screen and (min-width: 992px) and (max-width: 1100px) {
@@ -2745,14 +2783,16 @@ a.button-apply{
     background-size: 25px;
     font-size: 14px;
     float: right;
-    color: #ffffff;
+    /* color: #ffffff; */
     padding: 17px;
     width: 45px;
     -webkit-transition: -webkit-transform 0.1s ease;
     transition: -webkit-transform 0.1s ease;
     transition: transform 0.1s ease;
     transition: transform 0.1s ease, -webkit-transform 0.1s ease;
-    border-left: 1px solid #282828;
+    /* border-left: 1px solid #282828; */
+    /* update */
+    color: #333333;
   }
   .menu-extend.fa-plus::before {
     content: "\f068";
@@ -2768,7 +2808,7 @@ a.button-apply{
   position: fixed;
   top: 0;
   display: none;
-  background-color: rgba(13, 20, 34, 0.9);
+  background-color: rgba(213, 213, 213, 0.9);
   cursor: pointer;
 }
 
@@ -2780,12 +2820,31 @@ a.button-apply{
   display: none;
 }
 
+.main-mobile-menu.mobile-contact{
+  padding-top: 30px;
+  padding-left: 18px;
+}
+
+.mobile-menu-icons{
+display: flex;
+}
+
 @media only screen and (max-width: 1199px) {
   .main-mobile-menu {
     display: block;
   }
 }
 
+@media only screen and (max-width: 767.9px) {
+header#site-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  padding-top: 6px;
+  height: 116px;
+}
+}
 .mobile-nav .bsm-btn {
   background: #f8c000;
   color: #000000;
@@ -2810,25 +2869,28 @@ a.button-apply{
 }
 
 .expand-block {
-  background: #0f1a30;
+  /* background: #0f1a30; */
   height: 100%;
   padding: 30px;
   position: fixed;
   right: -100%;
   top: 0;
-  width: 350px;
+  /* width: 350px; */
   -webkit-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
   z-index: 99999;
   overflow-y: auto;
   overflow-x: hidden;
+  /* update */
+  background: #fff;
+  width: 95%;
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .expand-block {
     width: 300px;
   }
-}
+} */
 
 .expand-block.slide-left {
   right: 0;
@@ -2837,7 +2899,7 @@ a.button-apply{
 }
 
 .expand-block .close-menu {
-  color: #ffffff;
+  /* color: #ffffff; */
   cursor: pointer;
   height: 30px;
   right: 15px;
@@ -2849,6 +2911,8 @@ a.button-apply{
   font-size: 30px;
   line-height: 27px;
   text-align: center;
+  /* update */
+  color:#333333 ;
 }
 
 .expand-block .hamburger-content {
@@ -2874,7 +2938,7 @@ a.button-apply{
 
 .expand-block .hamburger-content ul li a {
   font-family: "DinNext", sans-serif;
-  color: #e6e6e6;
+  /* color: #e6e6e6; */
   border-top: 1px solid rgba(221, 221, 221, 0.1);
   display: block;
   width: 100%;
@@ -2883,6 +2947,8 @@ a.button-apply{
   font-weight: 400;
   line-height: 1.5;
   position: relative;
+  /* update */
+  color: #333333;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -2948,7 +3014,7 @@ a.button-apply{
     left: auto !important;
     float: none !important;
     min-width: 100% !important;
-    padding: 0 !important;
+    /* padding: 0 !important; */
     margin: 0 !important;
     font-size: inherit !important;
     text-align: left !important;
@@ -2957,6 +3023,8 @@ a.button-apply{
     border-radius: 0 !important;
     -webkit-box-shadow: 0 0 0 transparent;
     box-shadow: 0 0 0 transparent;
+    /* update */
+    padding: 0 15px !important;
   }
 }
 
@@ -2970,7 +3038,8 @@ a.button-apply{
 
 @media only screen and (max-width: 1199px) {
   .expand-block .main-mobile-menu {
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-top: 60px;
   }
 }
 
@@ -2978,6 +3047,8 @@ a.button-apply{
   list-style: none;
   padding-left: 0;
   margin: 0;
+  /* update */
+  text-transform: uppercase;
 }
 
 .expand-block .main-mobile-menu ul li {
@@ -2987,15 +3058,18 @@ a.button-apply{
 
 .expand-block .main-mobile-menu ul li a {
   font-family: "DinNext", sans-serif;
-  color: #e6e6e6;
+  /* color: #e6e6e6; */
   border-top: 1px solid rgba(221, 221, 221, 0.1);
   display: block;
   width: 100%;
   padding: 12px 18px;
-  font-size: 15px;
+  /* font-size: 15px; */
   font-weight: 400;
   line-height: 1.5;
   position: relative;
+  /* update */
+  color: #333333;
+  font-size: 18px;
 }
 
 .expand-block .main-mobile-menu ul li a .fa-angle-down {

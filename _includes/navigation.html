@@ -5,13 +5,21 @@
         {% for nav in site.data[site.active_lang]["menu"] %} {% if nav.submenu
         %}
         <li>
-          <a href="{{nav.url}}"
+          <a
+            href="{{nav.url}}"
+            class="{% if nav.text == 'English' or nav.text == 'Español' or nav.text == 'Français' %} language-switcher {% endif %}"
             >{{nav.text}} <i class="fa fa-angle-down"></i
           ></a>
           <ul class="sub-menu">
             {% assign submenu_data = nav.submenu %} {% for submenu_list in
             submenu_data %}
-            <li><a href="{{ submenu_list.url }}">{{submenu_list.text}}</a></li>
+            <li>
+              <a
+                href="{{ submenu_list.url }}"
+                class="{% if submenu_list.text == 'Español' or submenu_list.text == 'Français' or submenu_list.text == 'English' %} language-option {% endif %}"
+                >{{submenu_list.text}}</a
+              >
+            </li>
             {% endfor %}
           </ul>
         </li>
@@ -23,7 +31,7 @@
             >{{ nav.text }}</a
           >
         </li>
-        {% endif %} {% endfor %} 
+        {% endif %} {% endfor %}
       </ul>
     </div>
   </div>

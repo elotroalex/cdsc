@@ -25,10 +25,9 @@
           <div id="nav_menu-2" class="widget widget_nav_menu">
             <h2 class="widget-title">{{ site.data.language.select }}</h2>
             <ul>
-            {% for lang in site.languages %} {% assign
-              lang_name = site.data[lang].language.lang_name %} {% if lang ==
-              site.active_lang %} {% else %} {% if lang ==
-              site.default_lang %}
+              {% for lang in site.languages %} {% assign lang_name =
+              site.data[lang].language.lang_name %} {% if lang ==
+              site.active_lang %} {% else %} {% if lang == site.default_lang %}
               <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
               {% else %}
               <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>

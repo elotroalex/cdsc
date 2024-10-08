@@ -3,19 +3,67 @@
 <div class="hamburger-block">
   <div class="overlaybg"></div>
   <div class="hamburger-block-container expand-block">
+
+    <div class="row">
+      <div class="col-6">
+    <div class="header-left">
+      <div class="site-logo">
+        <a href="/">
+          {% if site.active_lang == 'en' %}
+          <img src="{{site.logo}}" alt="{{site.title}}" />
+          {% elsif site.active_lang == 'es' %}
+          <img src="{{site.logo_es}}" alt="{{site.title}}" />
+          {% endif %}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Mobile Nav Close -->
     <div class="close-menu">
-      <i class="pe-7s-close"></i>
+      <!-- <i class="pe-7s-close">X</i> -->
+      <i class="menu-arrow fa fa-close"></i>
     </div>
-
+  
+  
     <!-- Main Menu Mobile -->
     <div class="main-mobile-menu" id="mobile-main-menu"></div>
     <!--  /.main-mobile-menu -->
-
+    <!-- Contact block -->
+    <div class="mobile-contact">
+      {% if site.active_lang == 'en'%}
+      <div class="mrt-45"></div>
+      <h5 class="widget-title">Contact us:</h5>
+         <a class="icon" href="mailto:contact@cdscollective.org"> <i class="fa fa-envelope"></i> contact@cdscollective.org</a>
+          <div class="df-mrb"></div>
+     
+      <div class="mobile-menu-icons">
+        <h5 class="widget-title">Follow us:</h5>
+        <br>
+        <a class="icon mrl-30" href="https://www.instagram.com/caribbean_dsc/" target="_blank"><i class="fa fa-lg fa-instagram"></i>
+        </a> 
+        <a class="icon mrl-30" href="https://x.com/caribbean_dsc" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>   
+      </div>
+      {% elsif site.active_lang == 'es' %}
+      <div class="mrt-45"></div>
+      <h5 class="widget-title">Contáctenos:</h5>
+         <a class="icon" href="mailto:contact@cdscollective.org"> <i class="fa fa-envelope"></i> contact@cdscollective.org</a>
+          <div class="df-mrb"></div>
+     
+      <div class="mobile-menu-icons">
+        <h5 class="widget-title">Síganos:</h5>
+        <br>
+        <a class="icon mrl-30" href="https://www.instagram.com/caribbean_dsc/" target="_blank"><i class="fa fa-lg fa-instagram"></i>
+        </a> 
+        <a class="icon mrl-30" href="https://x.com/caribbean_dsc" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>   
+      </div>
+      </div>
+      {% endif %} 
     <!-- Hamburger Menu Wrapper -->
-    <div class="hamburger-wrapper">
+    <!-- <div class="hamburger-wrapper"> -->
       <!-- Hamburger Widget Area -->
-      <div class="hamburger-widget-area">
+      <!-- <div class="hamburger-widget-area">
         <div class="widget">
           {% if site.active_lang == 'en'%}
           <h2 class="widget-title">CDSC</h2>
@@ -51,14 +99,14 @@
                 </li>
               </ul>
             </div>
-              {% endif %}
+              {% endif %} -->
             
             <!--  /.widget-content -->
-          </div>
+          <!-- </div> -->
           <!--  /.widget -->
-        </div>
+        <!-- </div> -->
         <!--  /.hamburger-widget-area -->
-      </div>
+      <!-- </div> -->
       <!-- /.menu-wrapper -->
     </div>
     <!-- /.site-navigation -->

@@ -2141,6 +2141,9 @@ object {
   margin-right: auto;
 }
 
+.justify-center{
+  justify-content: center;
+}
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
@@ -2215,6 +2218,9 @@ a:active {
 a.icon{
   color: #636363;
 }
+a.icon_white{
+  color: #fff;
+}
 
 /*--------------------------------------------------------------
 ## Menus
@@ -2246,6 +2252,12 @@ a.icon{
     margin-right: -15px;
     margin-bottom: 0;
   }
+
+  .mainmenu.footer-mainmenu{
+    float: unset;
+    text-align: left;
+    display: contents;
+  }
   .mainmenu > li {
     float: left;
     position: relative;
@@ -2272,6 +2284,12 @@ a.icon{
     backface-visibility: hidden;
     white-space: nowrap;
   }
+
+  .navigation .mainmenu > li.footer-list > a {
+    padding: 0;
+    font-size: 18px;
+  }
+
   .navigation .mainmenu > li > a span {
     font-size: 14px;
     color: #929292;
@@ -2844,7 +2862,7 @@ header#site-header {
   background: white;
   z-index: 1000;
   padding-top: 6px;
-  height: 116px;
+  height: auto;
 }
 }
 .mobile-nav .bsm-btn {
@@ -2873,7 +2891,7 @@ header#site-header {
 .expand-block {
   /* background: #0f1a30; */
   /* height: 100%; */
-  padding: 30px;
+  padding: 0 30px;
   position: fixed;
   right: -100%;
   top: 0;
@@ -3041,13 +3059,14 @@ header#site-header {
     margin: 0 !important;
     line-height: inherit;
     font-size: inherit;
+ 
   }
 }
 
 @media only screen and (max-width: 1199px) {
   .expand-block .main-mobile-menu {
-    /* padding-top: 30px; */
-    padding-top: 60px;
+    /* padding-top: 30px;
+    padding-top: 16px; */
   }
 }
 
@@ -3092,6 +3111,8 @@ header#site-header {
 
 .expand-block .main-mobile-menu ul ul li a {
   padding: 12px 24px;
+  font-size: 14px;
+  line-height: 2%;
 }
 
 .expand-menu-block .top-menu {
@@ -9036,8 +9057,11 @@ input[type="checkbox"]::-ms-check {
 # Footer-block
 --------------------------------------------------------------*/
 .site-footer {
-  color: #8b8b8b;
+  /* color: #8b8b8b; */
   margin-top: 6rem;
+  /* update */
+  background: #080d18;
+  color: #fff;
 }
 
 .site-footer a:hover {
@@ -9052,6 +9076,20 @@ input[type="checkbox"]::-ms-check {
   padding: 5rem 1rem;
 }
 
+.row.footer_row{
+  justify-content: space-evenly;
+}
+
+.menu-content.footer-menu{
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+img.logo-footer{
+  width: 60%;
+}
 @media only screen and (max-width: 992px) {
   .site-footer .footer-top [class*="col-"] {
     -ms-flex: 0 0 100%;
@@ -9059,6 +9097,13 @@ input[type="checkbox"]::-ms-check {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .widget-content.text-center.mid_col_footer {
+    font-size: 16px;
+    padding-top: 28px;
+}
+img.logo-footer{
+  width: 75%;
+}
 }
 
 .site-footer .footer-middle {
@@ -9072,6 +9117,12 @@ input[type="checkbox"]::-ms-check {
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+
+@media only screen and (max-width: 575px){
+  .row.footer_row {
+    padding: 0 12.5%;
+}
 }
 
 .site-footer .footer-middle.bg-snow {
@@ -9106,7 +9157,14 @@ input[type="checkbox"]::-ms-check {
   .site-footer .footer-bottom .copyright-text {
     text-align: center;
   }
+  .menu-content.footer-menu{
+    flex-direction: initial;
+  }
+  .navigation.footer-menu .mainmenu > li > a {
+    color: #ffffff;
+  }
 }
+
 
 .site-footer .footer-bottom .copyright-text a {
   color: #00d9ff;
@@ -9129,6 +9187,14 @@ input[type="checkbox"]::-ms-check {
     margin-right: 0;
     margin-top: 15px;
   }
+  .widget-area.sidebar-footer-4.col-sm-8.col-md-4.text-right {
+    text-align: left !important;
+}
+ul.mainmenu.footer-mainmenu {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 }
 
 .site-footer .footer-bottom .footer-menu li {
@@ -9188,7 +9254,7 @@ input[type="checkbox"]::-ms-check {
   display: inline-block;
   border: 2px solid #00d9ff;
   color: #00d9ff;
-  padding: 16px 45px;
+  /* padding: 16px 45px; */
   border-radius: 30px;
   text-transform: uppercase;
   font-weight: 500;
@@ -9196,12 +9262,14 @@ input[type="checkbox"]::-ms-check {
   width: 100%;
   background: transparent;
   font-size: 18px;
+  /* update */
+  padding: 12px;
 }
 
 @media only screen and (max-width: 992px) {
   .site-footer .newsletter-form .newsletter-btn {
     width: auto;
-    margin: 20px auto 0;
+    margin: 0 auto;
     display: table;
   }
 }
@@ -9228,7 +9296,7 @@ input[type="checkbox"]::-ms-check {
 
 @media only screen and (max-width: 991px) {
   .site-footer .widget {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
   }
 }
@@ -9293,6 +9361,10 @@ input[type="checkbox"]::-ms-check {
 .footer-social a:hover,
 .footer-social a:focus {
   color: #f8c000;
+}
+
+.widget-title.white-title{
+  color: #fff;
 }
 
 /*--------------------------------------------------------------

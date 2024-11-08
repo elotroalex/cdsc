@@ -1,21 +1,18 @@
 <footer class="site-footer">
-  <div class="footer-top bg-bl-russian">
-    <div class="container">{% include subscribe_form.html %}</div>
-    <!--  /.container -->
-  </div>
-  <!--  /.footer-top -->
-  <div class="footer-middle bg-snow orange-theme">
+  <div class="footer-block">
     <div class="container">
-      <div class="row">
-        <div class="widget-area sidebar-footer-1 col-sm-8 col-md-4">
+      <div class="row footer_row">
+        <div
+          class="widget-area sidebar-footer-1 col-sm-8 col-md-4 d-none d-md-block"
+        >
           <div id="text-2" class="widget widget_text">
             <div class="textwidget">
               <p>
                 <img
-                  class="alignnone size-full wp-image-34"
-                  src="/assets/images/logo_es.png"
-                  alt=""
-                  width="80%"
+                  class="logo-footer alignnone size-full wp-image-34"
+                  src="/assets/images/logo_es-color-m-edit.png"
+                  alt="logo"
+                  width="60%"
                 />
               </p>
             </div>
@@ -23,45 +20,74 @@
         </div>
         <div class="widget-area sidebar-footer-2 col-sm-8 col-md-4">
           <div id="nav_menu-2" class="widget widget_nav_menu">
-            <h2 class="widget-title">{{ site.data.language.select }}</h2>
-            <ul>
-              {% for lang in site.languages %} {% assign lang_name =
-              site.data[lang].language.lang_name %} {% if lang ==
-              site.active_lang %} {% else %} {% if lang == site.default_lang %}
-              <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
-              {% else %}
-              <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>
-              {% endif %} {% endif %} {% endfor %}
-            </ul>
+            {% if page.title != 'Subscribe' %}
+            <div class="subscribe_button">
+              <div class="subscribe_button_text">
+                {% include subscribe_form.html %}
+              </div>
+            </div>
+            {% endif %}
           </div>
-        </div>
-        <div class="widget-area sidebar-footer-4 col-sm-8 col-md-4">
-          <div id="custom_html-2" class="widget_text widget widget_custom_html">
-            <h2 class="widget-title">Contáctenos</h2>
-            <div class="textwidget custom-html-widget">
-              <div class="widget-content">
-                <ul>
-                  <li>
-                    <i class="fa fa-envelope"></i> contact@cdscollective.org
-                  </li>
-                </ul>
+
+          <div class="textwidget custom-html-widget">
+            <div class="widget-content text-center mid_col_footer">
+              <a class="icon_white" href="mailto:contact@cdscollective.org">
+                <i class="fa fa-envelope"></i> contact@cdscollective.org</a
+              >
+              <div class="mobile-menu-icons justify-center">
+                <p class="widget-title white-title">Síguenos:</p>
+                <br />
+                <a
+                  class="icon_white mrl-30"
+                  href="https://www.instagram.com/caribbean_dsc/"
+                  target="_blank"
+                  ><i class="fa fa-lg fa-instagram"></i>
+                </a>
+                <a
+                  class="icon_white mrl-30"
+                  href="https://x.com/caribbean_dsc"
+                  target="_blank"
+                  ><i><img src="/assets/images/x-logo-black.svg" /></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 small text-center">
-          <p class="copyright-text">
-            ©2022 CDSC. Todos los derechos reservados.
-          </p>
+        <div class="widget-area sidebar-footer-4 col-sm-8 col-md-4 text-right">
+          <div class="widget widget_text">
+            <div class="menu-wrapper">
+              <div class="navigation menu-content footer-menu">
+                <ul class="mainmenu footer-mainmenu">
+                  {% for nav in site.data[site.active_lang]["menu"] %} {% if
+                  nav.text != "Español" %}
+                  <li class="footer-list">
+                    <a href="{{nav.url}}">{{nav.text}}</a>
+                  </li>
+                  {% endif %} {% endfor %}
+                </ul>
+              </div>
+              <ul>
+                {% for lang in site.languages %} {% assign lang_name =
+                site.data[lang].language.lang_name %} {% if lang ==
+                site.active_lang %} {% else %} {% if lang == site.default_lang
+                %}
+                <li><a href=" {{ page.url }}">{{ lang_name }}</a></li>
+                {% else %}
+                <li><a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a></li>
+                {% endif %} {% endif %} {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 small text-center">
+            <p class="copyright-text">
+              Copyright 2022 CDSC. All rights Reserved.
+            </p>
+          </div>
         </div>
       </div>
-      <!--  /.row -->
     </div>
-    <!--  /.container -->
   </div>
-  <!--  /.footer-middle -->
-
-  <!--  /.footer-bottom -->
 </footer>

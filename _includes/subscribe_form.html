@@ -1,22 +1,44 @@
 <div class="newsletter-form validate">
+  <div id="subscribe" class="align-items-center">
+    <div class="text-center">
+      {% if site.active_lang == 'en' %}
+
+      <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn"
+        >Subscribe to our newsletter</a
+      >
+      {% elsif site.active_lang == 'es' %}
+
+      <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn"
+        >Suscríbete</a
+      >
+      {% endif %}
+    </div>
+  </div>
+</div>
+<!-- 
+<div class="newsletter-form validate">
   <div id="subscribe" class="row col-md-12 align-items-center">
     <div class="col-md-6 text-center">
-    {% if site.active_lang == 'en' %}
+      {% if site.active_lang == 'en' %}
       <h2 class="form-title">Newsletter</h2>
 
-    {% elsif site.active_lang == 'es' %}
+      {% elsif site.active_lang == 'es' %}
       <h2 class="form-title">Boletín informativo</h2>
 
-    {% endif %}
+      {% endif %}
     </div>
     <div class="col-md-4 text-center">
       {% if site.active_lang == 'en' %}
 
-        <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn">Subscribe</a>
+      <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn"
+        >Subscribe to our newsletter</a
+      >
       {% elsif site.active_lang == 'es' %}
 
-        <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn">Subscríbete</a>
+      <a href="{{site.baseurl}}/subscribe/" type="submit" class="newsletter-btn"
+        >Subscríbete</a
+      >
       {% endif %}
-      </div>       
+    </div>
   </div>
-</div>
+</div> -->

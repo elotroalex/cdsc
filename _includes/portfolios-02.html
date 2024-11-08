@@ -1,0 +1,125 @@
+<style>
+  p.card-text,
+  ul.card-list {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .card.program-card {
+    border: none;
+  }
+  .card-body {
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+  }
+  .text-end {
+    align-content: end;
+    float: right;
+  }
+</style>
+
+<section id="programs" class="portfolio-block pd-tb-90">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.active_lang == 'en' %}
+        <h2 class="section-title">Our Programs</h2>
+        {% elsif site.active_lang == 'es' %}
+        <h2 class="section-title">Nuestros Programas</h2>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row d-none d-md-block">
+      <div class="col-md-12">
+        <div class="row">
+          {% for portfolio in site.portfolios %}
+          <div class="col-md-6 mb-4">
+            <div class="card h-100 program-card">
+              <img
+                class="card-img-top img-fluid"
+                src="{{portfolio.card_image}}"
+                alt="{{portfolio.short_title}}"
+              />
+              <div class="card-body">
+                <h4 class="card-title">{{portfolio.short_title}}</h4>
+                <p class="card-text">{{portfolio.description}}</p>
+                <ul class="card-list">
+                  <li>{{ portfolio.bullet_audience }}</li>
+                  <li>{{ portfolio.bullet_location }}</li>
+                  <li>{{ portfolio.bullet_date }}</li>
+                  <li>{{ portfolio.bullet_type }}</li>
+                </ul>
+                <div class="text-end project-demo-btn">
+                  {% if site.active_lang == 'en' %}
+                  <a href="{{portfolio.url}}" class="btn project-btn"
+                    >More info</a
+                  >
+                  {% elsif site.active_lang == 'es' %}
+                  <a href="{{portfolio.url}}" class="btn btn-primary"
+                    >Más info</a
+                  >
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-sm-block d-md-none">
+      <div class="container">
+        <div class="col-12">
+          <div class="portfolio-related-slider owl-carousel">
+            {% for portfolio in site.portfolios %}
+            <div class="item">
+              <div class="card h-100 program-card">
+                <img
+                  class="card-img-top img-fluid"
+                  src="{{portfolio.card_image}}"
+                  alt="{{portfolio.short_title}}"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">{{portfolio.short_title}}</h4>
+                  <p class="card-text">{{portfolio.description}}</p>
+                  <ul class="card-list">
+                    <li>{{ portfolio.bullet_audience }}</li>
+                    <li>{{ portfolio.bullet_location }}</li>
+                    <li>{{ portfolio.bullet_date }}</li>
+                    <li>{{ portfolio.bullet_type }}</li>
+                  </ul>
+                  <div class="text-end project-demo-btn">
+                    {% if site.active_lang == 'en' %}
+                    <a href="{{portfolio.url}}" class="btn project-btn"
+                      >More info</a
+                    >
+                    {% elsif site.active_lang == 'es' %}
+                    <a href="{{portfolio.url}}" class="btn btn-primary"
+                      >Más info</a
+                    >
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <script>
+  $(document).ready(function () {
+    $(".portfolio-related-slider").owlCarousel({
+      items: 1, // Number of items to display
+      loop: true, // Enable looping
+      autoplay: true, // Enable autoplay
+      autoplayTimeout: 45000, // Change slide every 45 seconds
+      autoplayHoverPause: true, // Pause on hover
+      dots: true, // Show dots
+      nav: true, // Show next/prev buttons
+    });
+  });
+</script> -->

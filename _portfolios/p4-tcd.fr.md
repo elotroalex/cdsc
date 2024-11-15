@@ -2,9 +2,15 @@
 layout: program
 title: "La conférence Caribbean Digital"
 short_title: "La Caribbean Digital"
-thumbnail: "/assets/images/Portfolio/6.jpg"
+thumbnail: "/assets/images/Portfolio/img-p4.png"
 permalink: tcd/
 lang: fr
+description: La Caribbean Digital Conference (TCD) est un événement international organisé chaque année dans des endroits aux États-Unis et dans les Caraïbes depuis 2014.
+card_image: "/assets/images/04_img_card.png"
+bullet_audience: "Pour les chercheurs et les étudiants"
+bullet_location: "En Jamaïque"
+bullet_date: "Date clé: décembre 2024"
+bullet_type: "Type de support : allocation de voyage"
 ---
 
 <div class="portfolio-details">

@@ -13,6 +13,8 @@
           <img src="{{site.logo}}" alt="{{site.title}}" />
           {% elsif site.active_lang == 'es' %}
           <img src="{{site.logo_es}}" alt="{{site.title}}" />
+          {% elsif site.active_lang == 'fr' %}
+          <img src="{{site.logo}}" alt="{{site.title}}" />
           {% endif %}
         </a>
       </div>
@@ -53,6 +55,19 @@
      <div class="mrt-10"></div>
       <div class="mobile-menu-icons">
         <h5 class="widget-title">Síganos:</h5>
+        <br>
+        <a class="icon mrl-30" href="https://www.instagram.com/caribbean_dsc/" target="_blank"><i class="fa fa-lg fa-instagram"></i>
+        </a> 
+        <a class="icon mrl-30" href="https://x.com/caribbean_dsc" target="_blank"><i><img src="/assets/images/x-logo-grey.svg"/></i></a>   
+      </div>
+      {% elsif site.active_lang == 'fr' %}
+      <div class="mrt-45"></div>
+      <h5 class="widget-title">Contactez-nous:</h5>
+         <a class="icon" href="mailto:contact@cdscollective.org"> <i class="fa fa-envelope"></i> contact@cdscollective.org</a>
+          <!-- <div class="df-mrb"></div> -->
+     <div class="mrt-10"></div>
+      <div class="mobile-menu-icons">
+        <h5 class="widget-title">Suivez-nous:</h5>
         <br>
         <a class="icon mrl-30" href="https://www.instagram.com/caribbean_dsc/" target="_blank"><i class="fa fa-lg fa-instagram"></i>
         </a> 

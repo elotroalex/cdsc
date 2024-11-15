@@ -1,0 +1,94 @@
+<section id="programs" class="portfolio-block pd-tb-90">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="portfolio-related-title section-title">
+          {{site.data[site.active_lang].global.programs}}
+        </h3>
+      </div>
+    </div>
+    <div class="row d-none d-sm-block">
+      <div class="col-md-12">
+        <div class="row">
+          {% for portfolio in site.portfolios %}
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="card h-100 program-card">
+              <img
+                class="card-img-top img-fluid"
+                src="{{portfolio.card_image}}"
+                alt="{{portfolio.short_title}}"
+              />
+              <div class="card-body simple-version">
+                <h4 class="card-title">{{portfolio.short_title}}</h4>
+                <ul class="card-list">
+                  <li>{{ portfolio.bullet_audience }}</li>
+                  <li>{{ portfolio.bullet_location }}</li>
+                  <li>{{ portfolio.bullet_date }}</li>
+                  <li>{{ portfolio.bullet_type }}</li>
+                </ul>
+                <div class="text-end project-demo-btn">
+                  {% if site.active_lang == 'en' %}
+                  <a href="{{portfolio.url}}" class="btn btn-program">More</a>
+                  {% elsif site.active_lang == 'es' %}
+                  <a href="{{portfolio.url}}" class="btn btn-program"
+                    >Más info</a
+                  >
+                  {% elsif site.active_lang == 'fr' %}
+                  <a href="{{portfolio.url}}" class="btn btn-program"
+                    >En plus</a
+                  >
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-xs-block d-sm-none">
+      <div class="container">
+        <div class="col-12">
+          <div class="portfolio-related-slider owl-carousel">
+            {% for portfolio in site.portfolios %}
+            <div class="item">
+              <div class="card h-100 program-card">
+                <img
+                  class="card-img-top img-fluid"
+                  src="{{portfolio.card_image}}"
+                  alt="{{portfolio.short_title}}"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">{{portfolio.short_title}}</h4>
+                  <ul class="card-list">
+                    <li>{{ portfolio.bullet_audience }}</li>
+                    <li>{{ portfolio.bullet_location }}</li>
+                    <li>{{ portfolio.bullet_date }}</li>
+                    <li>{{ portfolio.bullet_type }}</li>
+                  </ul>
+                  <div class="text-end">
+                    {% if site.active_lang == 'en' %}
+                    <a href="{{portfolio.url}}" class="btn btn-program"
+                      >More info</a
+                    >
+                    {% elsif site.active_lang == 'es' %}
+                    <a href="{{portfolio.url}}" class="btn btn-program"
+                      >Más info</a
+                    >
+                    {% elsif site.active_lang == 'fr' %}
+                    <a href="{{portfolio.url}}" class="btn btn-program"
+                      >En plus</a
+                    >
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

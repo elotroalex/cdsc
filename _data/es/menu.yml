@@ -14,9 +14,11 @@
 - text: "Noticias"
   url: "/news"
 - text: "Acerca de"
-  url: "/about"
+  url: "/es/about"
 - text: "Español"
   url: "#"
   submenu:
     - text: "English"
       url: " /"
+    - text: "Français"
+      url: "/fr/"

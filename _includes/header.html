@@ -6,9 +6,11 @@
           <div class="site-logo">
             <a href="/">
               {% if site.active_lang == 'en' %}
-              <img src="{{site.logo}}" alt="{{site.title}}" />
+              <img src="{{ site.logo }}" alt="{{ site.title }}" />
               {% elsif site.active_lang == 'es' %}
-              <img src="{{site.logo_es}}" alt="{{site.title}}" />
+              <img src="{{ site.logo_es }}" alt="{{ site.title_es }}" />
+              {% elsif site.active_lang == 'fr' %}
+              <img src="{{ site.logo }}" alt="{{ site.title_fr }}" />
               {% endif %}
             </a>
           </div>

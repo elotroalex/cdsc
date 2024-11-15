@@ -1,11 +1,17 @@
 ---
 layout: program
-title: "Centro de Investigación Create Caribbean"
+title: "Centre de Investigation Create Caribbean"
 short_title: "Create Caribbean"
 icon: "pe-7s-timer"
-thumbnail: "/assets/images/Portfolio/5.jpg"
+thumbnail: "/assets/images/Portfolio/img-p1.png"
 permalink: create-caribbean/
 lang: fr
+description: Create Caribbean Research Institute (CCRI) est le premier centre d'humanités numériques des Caraïbes. Il s'adresse aux étudiants et aux universitaires dans les domaines de la recherche universitaire, de la technologie, de l'éducation et du numérique dans les Caraïbes, en mettant l'accent sur le travail dans les arts et les sciences humaines.
+card_image: "/assets/images/01_img_card.png"
+bullet_audience: "Pour les étudiants et les universitaires"
+bullet_location: "Situé en Dominique"
+bullet_date: "Dates clés: à confirmer"
+bullet_type: "Type de support : formation"
 ---
 
 <div class="portfolio-details">

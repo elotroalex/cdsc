@@ -2,14 +2,14 @@
 layout: program
 title: The Caribbean Digital Scholarship Summer Institute
 short_title: "Summer Institute"
-thumbnail: "/assets/images/Portfolio/2.jpg"
+thumbnail: "/assets/images/Portfolio/img-p2.png"
 permalink: summer-school/
 lang: en
 description: The Caribbean Digital Scholarship Summer Institute (CDSsi) trains scholars interested in approaching Caribbean Studies and digital scholarship as organically integrated fields of inquiry and engagement.The CDSsi supports travel for up to 30 scholars to attend the week-long summer institute and learn from experts in the field
 card_image: "/assets/images/02_img_card.png"
 bullet_audience: "For students and scholars"
-bullet_location: "University of choice"
-bullet_date: "Key dates: May - June"
+bullet_location: "University TBC"
+bullet_date: "Key dates: TBC"
 bullet_type: "Type of support: Travel stipend"
 ---
 

@@ -2,14 +2,14 @@
 layout: program
 title: "UPR Caribe Digital"
 short_title: "UPR Caribe Digital"
-thumbnail: "/assets/images/Portfolio/4.jpg"
+thumbnail: "/assets/images/Portfolio/img-p5.png"
 permalink: upr/
 lang: en
-description: The University of Puerto Rico, Rio Piedras Campus (UPR-PR) will develop a comprehensive and sustainable plan to promote Digital Humanities in Puerto Rico.
+description: The University of Puerto Rico, Rio Piedras Campus (UPR-PR) offers a comprehensive and sustainable set of initiatives to promote Digital Humanities in Puerto Rico.
 card_image: "/assets/images/05_img_card.png"
 bullet_audience: "For students and scholars"
 bullet_location: "Located in The University of Puerto Rico - Rio Piedras"
-bullet_date: "Key dates: May - June"
+bullet_date: "Key dates: TBC"
 bullet_type: "Type of support: Academic"
 ---
 

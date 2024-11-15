@@ -20,3 +20,5 @@
   submenu:
     - text: "Español"
       url: "/es/"
+    - text: "Français"
+      url: "/fr/"

@@ -3,11 +3,13 @@
   {% include sidebar_menu.html %}
   {% include header.html %}
    {{content}}
-  {% if site.active_lang == 'en'%}
-  {% include footer.html %}
-  {% elsif site.active_lang == 'es' %}
-  {% include footer.es.html %}
-  {% endif %}
+   {% if site.active_lang == 'en' %}
+   {% include footer.html %}
+ {% elsif site.active_lang == 'es' %}
+   {% include footer.es.html %}
+ {% elsif site.active_lang == 'fr' %}
+   {% include footer.fr.html %}
+ {% endif %}
   {% include scripts.html %}
 </body>
 </html>

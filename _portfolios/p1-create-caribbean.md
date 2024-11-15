@@ -3,14 +3,14 @@ layout: program
 title: "Create Caribbean Research Institute"
 short_title: "Create Caribbean"
 icon: "pe-7s-timer"
-thumbnail: "/assets/images/Portfolio/5.jpg"
+thumbnail: "/assets/images/Portfolio/img-p1.png"
 permalink: create-caribbean/
 lang: en
 description: Create Caribbean Research Institute (CCRI) is the first digital humanities center in the Caribbean. It serves students and scholars in academic research, technology, education, and Caribbean digital scholarship with a focus on arts and humanities work.
 card_image: "/assets/images/01_img_card.png"
 bullet_audience: "For students and scholars"
 bullet_location: "Located in Dominica"
-bullet_date: "Key dates: May - June"
+bullet_date: "Key dates: TBC"
 bullet_type: "Type of support: Training"
 ---
 

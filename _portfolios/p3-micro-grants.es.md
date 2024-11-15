@@ -5,9 +5,9 @@ short_title: "Micro-becas"
 thumbnail: "/assets/images/Portfolio/img-p3.png"
 permalink: micro-grants/
 lang: es
-description: Para fomentar el trabajo de investigación digital en el Caribe por parte de grupos independientes, el CDSC ofrece micro becas para apoyar una amplia gama de proyectos que pueden elevar la investigación digital en el Caribe.
+description: Para fomentar el trabajo de los estudios digitales desde y para el Caribe, el CDSC ofrece un programa anual de micro-becas para apoyar una amplia gama de proyectos que pueden elevar estudios digitales caribeños.
 card_image: "/assets/images/03_img_card.png"
-bullet_audience: "Para investigadores"
+bullet_audience: "Para estudiantes, investigadores y organizaciones"
 bullet_location: "Participación en línea"
 bullet_date: "Fechas clave: junio - septiembre"
 bullet_type: "Tipo de apoyo: beca"

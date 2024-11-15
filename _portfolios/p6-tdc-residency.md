@@ -9,7 +9,7 @@ description: The Digital Artist’s Virtual Residency supports Caribbean artists
 card_image: "/assets/images/06_img_card.png"
 bullet_audience: "For artists"
 bullet_location: "Online"
-bullet_date: "Key dates: March 2025"
+bullet_date: "Key dates: Enero-March 2025"
 bullet_type: "Type of support: Residency"
 ---
 

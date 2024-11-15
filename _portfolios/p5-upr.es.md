@@ -7,10 +7,10 @@ permalink: upr/
 lang: es
 description: La Universidad de Puerto Rico, Recinto de Río Piedras (UPR-PR) ofrece una serie de iniciativas integrales y sostenibles para promover las Humanidades Digitales en Puerto Rico.
 card_image: "/assets/images/05_img_card.png"
-bullet_audience: "Para estudiantes y académicos"
-bullet_location: "En la sede Río Piedras, Universidad de Puerto Rico"
-bullet_date: "Fechas clave: por confirmar"
-bullet_type: "Tipo de apoyo: académico"
+bullet_audience: "Para estudiantes, académicos y organizaciones comunitarias"
+bullet_location: "Universidad de Puerto Rico, Río Piedras"
+bullet_date: "Fechas clave: varias"
+bullet_type: "Tipo de apoyo: pedagogía y entrenamiento"
 ---
 
 <div class="portfolio-details">

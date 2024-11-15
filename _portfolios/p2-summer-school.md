@@ -9,7 +9,7 @@ description: The Caribbean Digital Scholarship Summer Institute (CDSsi) trains s
 card_image: "/assets/images/02_img_card.png"
 bullet_audience: "For students and scholars"
 bullet_location: "University of Miami"
-bullet_date: "Key dates: June"
+bullet_date: "Key dates: January-June 2025"
 bullet_type: "Type of support: Training + Travel stipend"
 ---
 

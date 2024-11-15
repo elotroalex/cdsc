@@ -4781,6 +4781,79 @@ header.sticky-header + section {
 /*--------------------------------------------------------------
 ## Portfolio
 --------------------------------------------------------------*/
+
+.btn.btn-program{
+  color: #0080ff;
+  background-color: #f5faff;
+  border-color: #0080ff;
+  border-radius: 22px !important;
+}
+.btn.btn-program:hover{
+  border-color: #00abff;
+  color: #00abff;
+}
+p.card-text,
+ul.card-list {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.card.program-card {
+  border: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.card-body {
+  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+  height: 495px; 
+  position: relative;
+}
+.card-body.simple-version {
+  height: 325px;
+}
+.text-end {
+  align-content: end;
+  float: right;
+}
+.text-end.project-demo-btn {
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+}
+@media (max-width: 1199.98px) {
+  .card-body {
+    height: 535px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card-body {
+    height: 610px;
+  }
+}
+@media (max-width: 767.98px) {
+  .card-body {
+    height: 535px;
+  }
+  .card.program-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .card{
+    margin-top: 20px;
+  }
+  .card-body {
+    height: 320px;
+  }
+  .text-end.project-demo-btn {
+    left: 25%;
+    bottom: 0%;
+    right: 0;
+  }
+}
+
 .portfolio-thumb {
   position: relative;
   margin-bottom: 10px;
@@ -4815,17 +4888,17 @@ header.sticky-header + section {
   top: 0;
   left: 0;
   padding: 20px;
-  background: #0080ff;
+  /* background: #0080ff; */
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 100;
   text-align: center;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s; */
 }
 
 .portfolio-thumb .hover-content .ajax-single-link {
@@ -4840,22 +4913,22 @@ header.sticky-header + section {
 }
 
 .portfolio-thumb .hover-content .hover-details {
-  top: 50% !important;
+  top: 40% !important;
   position: absolute;
   left: 0;
   right: 0;
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 500;
   display: inherit;
   padding: 15px 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  /* -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); */
   color: #ffffff;
 }
 
 .portfolio-thumb .hover-content .hover-details h5 {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 500;
   display: inherit;
@@ -4911,6 +4984,16 @@ header.sticky-header + section {
     padding-top: 15px;
   }
 }
+
+@media only screen and (max-width: 575.9px){
+  .portfolio-thumb .hover-content .hover-details h5{
+    font-size: 20px;
+  }
+  .portfolio-thumb .hover-content .hover-details {
+    top: 30% !important;
+  }
+
+} 
 
 @media only screen and (max-width: 767px) {
   .portfolio-menu:not(.style-two) .dropdown-menu {
@@ -9158,10 +9241,15 @@ img.logo-footer{
     text-align: center;
   }
   .menu-content.footer-menu{
-    flex-direction: initial;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
   .navigation.footer-menu .mainmenu > li > a {
     color: #ffffff;
+  }
+  .menu-wrapper{
+    text-align: center;
   }
 }
 

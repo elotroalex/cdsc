@@ -2,9 +2,15 @@
 layout: program
 title: "Micro-subventions"
 short_title: "Micro-subventions"
-thumbnail: "/assets/images/Portfolio/1.jpg"
+thumbnail: "/assets/images/Portfolio/img-p3.png"
 permalink: micro-grants/
 lang: fr
+description: Pour encourager les travaux de recherche numérique dans les Caraïbes par des groupes indépendants, le CDSC propose des microsubventions pour soutenir un large éventail de projets susceptibles de promouvoir la recherche numérique dans les Caraïbes.
+card_image: "/assets/images/03_img_card.png"
+bullet_audience: "Pour les chercheurs"
+bullet_location: "Participation en ligne"
+bullet_date: "Date clé: juin - septembre"
+bullet_type: "Type de soutien : subvention"
 ---
 
 <!--

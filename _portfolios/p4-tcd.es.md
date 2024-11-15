@@ -1,10 +1,16 @@
 ---
 layout: program
 title: "Conferencia anual El Caribe Digital"
-short_title: "El Caribe Digital"
-thumbnail: "/assets/images/Portfolio/6.jpg"
+short_title: "Residencia El Caribe Digital"
+thumbnail: "/assets/images/Portfolio/img-p4.png"
 permalink: tcd/
 lang: es
+description: La Conferencia Digital del Caribe (TCD) es un evento internacional que se lleva a cabo anualmente en lugares de los Estados Unidos y el Caribe desde 2014.
+card_image: "/assets/images/04_img_card.png"
+bullet_audience: "Para investigadores y estudiantes"
+bullet_location: "Jamaica"
+bullet_date: "Fecha clave: diciembre 2024"
+bullet_type: "Tipo de apoyo: Estipendio de viaje"
 ---
 
 <div class="portfolio-details">

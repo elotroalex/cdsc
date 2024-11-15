@@ -2,9 +2,15 @@
 layout: program
 title: "Instituto de verano"
 short_title: "Instituto de verano"
-thumbnail: "/assets/images/Portfolio/2.jpg"
+thumbnail: "/assets/images/Portfolio/img-p2.png"
 permalink: summer-school/
 lang: es
+description: El Instituto de Verano de Becas Digitales del Caribe (CDSsi, por sus siglas en inglés) capacita a académicos interesados ​​en abordar los estudios del Caribe y las becas digitales como campos de investigación y participación orgánicamente integrados. El CDSsi apoya los viajes de hasta 30 académicos para asistir al instituto de verano de una semana de duración y aprender de expertos en el campo.
+card_image: "/assets/images/02_img_card.png"
+bullet_audience: "Para estudiantes y académicos"
+bullet_location: "Universidad por confirmar"
+bullet_date: "Fechas clave: por confirmar"
+bullet_type: "Tipo de apoyo: estipendio de viaje"
 ---
 
 <!-- <div class="project-demo-btn">

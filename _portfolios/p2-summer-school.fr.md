@@ -2,9 +2,15 @@
 layout: program
 title: "L'Institut d'Été"
 short_title: "L'Institut d'Été"
-thumbnail: "/assets/images/Portfolio/2.jpg"
+thumbnail: "/assets/images/Portfolio/img-p2.png"
 permalink: summer-school/
 lang: fr
+description: Le Caribbean Digital Scholarship Summer Institute (CDSsi) forme des universitaires intéressés à aborder les études caribéennes et l'érudition numérique en tant que domaines de recherche et d'engagement organiquement intégrés. Le CDSsi prend en charge les voyages d'un maximum de 30 chercheurs pour participer à l'institut d'été d'une semaine et apprendre des experts dans le domaine.
+card_image: "/assets/images/02_img_card.png"
+bullet_audience: "Pour les étudiants et les universitaires"
+bullet_location: "Université à confirmer"
+bullet_date: "Dates clés: à confirmer"
+bullet_type: "Type de support: allocation de voyage"
 ---
 
 <!-- <div class="project-demo-btn">

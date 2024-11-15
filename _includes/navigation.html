@@ -6,7 +6,7 @@
         %}
         <li>
           <a
-            href="{{nav.url}}"
+            href="{{ nav.url | relative_url }}"
             class="{% if nav.text == 'English' or nav.text == 'Español' or nav.text == 'Français' %} language-switcher {% endif %}"
             >{{nav.text}} <i class="fa fa-angle-down"></i
           ></a>
@@ -27,7 +27,15 @@
         <li>
           <a
             class="{% if page.url contains nav.url %} active {% endif %}"
-            href="{{nav.url | relative_url }}"
+            href="{% if nav.text == 'English' %}
+            {{ '/' | append: 'en' | prepend: site.baseurl }}
+          {% elsif nav.text == 'Español' %}
+            {{ '/' | append: 'es' | prepend: site.baseurl }}
+          {% elsif nav.text == 'Français' %}
+            {{ '/' | append: 'fr' | prepend: site.baseurl }}
+          {% else %}
+            {{ nav.url | relative_url }}
+          {% endif %}"
             >{{ nav.text }}</a
           >
         </li>

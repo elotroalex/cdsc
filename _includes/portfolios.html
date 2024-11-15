@@ -6,6 +6,8 @@
         <h2 class="section-title">Our Programs</h2>
         {% elsif site.active_lang == 'es' %}
         <h2 class="section-title">Nuestros Programas</h2>
+        {% elsif site.active_lang == 'fr' %}
+        <h2 class="section-title">Nos Programmes</h2>
         {% endif %}
       </div>
     </div>
@@ -13,7 +15,7 @@
       <div class="col-md-12">
         <div class="row item-4 portfolio-grid">
           {% for portfolio in site.portfolios %}
-          <div class="item col-sm-6 col-md-6 col-lg-4 {{portfolio.filter}}">
+          <div class="item col-6 col-lg-4 {{portfolio.filter}}">
             <figure class="portfolio-thumb">
               <img
                 class="img-fluid"
@@ -33,7 +35,7 @@
             </figure>
           </div>
           {% endfor %}
-          <div class="item col-sm-6 col-md-6 col-lg-4">
+          <!-- <div class="item col-sm-6 col-md-6 col-lg-4">
             <figure class="portfolio-thumb shadow-none">
               <img
                 class="img-fluid"
@@ -41,7 +43,7 @@
                 alt="CDSC logo"
               />
             </figure>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

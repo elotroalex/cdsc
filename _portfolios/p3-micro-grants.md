@@ -2,7 +2,7 @@
 layout: program
 title: "Micro-grants for Caribbean Digital Scholarship"
 short_title: "Micro-grants"
-thumbnail: "/assets/images/Portfolio/1.jpg"
+thumbnail: "/assets/images/Portfolio/img-p3.png"
 permalink: micro-grants/
 lang: en
 description: To foster the work of digital scholarship in the Caribbean from independent groups, the CDSC offers micro-grants to support a wide range of projects that can elevate Caribbean digital scholarship.

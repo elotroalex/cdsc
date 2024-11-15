@@ -2,9 +2,15 @@
 layout: program
 title: "L'Université de Porto Rico - Rio Piedras<br>Caribe Digital"
 short_title: "UPR Caribe Digital"
-thumbnail: "/assets/images/Portfolio/4.jpg"
+thumbnail: "/assets/images/Portfolio/img-p5.png"
 permalink: upr/
 lang: fr
+description: L'Université de Porto Rico, Campus Rio Piedras (UPR-PR) propose un ensemble complet et durable d'initiatives pour promouvoir les humanités numériques à Porto Rico.
+card_image: "/assets/images/05_img_card.png"
+bullet_audience: "Pour les étudiants et les universitaires"
+bullet_location: "Au siège de Río Piedras, Université de Porto Rico"
+bullet_date: "Dates clés: à confirmer"
+bullet_type: "Type de support: académique"
 ---
 
 <div class="portfolio-details">

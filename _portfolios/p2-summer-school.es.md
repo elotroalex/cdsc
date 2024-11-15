@@ -9,7 +9,7 @@ description: El Instituto de Verano de Estudios Digitales del Caribe (CDSsi, por
 card_image: "/assets/images/02_img_card.png"
 bullet_audience: "Para estudiantes y académicos"
 bullet_location: "University de Miami"
-bullet_date: "Fechas clave: Junio"
+bullet_date: "Fechas clave: Enero-Junio 2025"
 bullet_type: "Tipo de apoyo: entrenamiento y gastos de viaje"
 ---
 

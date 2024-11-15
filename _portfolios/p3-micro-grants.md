@@ -7,7 +7,7 @@ permalink: micro-grants/
 lang: en
 description: To foster the work of digital scholarship in the Caribbean from independent groups, the CDSC offers micro-grants to support a wide range of projects that can elevate Caribbean digital scholarship.
 card_image: "/assets/images/03_img_card.png"
-bullet_audience: "For researchers"
+bullet_audience: "For students, researchers and organizations"
 bullet_location: "Online participation"
 bullet_date: "Key dates: June - September"
 bullet_type: "Type of support: Grant"

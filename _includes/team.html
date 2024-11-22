@@ -4,10 +4,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        {% if site.active_lang == 'en' %}
+        {% if site.active_lang == 'en'%}
         <h3 class="section-title">Our Team</h3>
         {% elsif site.active_lang == 'es' %}
         <h3 class="section-title">Nuestro equipo</h3>
+        {% elsif site.active_lang == 'fr' %}
+        <h3 class="section-title">Notre équipe</h3>
         {% endif %}
       </div>
       <!-- /.col-md-12 -->
@@ -15,119 +17,246 @@
     <!-- /.row -->
 
     <div class="row text-center mt-5 justify-content-center">
-      <div class="col-md-4 mb-2">
+      <!-- current members -->
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
         <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
-          src="{{site.baseurl}}/assets/images/sesprit.jpg"
+          src="{{site.baseurl}}/assets/images/kglover-old.jpg"
           data-holder-rendered="true"
         />
-        <div style="line-height: 1rem">
-          <h3 class="mt-0 mb-1">Schuyler Esprit</h3>
-          {% if site.active_lang == 'en' %}
-          <p class="m-0 h5">Co-Principal Investigator</p>
-          {% elsif site.active_lang == 'es' %}
-          <p class="m-0 h5">Investigadora co-principal</p>
-          {% endif %}
-          <p class="mt-0 mb-5">Create Caribbean</p>
-        </div>
+        <h3 class="mt-0 mb-1">Kaiama L. Glover</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Principal Investigator</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Investigatora principal</p>
+        {% endif %}
+        <p class="mt-0 mb-5 small-text">Barnard College</p>
       </div>
-      <div class="col-md-4 mb-2">
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
         <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
           src="{{site.baseurl}}/assets/images/agil.jpg"
           data-holder-rendered="true"
         />
         <h3 class="my-0">Alex Gil</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Co-Principal Investigator</p>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Co-Principal Investigator</p>
         {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Investigador co-principal</p>
+        <p class="m-0 small-text">Investigador co-principal</p>
         {% endif %}
-        <p class="mt-0 mb-5">Yale University</p>
+        <p class="mt-0 mb-5 small-text">Yale University</p>
       </div>
-      <div class="col-md-4 mb-2">
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
         <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
-          alt="100x100"
-          src="{{site.baseurl}}/assets/images/kglover-old.jpg"
-          data-holder-rendered="true"
-        />
-        <h3 class="my-0">Kaiama L. Glover</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Principal Investigator</p>
-        {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Investigatora principal</p>
-        {% endif %}
-        <p class="mt-0 mb-5">Barnard College</p>
-      </div>
-    </div>
-    <div class="row text-center justify-content-center">
-      <div class="col-md-4 mb-2">
-        <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
-          alt="100x100"
-          src="{{site.baseurl}}/assets/images/mgonzalez.jpg"
-          data-holder-rendered="true"
-        />
-        <h3 class="my-0">Mirerza González Vélez</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Co-Principal Investigator</p>
-        <p class="mt-0 mb-5">University of Puerto Rico</p>
-        {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Investigadora co-principal</p>
-        <p class="mt-0 mb-5">Universidad de Puerto Rico</p>
-        {% endif %}
-      </div>
-      <div class="col-md-4 mb-2">
-        <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
           src="{{site.baseurl}}/assets/images/kbjosephs.jpg"
           data-holder-rendered="true"
         />
         <h3 class="my-0">Kelly Baker Josephs</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Co-Principal Investigator</p>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Co-Principal Investigator</p>
         {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Investigadora co-principal</p>
+        <p class="m-0 small-text">Investigadora co-principal</p>
         {% endif %}
-        <p class="mt-0 mb-5">University of Miami</p>
+        <p class="mt-0 mb-5 small-text">University of Miami</p>
       </div>
-      <div class="col-md-4 mb-2">
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
         <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
+          alt="100x100"
+          src="{{site.baseurl}}/assets/images/sesprit.jpg"
+          data-holder-rendered="true"
+        />
+        <div style="line-height: 1rem">
+          <h3 class="my-0">Schuyler Esprit</h3>
+          {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+          <p class="m-0 small-text">Co-Principal Investigator</p>
+          {% elsif site.active_lang == 'es' %}
+          <p class="m-0 small-text">Investigadora co-principal</p>
+          {% endif %}
+          <p class="mt-0 mb-5 small-text">Create Caribbean</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <img
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
           src="{{site.baseurl}}/assets/images/nrios.jpg"
           data-holder-rendered="true"
         />
         <h3 class="my-0">Nadjah Ríos Villarini</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Co-Principal Investigator</p>
-        <p class="mt-0 mb-5">University of Puerto Rico</p>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Co-Principal Investigator</p>
+        <p class="mt-0 mb-5 small-text">University of Puerto Rico</p>
         {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Investigadora co-principal</p>
-        <p class="mt-0 mb-5">Universidad de Puerto Rico</p>
+        <p class="m-0 small-text">Investigadora co-principal</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Puerto Rico</p>
         {% endif %}
       </div>
-      <div class="col-md-4 mb-2">
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
         <img
-          class="shadow-lg p-1 mb-5 bg-light rounded-circle"
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
+          alt="100x100"
+          src="{{site.baseurl}}/assets/images/mgonzalez.jpg"
+          data-holder-rendered="true"
+        />
+        <h3 class="my-0 line-height-mb">Mirerza González Vélez</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Co-Principal Investigator</p>
+        <p class="mt-0 mb-5 small-text">University of Puerto Rico</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Investigadora co-principal</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Puerto Rico</p>
+        {% endif %}
+      </div>
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <img
+          class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
           src="{{site.baseurl}}/assets/images/asoto.jpg"
           data-holder-rendered="true"
         />
         <h3 class="my-0">Andreína Soto</h3>
-        {% if site.active_lang == 'en' %}
-        <p class="m-0 h5">Grant Associate Director</p>
-        <p class="mt-0 mb-5">Barnard College</p>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Grant Associate Director</p>
+        <p class="mt-0 mb-5 small-text">Barnard College</p>
         {% elsif site.active_lang == 'es' %}
-        <p class="m-0 h5">Directora Asociada</p>
-        <p class="mt-0 mb-5">Barnard College</p>
+        <p class="m-0 small-text">Directora Asociada</p>
+        <p class="mt-0 mb-5 small-text">Barnard College</p>
         {% endif %}
       </div>
     </div>
+    <div class="row text-center justify-content-center mt-5 mb-5">
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0 line-height-mb">Mila Aponte González</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Microgrant Mentor</p>
+        <p class="mt-0 mb-5 small-text">
+          University of Puerto Rico-Rio Piedras
+        </p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Mentora de micro becas</p>
+        <p class="mt-0 mb-5 small-text">
+          Universidad de Puerto Rico-Rio Piedras
+        </p>
+        {% endif %}
+      </div>
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0">Clifton E. Sorrell III</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Digital Curator Fellow</p>
+        <p class="mt-0 mb-5 small-text">University of Texas at Austin</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Fellow de Curaduría Digital</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Texas en Austin</p>
+        {% endif %}
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0">Kelton Moorman</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Marketing Assistant</p>
+        <p class="mt-0 mb-5 small-text">Yale University</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Asistente de Marketing</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Yale</p>
+        {% endif %}
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0 line-height-mb">Gabrielle Jean-Louis</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">
+          Assistant Coordinator of the Summer Institute
+        </p>
+        <p class="mt-0 mb-5 small-text">University of Miami</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">
+          Coordinadora asistente del Instituto de Verano
+        </p>
+        <p class="mt-0 mb-5 small-text">Universidad de Miami</p>
+        {% endif %}
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0">Maliya Francis</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Marketing Assistant</p>
+        <p class="mt-0 mb-5 small-text">Yale University</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Asistente de Marketing</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Yale</p>
+        {% endif %}
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-12 mb-2">
+        <h3 class="my-0">Matthew Chen</h3>
+        {% if site.active_lang == 'en' or site.active_lang == 'fr' %}
+        <p class="m-0 small-text">Marketing Assistant</p>
+        <p class="mt-0 mb-5 small-text">Yale University</p>
+        {% elsif site.active_lang == 'es' %}
+        <p class="m-0 small-text">Asistente de Marketing</p>
+        <p class="mt-0 mb-5 small-text">Universidad de Yale</p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="mt-5">
+      {% if site.active_lang == 'en'%}
+      <h3 class="section-title">Past members</h3>
+      {% elsif site.active_lang == 'es' %}
+      <h3 class="section-title">Antiguos miembros</h3>
+      {% elsif site.active_lang == 'fr' %}
+      <h3 class="section-title">Anciens membres</h3>
+      {% endif %}
+      <div class="mb-5"></div>
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Hope Culinam</p>
+          <p class="mt-0 mb-5 small-text">CUNY</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Mia Toledo-Navarro</p>
+          <p class="mt-0 mb-5 small-text">Yale University</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Sophia Pollack</p>
+          <p class="mt-0 mb-5 small-text">Barnard College</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Tess Abraham</p>
+          <p class="mt-0 mb-5 small-text">Barnard College</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Naomi Coke</p>
+          <p class="mt-0 mb-5 small-text">Barnard College</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <p class="m-0">Tandile Jackson Vinson</p>
+          <p class="mt-0 mb-5 small-text">Barnard College</p>
+        </div>
+      </div>
+    </div>
+    <!-- <p>
+      Hope Culinam, CUNY — Mia Toledo-Navarro, Yale University — Sophia Pollack,
+      Barnard College — Tess Abraham, Barnard College — Naomi Coke, Barnard
+      College — Tandile Jackson Vinson, Barnard College
+    </p> -->
+
+    <!-- <ul>
+      <li>Hope Culinam - CUNY</li>
+      <li>Mia Toledo-Navarro - Yale University</li>
+      <li>Sophia Pollack - Barnard College</li>
+      <li>Tess Abraham - Barnard College</li>
+      <li>Naomi Coke - Barnard College</li>
+      <li>Tandile Jackson Vinson - Barnard College</li>
+    </ul> -->
   </div>
   <!--  /.container -->
 </section>

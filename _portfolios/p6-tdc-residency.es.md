@@ -9,7 +9,7 @@ description: La Residencia Virtual de Artistas Digitales apoya a los artistas ca
 card_image: "/assets/images/06_img_card.png"
 bullet_audience: "Para artistas"
 bullet_location: "Virtual"
-bullet_date: "Fecha clave: marzo 2025"
+bullet_date: "Fecha clave: enero-marzo 2025"
 bullet_type: "Tipo de apoyo: residencia"
 ---
 

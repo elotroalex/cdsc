@@ -8,7 +8,7 @@ lang: fr
 description: Le Caribbean Digital Scholarship Summer Institute (CDSsi) forme des universitaires intéressés à aborder les études caribéennes et l'érudition numérique en tant que domaines de recherche et d'engagement organiquement intégrés. Le CDSsi prend en charge les voyages d'un maximum de 30 chercheurs pour participer à l'institut d'été d'une semaine et apprendre des experts dans le domaine.
 card_image: "/assets/images/02_img_card.png"
 bullet_audience: "Pour les étudiants et les universitaires"
-bullet_location: "Université à confirmer"
+bullet_location: "Emplacement: The University of the West Indies, Mona"
 bullet_date: "Dates clés: à confirmer"
 bullet_type: "Type de support: allocation de voyage"
 ---

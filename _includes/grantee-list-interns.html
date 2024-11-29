@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="grantee-list">
+    {% assign grouped_grantees = site.data.grantees-interns | group_by: "Title"
+    %} {% for program in grouped_grantees %}
+    <div class="program-group">
+      <h3 class="mt-5">{{ program.name }}</h3>
+      <!-- Program title -->
+
+      <div class="row">
+        {% for grantee in program.items %}
+        <div class="col-sm-6 col-12 mb-4">
+          <div class="grantee-item mb-3 mt-3">
+            <div class="row">
+              <!-- Image Column -->
+              <div class="col-2">
+                {% if grantee["Picture of cohort"] %}
+                <img
+                  src="{{ grantee['Picture of cohort'] }}"
+                  alt="Picture of {{ grantee['Name'] }}"
+                  class="img-fluid"
+                />
+                {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
+                {% if image_index == 0 %}
+                <img
+                  src="/assets/images/54.png"
+                  alt="Placeholder Image 1"
+                  class="img-fluid"
+                />
+                {% else %}
+                <img
+                  src="/assets/images/55.png"
+                  alt="Placeholder Image 2"
+                  class="img-fluid"
+                />
+                {% endif %} {% endif %}
+              </div>
+
+              <!-- Text Column -->
+              <div class="col-9 pl-0">
+                <h4 class="mb-0">{{ grantee["Name"] }}</h4>
+                {% unless grantee.Status == "n/a" %}
+                <p class="m-0 pt-2">{{ grantee.Status }}</p>
+                {% endunless %} {% unless grantee["Institutional Affiliation"]
+                == "n/a" %}
+                <p class="m-0 small-text">
+                  {{ grantee["Institutional Affiliation"] }}
+                </p>
+                {% endunless %} {% unless grantee.Location == "n/a" %}
+                <p class="mt-0 small-text">{{ grantee.Location }}</p>
+                {% endunless %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

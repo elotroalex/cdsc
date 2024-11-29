@@ -9,6 +9,8 @@
       url: "/micro-grants/"
     - text: "The Caribbean Digital"
       url: "/tcd/"
+    - text: "Digital Artist’s Residency"
+      url: "/tcdr/"
     - text: "UPR Caribe Digital"
       url: "/upr/"
 - text: "News"

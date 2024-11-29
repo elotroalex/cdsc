@@ -25,6 +25,10 @@ bullet_type: "Type of support: pedagogy and training"
 <p>For more information, visit UPR Caribe Digital’s <a href="https://www.uprcaribedigital.org/" target="_blank">website</a></p>
 <div><h5>Program coordinators:  Mirerza González Vélez and Nadjah Ríos Villarini</h5></div>
 
+ <!-- <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-upr/">Previous grantees</a>
+    </div> -->
+
 <div class="project-demo-btn">
     <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Follow UPR Caribe Digital on Facebook</a>
 </div>

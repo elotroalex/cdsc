@@ -27,5 +27,7 @@ bullet_type: "Type of support: Grant"
 <p>The micro-grant program is open to individuals and groups from educational, research, and community organizations working in Caribbean Studies, and independent scholars. The committee prioritizes individuals, groups and works representing the Caribbean region and its global diasporas. Proposals are evaluated based on their intellectual contributions to Caribbean Digital scholarship, engagement with digital methods and tools to advance research, teaching, learning, and/or public engagement, and projected deliverables. Visit our <a href="/_micro-grants/cfp2024.html" target="_blank">Call for Proposals</a> for more information about eligibility and application requirements.</p>
 <p>For examples of digital resources resulting from—and meant for—the study of the Caribbean, explore the micro-grant awardees <!--(link to beneficiaries)--> and <a href="https://thecaribbeandigital.org/caridischo/" target="_blank">CariDiScho</a>, a directory of Caribbean Digital Scholarship.</p>
 <div><h5>Program coordinators:Alex Gil and Andreina Soto</h5></div>
-
+ <!-- <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-microgrants/">Previous grantees</a>
+    </div> -->
 </div>

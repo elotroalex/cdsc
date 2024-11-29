@@ -24,6 +24,10 @@ bullet_type: "Type of support: Training + Travel stipend"
   
   <p>The CDSsi aims to address the need for training and mentorship tailored for Caribbean studies and practitioners to secure the talent pool and viable futures for digital scholarship in the region. Every year, the CDSsi supports travel for up to 30 scholars to attend the week-long summer institute and learn from experts in the field. The course offerings focus on computational approaches to corpora (text and media analysis, general use of computation, statistics, data science), digital pedagogy, and the design and implementation of knowledge systems (digital archives, exhibits, maps, visualizations, publishing) beyond the use of templated solutions. The immersive experience allows participants to build foundational skills while establishing personal and professional connections with peers and instructors.</p>
 
+  <!-- <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-cdssi/">Previous grantees</a>
+    </div> -->
+
   <div><h5>Program Coordinator: Kelly Baker Josephs</h5></div>
   <div><h5>Assistant Coordinator: Gabrielle Jean-Louis</h5> </div>
  

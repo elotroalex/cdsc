@@ -9,7 +9,7 @@ description: Pour encourager les travaux de recherche numérique dans les Caraï
 card_image: "/assets/images/03_img_card.png"
 bullet_audience: "Pour les chercheurs"
 bullet_location: "Participation en ligne"
-bullet_date: "Date clé: juin - septembre"
+bullet_date: "Date clé: fermée"
 bullet_type: "Type de soutien : subvention"
 ---
 

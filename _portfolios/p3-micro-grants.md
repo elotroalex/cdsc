@@ -9,7 +9,7 @@ description: To foster the work of digital scholarship in the Caribbean from ind
 card_image: "/assets/images/03_img_card.png"
 bullet_audience: "For students, researchers and organizations"
 bullet_location: "Online participation"
-bullet_date: "Key dates: June - September"
+bullet_date: "Key dates: Closed"
 bullet_type: "Type of support: Grant"
 ---
 

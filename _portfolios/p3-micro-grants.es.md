@@ -9,7 +9,7 @@ description: Para fomentar el trabajo de los estudios digitales desde y para el 
 card_image: "/assets/images/03_img_card.png"
 bullet_audience: "Para estudiantes, investigadores y organizaciones"
 bullet_location: "Participación en línea"
-bullet_date: "Fechas clave: junio - septiembre"
+bullet_date: "Fechas clave: cerrado"
 bullet_type: "Tipo de apoyo: beca"
 ---
 

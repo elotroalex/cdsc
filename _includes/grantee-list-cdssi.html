@@ -1,8 +1,17 @@
 <div class="container">
+  <!-- Navigation Links -->
+  <div class="program-navigation">
+    <a href="#program-2023" class="btn btn-link">2023</a> |
+    <a href="#program-2024" class="btn btn-link">2024</a>
+  </div>
+
   <div class="grantee-list">
     {% assign grouped_grantees = site.data.grantees-cdssi | group_by: "Program"
     %} {% for program in grouped_grantees %}
-    <div class="program-group">
+    <!-- Debugging: Output the program name -->
+
+    {% if program.name == "Summer Institute cohort 2024" %}
+    <div id="program-2024" class="program-group">
       <h3 class="mt-5">{{ program.name }}</h3>
       <!-- Program title -->
 
@@ -60,6 +69,65 @@
       </div>
       {% endfor %}
     </div>
-    {% endfor %}
+    {% elsif program.name == "Summer Institute cohort 2023" %}
+    <div id="program-2023" class="program-group">
+      <h3 class="mt-5">{{ program.name }}</h3>
+      <!-- Program title -->
+
+      {% assign grouped_courses = program.items | group_by: "Course taken" %} {%
+      for course in grouped_courses %}
+      <h4 class="mt-5 mb-3 text-decoration-underline">{{ course.name }}</h4>
+      <!-- Course title -->
+
+      <div class="row">
+        {% for grantee in course.items %}
+        <div class="col-sm-6 col-12 mb-4">
+          <div class="grantee-item mb-3 mt-3">
+            <div class="row">
+              <!-- Image Column -->
+              <div class="col-2">
+                {% if grantee["Picture of cohort"] %}
+                <img
+                  src="{{ grantee['Picture of cohort'] }}"
+                  alt="Picture of {{ grantee['Name of participant'] }}"
+                  class="img-fluid"
+                />
+                {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
+                {% if image_index == 0 %}
+                <img
+                  src="/assets/images/54.png"
+                  alt="Placeholder Image 1"
+                  class="img-fluid"
+                />
+                {% else %}
+                <img
+                  src="/assets/images/55.png"
+                  alt="Placeholder Image 2"
+                  class="img-fluid"
+                />
+                {% endif %} {% endif %}
+              </div>
+
+              <!-- Text Column -->
+              <div class="col-9 pl-0">
+                <h4 class="mb-0">{{ grantee["Name of participant"] }}</h4>
+
+                {% unless grantee.Status == "n/a" %}
+                <p class="m-0 pt-2">{{ grantee.Status }}</p>
+                {% endunless %} {% unless grantee["Institutional Affiliation"]
+                == "n/a" %}
+                <p class="mt-0 small-text">
+                  {{ grantee["Institutional Affiliation"] }}
+                </p>
+                {% endunless %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %} {% endfor %}
   </div>
 </div>

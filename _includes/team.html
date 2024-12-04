@@ -3,7 +3,7 @@
 <section class="our-team pd-b-90">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 d-flex justify-content-start align-items-center">
         {% if site.active_lang == 'en'%}
         <h3 class="section-title">Our Team</h3>
         {% elsif site.active_lang == 'es' %}
@@ -11,10 +11,16 @@
         {% elsif site.active_lang == 'fr' %}
         <h3 class="section-title">Notre équipe</h3>
         {% endif %}
+        
+        <!-- Collapse Arrow Icon -->
+        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#teamCollapse" aria-expanded="false" aria-controls="teamCollapse">
+          <i class="bi bi-caret-down-fill"></i> <!-- Bootstrap Icon for the arrow -->
+        </button>
       </div>
-      <!-- /.col-md-12 -->
     </div>
-    <!-- /.row -->
+    
+        <!-- Collapsible Team Content -->
+        <div class="collapse" id="teamCollapse">
 
     <div class="row text-center mt-5 justify-content-center">
       <!-- current members -->
@@ -141,7 +147,7 @@
         <img
           class="shadow-lg p-1 mb-3 bg-light rounded-circle"
           alt="100x100"
-          src="{{site.baseurl}}/assets/images/Portfolio/img-p1.png"
+          src="{{site.baseurl}}/assets/images/maponte.jpg"
           data-holder-rendered="true"
         />
         <h3 class="my-0 line-height-mb">Mila Aponte González</h3>

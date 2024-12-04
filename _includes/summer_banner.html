@@ -1,0 +1,29 @@
+<!-- banner for home page promoting summer institute program -->
+<section class="apply-module">
+  <div class="bg-blue-02">
+    <div class="circle-bg rgt-btm op-blue-03"></div>
+    <div class="container apply-rect">
+      <div class="apply-title">
+        {% if site.active_lang == 'en' %}
+        <h1 class="text-blue-04">
+          caribbean digital scholarship summer institute
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/summer-school/cfp2025/">apply</a>
+        {% elsif site.active_lang == 'es' %}
+        <h1 class="text-blue-04">
+          instituto de verano de estudio del caribe digital
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/summer-school/cfp2025/">aplicar</a>
+        {% elsif site.active_lang == 'fr' %}
+        <h1 class="text-blue-04">
+          institut d'été sur les études numériques caribéennes
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/summer-school/cfp2025/">postuler</a>
+        {% endif %}
+    </div>
+    <div class="circle-bg lft-top op-blue-03"></div>
+  </div>
+</section>

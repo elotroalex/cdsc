@@ -1,7 +1,7 @@
 <section id="organizations" class="organizations-block pd-tb-45">
   <div class="container">
     <div class="row mb-5">
-      <div class="col-md-12">
+      <div class="col-md-12 d-flex justify-content-start align-items-center"">
         {% if site.active_lang == 'en'%}
         <h3 class="section-title">Our Community Partners</h3>
         {% elsif site.active_lang == 'es' %}
@@ -9,8 +9,15 @@
         {% elsif site.active_lang == 'fr' %}
         <h3 class="section-title">Nos partenaires communautaires</h3>
         {% endif %}
+
+           <!-- Collapse Arrow Icon -->
+           <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#orgCollapse" aria-expanded="false" aria-controls="teamCollapse">
+            <i class="bi bi-caret-down-fill"></i> <!-- Bootstrap Icon for the arrow -->
+          </button>
       </div>
     </div>
+       <!-- Collapsible Team Content -->
+       <div class="collapse" id="orgCollapse">
     <div class="d-flex flex-wrap align-items-center">
       {% for image in site.data.organizations %}
 
@@ -26,6 +33,7 @@
 
       {% endfor %}
     </div>
+  </div>
     <!--  /.row -->
   </div>
   <!--  /.container -->

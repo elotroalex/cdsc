@@ -13,11 +13,12 @@ bullet_date: "Dates clés: à confirmer"
 bullet_type: "Type de support: allocation de voyage"
 ---
 
-<!-- <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2024/">Llamado 2024</a> <a class="btn project-btn" href="https://docs.google.com/document/d/1Lp2Y6SpMaVijGTf2_JNzT20mdaUr4Ndl2zm8r3bYrHY/edit">Appel en français</a>
+<div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2025/">Appel 2025</a> 
+        <!-- <a class="btn project-btn" href="https://docs.google.com/document/d/1Lp2Y6SpMaVijGTf2_JNzT20mdaUr4Ndl2zm8r3bYrHY/edit">Appel en français</a> -->
     </div>
 <hr>
-<br> -->
+<br>
 
 <div class="portfolio-details">
   <p>L'Institut d'Été sur la Recherche Numérique Caribéenne (CDSsi) forme des chercheurs intéressés par l'intégration organique des études caribéennes et de la recherche numérique en tant que domaines d'enquête et d'engagement. Les programmes d'études intégrant ces domaines sont rares dans les universités actuelles. Une solution classique a été de créer des instituts d'été généralistes (comme le Digital Humanities Summer Institute à l'Université de Victoria ou le Dream Lab à l'Université de Pennsylvanie). Cependant, ces programmes se sont avérés inaccessibles pour de nombreux chercheurs caribéens en raison de leur coût élevé, des contraintes logistiques des voyages internationaux et de leur tendance à se concentrer sur l'Europe, le Canada et les États-Unis. Face à ce défi, il est crucial d'assurer un avenir viable pour la recherche numérique dans les études caribéennes, en élargissant le nombre de professionnels dans ces domaines d'expertise.</p>

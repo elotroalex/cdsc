@@ -20,9 +20,9 @@ bullet_type: "Type of support: Residency"
 <p><a href="" target="_blank">Artist in Residence page </a></p>
 <p>For more information about eligibility and application requirements, visit our <a href="https://thecaribbeandigital.org/residency/" target="_blank">Call for Proposals</a></p>
 
- <!-- <div class="project-demo-btn">
+ <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/grantees-air/">Previous grantees</a>
-    </div> -->
+    </div>
 
 <div><h5>Program Coordinators: Kaiama L. Glover and Kelly Baker Josephs</h5></div>
     

@@ -36,13 +36,13 @@
                 {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
                 {% if image_index == 0 %}
                 <img
-                  src="/assets/images/54.png"
+                  src="/assets/images/grantee01.png"
                   alt="Placeholder Image 1"
                   class="img-fluid"
                 />
                 {% else %}
                 <img
-                  src="/assets/images/55.png"
+                  src="/assets/images/grantee02.png"
                   alt="Placeholder Image 2"
                   class="img-fluid"
                 />
@@ -53,8 +53,15 @@
               <div class="col-9 pl-0">
                 <h4 class="mb-0">{{ grantee["Name of participant"] }}</h4>
 
-                {% unless grantee.Status == "n/a" %}
-                <p class="m-0 pt-2">{{ grantee.Status }}</p>
+                {% unless grantee["Status"] == "n/a" %}
+                <p class="m-0 pt-2">
+                  {% if site.active_lang == "en" %} {{ grantee["Status"] }} {%
+                  elsif site.active_lang == "es" %} {{ grantee["Status Español"]
+                  }} {% elsif site.active_lang == "fr" %} {{ grantee["Status
+                  Franais"] }} {% else %} {{ grantee["Status"] }}
+                  <!-- Default to English -->
+                  {% endif %}
+                </p>
                 {% endunless %} {% unless grantee["Institutional Affiliation"]
                 == "n/a" %}
                 <p class="mt-0 small-text">
@@ -95,13 +102,13 @@
                 {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
                 {% if image_index == 0 %}
                 <img
-                  src="/assets/images/54.png"
+                  src="/assets/images/grantee01.png"
                   alt="Placeholder Image 1"
                   class="img-fluid"
                 />
                 {% else %}
                 <img
-                  src="/assets/images/55.png"
+                  src="/assets/images/grantee02.png"
                   alt="Placeholder Image 2"
                   class="img-fluid"
                 />
@@ -112,8 +119,15 @@
               <div class="col-9 pl-0">
                 <h4 class="mb-0">{{ grantee["Name of participant"] }}</h4>
 
-                {% unless grantee.Status == "n/a" %}
-                <p class="m-0 pt-2">{{ grantee.Status }}</p>
+                {% unless grantee["Status"] == "n/a" %}
+                <p class="m-0 pt-2">
+                  {% if site.active_lang == "en" %} {{ grantee["Status"] }} {%
+                  elsif site.active_lang == "es" %} {{ grantee["Status Español"]
+                  }} {% elsif site.active_lang == "fr" %} {{ grantee["Status
+                  Franais"] }} {% else %} {{ grantee["Status"] }}
+                  <!-- Default to English -->
+                  {% endif %}
+                </p>
                 {% endunless %} {% unless grantee["Institutional Affiliation"]
                 == "n/a" %}
                 <p class="mt-0 small-text">

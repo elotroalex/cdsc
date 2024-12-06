@@ -13,12 +13,11 @@ bullet_date: "Fechas clave: Enero-Junio 2025"
 bullet_type: "Tipo de apoyo: entrenamiento y gastos de viaje"
 ---
 
-<div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2025/">Llamado 2024</a> 
-        <!-- <a class="btn project-btn" href="https://docs.google.com/document/d/1Lp2Y6SpMaVijGTf2_JNzT20mdaUr4Ndl2zm8r3bYrHY/edit">Appel en français</a> -->
+<!-- <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2025/">Llamado 2024</a>
     </div>
 <hr>
-<br>
+<br> -->
 
 <div class="project-demo-btn" style="margin-top: 30px;
         margin-bottom: 45px; width:100%; text-align: center;">

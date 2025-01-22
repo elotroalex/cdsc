@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Lauréats des micro-bourses 2024-25"
+date: 2025-01-20
+author: CDSC
+permalink: microgrant-recipients-2025/
+post_image: "assets/images/news/micrograntees2025.png"
+excerpt: "Annonce des gagnants du programme de micro-subventions de cette année !"
+lang: fr
+---
+Nous nous réjouissons d'annoncer les organisateurs du programme Microbecas du Caribbean Digital Scholarship Collective pour 2024-25 ! Cette troisième et dernière ronde a eu lieu avec une réponse soudaine de la part de candidats de haute qualité de solliciteurs de toute la région des Caraïbes et de leurs diasporas mondiales. Les propositions montrent des thèmes importants sur la préservation du numérique, l'activisme pour les communautés marginalisées, le patrimoine culturel et bien plus encore.
+
+Une fois de plus, le processus de sollicitation et de sélection de microbes a dépassé nos attentes, démontrant la pertinence des programmes qu'ils proposent et conseillent pour les praticiens numériques des Caraïbes. Nous avons reçu un total de 131 propositions, et le comité d'évaluation a attribué 12 prix à des projets incroyables provenant d'enquêteurs et d'équipes collaboratrices qui travaillent avec des communautés queer, des identités et des traditions afro-caribéennes et autochtones, une gouvernance territoriale et communautaire, une cartographie et une préservation numérique.
+
+Nous avons apprécié de relever le comité d'évaluation de cette année, les professeurs Nadjah Rios, Mirerza Gonzalez, Tzarina Prater et Sonja Donaldson, pour leur dévouement et leur contribution au cours de ce processus.
+Nous avons enorgullece partager que nous avons superado notre méta original et que, en même temps, nous garantissons un processus inclusif et complet. Le CDSC se contente de contacter sa confiance pour répondre à une grande partie de ces initiatives. Nous espérons créer une communauté salutaire et prospérer dans les studios numériques des Caraïbes.
+
+La liste complète des bénéficiaires du programme 2024-25 est disponible [ici](https://cdscollective.org/grantees-microgrants/).

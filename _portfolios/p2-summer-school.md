@@ -19,11 +19,6 @@ bullet_type: "Type of support: Training + Travel stipend"
 <hr>
 <br> -->
 
-<div class="project-demo-btn" style="margin-top: 30px;
-        margin-bottom: 45px; width:100%; text-align: center;">
-        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2025/">2025 Call for Proposals</a>
-    </div>
-
 <div class="portfolio-details">
   <p>The Caribbean Digital Scholarship Summer Institute (CDSsi) trains scholars interested in approaching Caribbean Studies and digital scholarship as organically integrated fields of inquiry and engagement. Programs of study that integrate these domains are hard to come by in today's universities. A standard solution has been assembling generalist summer institutes (such as the Digital Humanities Summer Institute at the University of Victoria, or Dream Lab at the University of Pennsylvania). However, these programs have proven to be inaccessible to many Caribbean scholars due to the high cost, logistics of international travel, and a tendency to center on Europe, Canada, and the US. Given this challenge, we must secure a viable future for digital scholarship in Caribbean studies that expands the professionals in these areas of expertise.</p>
   

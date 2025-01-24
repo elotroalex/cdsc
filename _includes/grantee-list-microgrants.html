@@ -1,51 +1,97 @@
 <div class="container">
+  <!-- Navigation Links for Micro-Grants -->
+  <div class="program-navigation">
+    <a href="#micro-grants-2023" class="btn btn-link">Micro-Grants 2023</a> |
+    <a href="#micro-grants-2022" class="btn btn-link">Micro-Grants 2022</a>
+  </div>
+
   <div class="grantee-list">
     {% assign grouped_grants = site.data.grantees-microgrants | group_by: "Program" %}
     {% for program in grouped_grants %}
-    <div class="program-group">
-      <h2 class="program-title">{{ program.name }}</h2>
-      <!-- Program Title -->
+      {% if program.name == "Micro-Grants 2023" %}
+        <div id="micro-grants-2023" class="program-group">
+          <h2 class="program-title">{{ program.name }}</h2>
+          <div class="row">
+            {% for grant in program.items %}
+              <div class="col-12">
+                <div class="grant-item mb-3 mt-3 row">
+                  <!-- Image Column -->
+                  <div class="col-2">
+                    {% assign image_index = forloop.index0 | modulo: 2 %}
+                    {% if image_index == 0 %}
+                      <img src="/assets/images/54.png" alt="Placeholder Image 1" class="img-fluid" />
+                    {% else %}
+                      <img src="/assets/images/55.png" alt="Placeholder Image 2" class="img-fluid" />
+                    {% endif %}
+                  </div>
 
-      <div class="row">
-        {% for grant in program.items %}
-        <div class="col-12">
-          <div class="grant-item mb-3 mt-3 row">
-            <!-- Image Column -->
-            <div class="col-2">
-              {% assign image_index = forloop.index0 | modulo: 2 %}
-              {% if image_index == 0 %}
-              <img
-                src="/assets/images/54.png"
-                alt="Placeholder Image 1"
-                class="img-fluid"
-              />
-              {% else %}
-              <img
-                src="/assets/images/55.png"
-                alt="Placeholder Image 2"
-                class="img-fluid"
-              />
-              {% endif %}
-            </div>
+                  <!-- Text Column -->
+                  <div class="col-9">
+                    <h4 class="mb-0">{{ grant["Project Title"] }}</h4>
+                    <p class="m-0 pt-2">{{ grant["PI(s)"] }}</p>
+                    <p class="m-0">{{ grant["Location of project"] }}</p>
+                    <p class="mt-0 small-text">Amount awarded: {{ grant["Amount awarded"] }}</p>
 
-            <!-- Text Column -->
-            <div class="col-9">
-              <h4 class="mb-0">{{ grant["Project Title"] }}</h4>
-              <p class="m-0 pt-2">{{ grant["PI(s)"] }}</p>
-              <p class="m-0">{{ grant["Location of project"] }}</p>
-              <p class="mt-0 small-text">Amount awarded:{{ grant["Amount awarded"] }}</p>
-              <p class="mt-3">{{ grant["Description of the project (150 words max)"] }}</p>
-              {% if grant["External links (if applicable)"] %}
-              <p class="mt-1">
-                <a href="{{ grant["External links (if applicable)"] }}" target="_blank">View more</a>
-              </p>
-              {% endif %}
-            </div>
+                    <div class="description">
+                      <p class="mt-3 collapse-content">{{ grant["Description of the project (150 words max)"] }}</p>
+                      <div class="view-more-link mt-2" style="display: none;">
+                        {% if grant["External links"] %}
+                          <a href="{{ grant["External links"] }}" target="_blank" class="btn btn-outline-primary btn-sm">Visit project page</a>
+                        {% endif %}
+                      </div>
+                      <p></p>
+                      <a href="#" class="toggle-description mt-2 text-decoration-underline fw-bold">See more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
           </div>
         </div>
-        {% endfor %}
-      </div>
-    </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
+
+<!-- CSS -->
+<style>
+  .collapse-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .description.expanded .collapse-content {
+    display: block;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    overflow: visible;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  document.querySelectorAll('.toggle-description').forEach(toggle => {
+    toggle.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const description = this.closest('.description');
+      const collapseContent = description.querySelector('.collapse-content');
+      const viewMoreLink = description.querySelector('.view-more-link');
+
+      if (description.classList.contains('expanded')) {
+        // Collapse content
+        description.classList.remove('expanded');
+        this.textContent = 'See more';
+        collapseContent.style.display = '-webkit-box'; // Reapply truncation
+        if (viewMoreLink) viewMoreLink.style.display = 'none'; // Hide link
+      } else {
+        // Expand content
+        description.classList.add('expanded');
+        this.textContent = 'See less';
+        collapseContent.style.display = 'block'; // Show full content
+        if (viewMoreLink) viewMoreLink.style.display = 'block'; // Show link
+      }
+    });
+  });
+</script>

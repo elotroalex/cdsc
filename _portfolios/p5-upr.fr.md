@@ -24,6 +24,10 @@ bullet_type: "Type de support: académique"
 <p>Pour plus d'informations, visitez le <a href="https://www.uprcaribedigital.org/" target="_blank">site web</a> de UPR Caribe Digital .</p>
    <div><h5>Coordinateurs :</strong> Mirerza González Vélez, Nadjah Ríos Villarini</h5></div>
 
+ <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-upr/">Bénéficiaires précédents</a>
+    </div>
+
 <div class="project-demo-btn">
     <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Suivez UPR Caribe Digital sur Facebook</a>
 </div>

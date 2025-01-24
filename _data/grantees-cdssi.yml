@@ -1,64 +1,20 @@
 ---
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Alexander Butler
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Bowling Green State University
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
-    Name of participant: Alexandra Z. Connelly Reyes
-    Status: Archivist
-    Status Original: Archivist/Archivista/Archiviste
-    Institutional Affiliation: Archivo Histórico de Vieques
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
-    Name of participant: Alicia Doyen-Rodríguez
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: UMass Boston
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Aliyah Khan
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: University of Michigan, Ann Arbor
     Course taken: Building Caribbean Digital Archives
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Alleya Rodríguez
-    Status: Librarian
-    Status Original: Librarian/Bibliotecario/Bibliothécaire
-    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
-    Name of participant: Carlisle Brown
-    Status: Other
-    Status Original: Other/Otre/Autre
-    Institutional Affiliation: Council of Community Colleges of Jamaica
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
-    Name of participant: Dannie Brice
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: Duke University
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Dasha Chapman
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Kennesaw State University
     Course taken: Building Caribbean Digital Archives
@@ -67,6 +23,8 @@
     Program: Summer Institute cohort 2024
     Name of participant: Dharani Persaud
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of British Columbia
     Course taken: Building Caribbean Digital Archives
@@ -75,6 +33,8 @@
     Program: Summer Institute cohort 2024
     Name of participant: Eduardo Herrera Malatesta
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Aarhus University
     Course taken: Building Caribbean Digital Archives
@@ -83,6 +43,8 @@
     Program: Summer Institute cohort 2024
     Name of participant: Eugene Axel
     Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
     Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
     Institutional Affiliation: n/a
     Course taken: Building Caribbean Digital Archives
@@ -91,6 +53,8 @@
     Program: Summer Institute cohort 2024
     Name of participant: Fernanda Diaz-Basteris
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: The Ohio State University
     Course taken: Building Caribbean Digital Archives
@@ -99,22 +63,18 @@
     Program: Summer Institute cohort 2024
     Name of participant: Grace Aneiza Ali
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Florida State University
     Course taken: Building Caribbean Digital Archives
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Jessica Hutchins
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Southern Illinois University Edwardsville
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Jose Javier Morales Benítez
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: Universidad de Puerto Rico, Recinto de Mayagüez
     Course taken: Building Caribbean Digital Archives
@@ -123,22 +83,78 @@
     Program: Summer Institute cohort 2024
     Name of participant: Juliet Glenn-Callender
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: University of The Bahamas
     Course taken: Building Caribbean Digital Archives
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Kris Ali
+    Name of participant: Ryan Cummings
+    Status: University staff
+    Status Español: Personal universitario
+    Status Franais: Personnel universitaire
+    Status Original: Other/Otre/Autre
+    Institutional Affiliation: University of Guyana
+    Course taken: Building Caribbean Digital Archives
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Alexander Butler
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Bowling Green State University
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Alleya Rodríguez
+    Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
+    Status Original: Librarian/Bibliotecario/Bibliothécaire
+    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Carlisle Brown
+    Status: University staff
+    Status Español: Personal universitario
+    Status Franais: Personnel universitaire
+    Status Original: Other/Otre/Autre
+    Institutional Affiliation: Council of Community Colleges of Jamaica
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Dannie Brice
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: University of California, Santa Barbara
-    Course taken: Minimal Computing
+    Institutional Affiliation: Duke University
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Jessica Hutchins
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Southern Illinois University Edwardsville
+    Course taken: Critical Digital Pedagogy
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
     Name of participant: Laura Rosado
     Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
     Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
     Institutional Affiliation: n/a
     Course taken: Critical Digital Pedagogy
@@ -147,30 +163,98 @@
     Program: Summer Institute cohort 2024
     Name of participant: Lauren Barnes
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: The Pennsylvania State University
     Course taken: Critical Digital Pedagogy
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
+    Name of participant: Ra Bacchus
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: University of Miami
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Rhiana Perez
+    Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Other/Otre/Autre
+    Institutional Affiliation: University of Texas at El Paso
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Savita Maharaj
+    Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: Brandeis University
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Yuanne Stowe
+    Status: University staff
+    Status Español: Personal universitario
+    Status Franais: Personnel universitaire
+    Status Original: Other/Otre/Autre
+    Institutional Affiliation: Create Caribbean
+    Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Alexandra Z. Connelly Reyes
+    Status: Archivist
+    Status Español: Archivista
+    Status Franais: Archiviste
+    Status Original: Archivist/Archivista/Archiviste
+    Institutional Affiliation: Archivo Histórico de Vieques
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Alicia Doyen-Rodríguez
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: UMass Boston
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
+    Name of participant: Kris Ali
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: University of California, Santa Barbara
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2024
     Name of participant: Michael Soriano
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of Miami
     Course taken: Minimal Computing
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Nicole Aljoe
-    Status: CDSsi Instructor
-    Status Original: CDSsi Instructor
-    Institutional Affiliation: Northeastern University
-    Course taken: Building Caribbean Digital Archives
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Nicole Hernandez
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Arizona State University
     Course taken: Minimal Computing
@@ -179,54 +263,38 @@
     Program: Summer Institute cohort 2024
     Name of participant: Pauline Kulstad-González
     Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
     Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
     Institutional Affiliation: Universidad Nacional Pedro Henríquez Ureña (UNPHU)
     Course taken: Minimal Computing
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Ra Bacchus
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: University of Miami
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Reba Dickson
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Northeastern University
     Course taken: Minimal Computing
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Rhiana Perez
-    Status: Other
-    Status Original: Other/Otre/Autre
-    Institutional Affiliation: University of Texas at El Paso
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Ruth Pión
     Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
     Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
     Institutional Affiliation: Instituto Antropológico y Arqueológico Antillano / AfrohistoriaRD
     Course taken: Minimal Computing
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Ryan Cummings
-    Status: Other
-    Status Original: Other/Otre/Autre
-    Institutional Affiliation: University of Guyana
-    Course taken: Building Caribbean Digital Archives
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Sarah Juliet Lauro
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: University of Tampa
     Course taken: Minimal Computing
@@ -235,30 +303,18 @@
     Program: Summer Institute cohort 2024
     Name of participant: Sasha Wells
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Florida International University
     Course taken: Minimal Computing
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2024
-    Name of participant: Savita Maharaj
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: Brandeis University
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
-    Name of participant: Sonya Donaldson
-    Status: CDSsi Instructor
-    Status Original: CDSsi Instructor
-    Institutional Affiliation: Colby University
-    Course taken: Building Caribbean Digital Archives
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2024
     Name of participant: Stephanie Sahir Santiago-Díaz
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
     Course taken: Minimal Computing
@@ -266,23 +322,19 @@
 -
     Program: Summer Institute cohort 2024
     Name of participant: Yogeshwar Ganesh
-    Status: Other
+    Status: University staff
+    Status Español: Personal universitario
+    Status Franais: Personnel universitaire
     Status Original: Other/Otre/Autre
     Institutional Affiliation: University of Guyana
     Course taken: Minimal Computing
     Picture of cohort: 
 -
-    Program: Summer Institute cohort 2024
-    Name of participant: Yuanne Stowe
-    Status: Other
-    Status Original: Other/Otre/Autre
-    Institutional Affiliation: Create Caribbean
-    Course taken: Critical Digital Pedagogy
-    Picture of cohort: 
--
     Program: Summer Institute cohort 2023
     Name of participant: Aisha Baptiste
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: The Alma Jordan Library, The University of the West Indies, St. Augustine
     Course taken: Building Caribbean Digital Archives
@@ -291,6 +343,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Jazmin Maço
     Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
     Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
     Institutional Affiliation: Barnard College
     Course taken: Building Caribbean Digital Archives
@@ -299,6 +353,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Jeanmary Lugo González
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
     Course taken: Building Caribbean Digital Archives
@@ -307,6 +363,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Kevin Montero
     Status: Archivist
+    Status Español: Archivista
+    Status Franais: Archiviste
     Status Original: Archivist/Archivista/Archiviste
     Institutional Affiliation: Belize Archives and Records Service
     Course taken: Building Caribbean Digital Archives
@@ -315,6 +373,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Kiana Gonzalez-Cedeño
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Michigan State University
     Course taken: Building Caribbean Digital Archives
@@ -323,6 +383,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Magda Desgranges
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Marist College
     Course taken: Building Caribbean Digital Archives
@@ -331,6 +393,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Marie Larose
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Dartmouth College
     Course taken: Building Caribbean Digital Archives
@@ -339,6 +403,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Nikoli Attai
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Colorado State University
     Course taken: Building Caribbean Digital Archives
@@ -347,6 +413,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Samantha Stephens
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of Virginia
     Course taken: Building Caribbean Digital Archives
@@ -355,6 +423,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Sophia Monegro
     Status: Graduate student
+    Status Español: Alumne de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of Texas at Austin
     Course taken: Building Caribbean Digital Archives
@@ -363,6 +433,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Tania M. Rios Marrero
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: University of Florida
     Course taken: Building Caribbean Digital Archives
@@ -371,110 +443,18 @@
     Program: Summer Institute cohort 2023
     Name of participant: Ysabel Muñoz Martínez
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Norwegian University of Science and Technology (NTNU)
     Course taken: Building Caribbean Digital Archives
     Picture of cohort: 
 -
     Program: Summer Institute cohort 2023
-    Name of participant: Cecile Martin
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Université des Antilles
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Christin Washington
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: University of Maryland, College Park
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Emilio Travieso
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: 'Université Notre Dame d''Haïti'
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Isis Semaj-Hall
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: University of the West Indies, Mona
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Jacqui Brown
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: Emory University
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Joelle Simone Powe
-    Status: Independent scholar
-    Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
-    Institutional Affiliation: NA
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Mila Aponte-González
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Nastassia Rambarran
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: University of Glasgow
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Nicté Fuller Medina
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Swarthmore College
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Tarika Sankar
-    Status: Graduate student
-    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
-    Institutional Affiliation: University of Miami
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Tzarina Prater
-    Status: Faculty
-    Status Original: Faculty/Profesor/Professeur(e)
-    Institutional Affiliation: Bentley University
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
-    Name of participant: Víctor Torres Rodríguez
-    Status: Other
-    Status Original: Other
-    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
-    Course taken: Minimal Computing
-    Picture of cohort: 
--
-    Program: Summer Institute cohort 2023
     Name of participant: Amber Patrice Sweat
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: The University of California, Berkeley
     Course taken: Critical Digital Pedagogy
@@ -483,6 +463,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Anita Baksh
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: LaGuardia Community College, City University of New York
     Course taken: Critical Digital Pedagogy
@@ -491,6 +473,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Dan C. Castilow II
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Cal Poly, San Luis Obispo
     Course taken: Critical Digital Pedagogy
@@ -499,6 +483,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Dinah M. Wilson Fraites
     Status: Librarian
+    Status Español: Bibliotecario
+    Status Franais: Bibliothécaire
     Status Original: Librarian/Bibliotecario/Bibliothécaire
     Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
     Course taken: Critical Digital Pedagogy
@@ -507,6 +493,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Essah Diaz
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
     Course taken: Critical Digital Pedagogy
@@ -515,6 +503,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Joseph A. Torres-González
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: The Graduate Center, City University of New York
     Course taken: Critical Digital Pedagogy
@@ -523,6 +513,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Lauren Lissette Baccus
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of Nebraska - Lincoln | Museum of Contemporary Art, North Miami
     Course taken: Critical Digital Pedagogy
@@ -531,6 +523,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Norman Malcolm
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of the West Indies, Mona
     Course taken: Critical Digital Pedagogy
@@ -539,6 +533,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Preston Carter
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: Fordham University
     Course taken: Critical Digital Pedagogy
@@ -547,6 +543,8 @@
     Program: Summer Institute cohort 2023
     Name of participant: Stephanie Bent
     Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
     Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
     Institutional Affiliation: University of Maryland
     Course taken: Critical Digital Pedagogy
@@ -555,7 +553,129 @@
     Program: Summer Institute cohort 2023
     Name of participant: Traci-Ann Wint
     Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
     Status Original: Faculty/Profesor/Professeur(e)
     Institutional Affiliation: Smith College
     Course taken: Critical Digital Pedagogy
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Cecile Martin
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Université des Antilles
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Christin Washington
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: University of Maryland, College Park
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Emilio Travieso
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: 'Université Notre Dame d''Haïti'
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Isis Semaj-Hall
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: University of the West Indies, Mona
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Jacqui Brown
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: Emory University
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Joelle Simone Powe
+    Status: Independent scholar
+    Status Español: Instigadore independiente
+    Status Franais: Chercheur indépendant
+    Status Original: Independent scholar/Instigadore independiente/Chercheur indépendant
+    Institutional Affiliation: 
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Mila Aponte-González
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Nastassia Rambarran
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: University of Glasgow
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Nicté Fuller Medina
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Swarthmore College
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Tarika Sankar
+    Status: Graduate student
+    Status Español: Alumno de posgrado
+    Status Franais: Étudiant diplomé
+    Status Original: Graduate student/Alumne de posgrado/Étudiant diplomé
+    Institutional Affiliation: University of Miami
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Tzarina Prater
+    Status: Faculty
+    Status Español: Profesor
+    Status Franais: Professeur(e)
+    Status Original: Faculty/Profesor/Professeur(e)
+    Institutional Affiliation: Bentley University
+    Course taken: Minimal Computing
+    Picture of cohort: 
+-
+    Program: Summer Institute cohort 2023
+    Name of participant: Víctor Torres Rodríguez
+    Status: University staff
+    Status Español: Personal universitario
+    Status Franais: Personnel universitaire
+    Status Original: 
+    Institutional Affiliation: Universidad de Puerto Rico, Recinto de Río Piedras
+    Course taken: Minimal Computing
     Picture of cohort: 

@@ -2679,7 +2679,7 @@ pagination
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: space-between;  
+  justify-content: space-around;  
   
 }
 
@@ -2701,10 +2701,17 @@ pagination
 .text-blue-04{
   color: #00d9ff;
 }
+.text-grey{
+  color: #dddddd;
+}
 
 .op-blue-04{
   background-color: #00d9ff;
   opacity: 12%;
+}
+.op-blue-03{
+  background-color: #00ABFF;
+  /* opacity: 20%; */
 }
 a.button-apply{
   border-radius: 30px;
@@ -2741,6 +2748,9 @@ a.button-apply{
   bottom:12%;
 }
 
+.btn:hover{
+  color: white;
+}
 @media only screen and (max-width: 991px){
   .apply-module{
     margin-bottom: 1em;
@@ -8073,6 +8083,24 @@ h3.line-height-mb{
   .commingsoon-count .timer-body-block .table-cell {
     display: block;
     margin-bottom: 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+## Grantees
+--------------------------------------------------------------*/
+.program-navigation {
+  position: sticky;
+  top: 0; /* Makes it sticky at the top of the viewport */
+  right: 0; /* Aligns it to the right side */
+  float: right;
+  background-color: white; /* Optional: make sure it has a background so it doesn't overlap content */
+  z-index: 100; /* Optional: ensures it stays on top of other elements */
+}
+
+@media only screen and (max-width: 767.9px) {
+  .program-navigation {
+  top:20%;
   }
 }
 

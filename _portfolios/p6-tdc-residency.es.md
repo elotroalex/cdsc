@@ -20,6 +20,10 @@ bullet_type: "Tipo de apoyo: residencia"
 <p><a href="" target="_blank">Página de Artistas en Residencia</a> </p>
 <p>Para obtener más información sobre los requisitos de elegibilidad y solicitud, visite nuestra <a href="https://thecaribbeandigital.org/residency/" target="_blank">Convocatoria de propuestas</a></p>
 
+ <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-air/">Previous grantees</a>
+    </div>
+
 <div><h5>Coordinadoras del programa: Kaiama L. Glover y Kelly Baker Josephs</h5></div>
     
     <div class="project-demo-btn">

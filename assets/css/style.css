@@ -2713,6 +2713,10 @@ pagination
   background-color: #00ABFF;
   /* opacity: 20%; */
 }
+.op-blue-01{
+  background-color: #0020ff;
+  opacity: 12%;
+}
 a.button-apply{
   border-radius: 30px;
   padding: 15px 45px;

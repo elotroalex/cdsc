@@ -13,6 +13,12 @@ bullet_date: "Fecha clave: enero-marzo 2025"
 bullet_type: "Tipo de apoyo: residencia"
 ---
 
+<div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/tcdr/cfp2025/">LLamado 2025</a>
+    </div>
+<hr>
+<br>
+
 <div class="portfolio-details">
 <p>Las artes que emergen del Caribe y sus diásporas presentan una forma creativa de producción de conocimiento que plantea las mismas preguntas e inquietudes que los académicos abordan, ofreciendo modos alternativos de expresión a audiencias que se extienden mucho más allá de la academia.</p>
 <p>Dada la relevancia del arte como una forma importante de expresión, la Residencia Virtual de Artistas Digitales apoya a los artistas caribeños que trabajan en medios digitales. La residencia se ofrece en conjunto con la <a href="https://thecaribbeandigital.org/" target="_blank">conferencia anual The Caribbean Digital</a> y en asociación con <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, un célebre colectivo de arte contemporáneo con sede desde 2006 en Puerto España, Trinidad y Tobago.</p>
@@ -21,7 +27,7 @@ bullet_type: "Tipo de apoyo: residencia"
 <p>Para obtener más información sobre los requisitos de elegibilidad y solicitud, visite nuestra <a href="https://thecaribbeandigital.org/residency/" target="_blank">Convocatoria de propuestas</a></p>
 
  <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/grantees-air/">Previous grantees</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-air/">Beneficiarios pasados</a>
     </div>
 
 <div><h5>Coordinadoras del programa: Kaiama L. Glover y Kelly Baker Josephs</h5></div>

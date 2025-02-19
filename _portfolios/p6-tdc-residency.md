@@ -13,6 +13,12 @@ bullet_date: "Key dates: January-March 2025"
 bullet_type: "Type of support: Residency"
 ---
 
+<div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/tcdr/cfp2025/">Apply for 2025</a>
+    </div>
+<hr>
+<br>
+
 <div class="portfolio-details">
 <p>Creative arts emerging from the Caribbean and its diasporas present a form of knowledge production that raises the same questions and concerns as those academics engage, offering alternative modes of expression to audiences that extend well beyond the academy.</p>
 <p>Given the relevance of art as an important form of expression, the Digital Artist’s Virtual Residency supports Caribbean artists working in digital media. The residency is offered in conjunction with <a href="https://thecaribbeandigital.org/" target="_blank">The Caribbean Digital annual conference</a>, and in partnership with <a href="http://aliceyard.blogspot.com/" target="_blank">Alice Yard</a>, a celebrated contemporary art collective based since 2006 in Port of Spain, Trinidad and Tobago.</p>

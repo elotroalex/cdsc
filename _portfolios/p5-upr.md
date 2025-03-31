@@ -22,14 +22,13 @@ bullet_type: "Type of support: pedagogy and training"
   <li>Digital Humanities Undergraduate Academic Minor (DHUAM): knowing that the future of Caribbean DH is in the hands of its users, UPR Caribe Digital is creating the first undergraduate academic minor on Digital Humanities in Puerto Rico under the <a href="http://humanidades.uprrp.edu/prei/" target="_blank">Interdisciplinary Studies Program </a> at the College of Humanities UPR-RP.</li>
 </ul>
 <p>UPR Caribe Digital is carrying out these initiatives with the help of the <a href="https://cea.uprrp.edu/" target="_blank">Center for Academic Excellence </a> and the Dean’s Office of Academic Affairs. They project these initiatives will benefit more than 120 professors and librarians, 65 university students, and 15 community organizations.</p>
-<p>For more information, visit UPR Caribe Digital’s <a href="https://www.uprcaribedigital.org/" target="_blank">website</a></p>
-<div><h5>Program coordinators:  Mirerza González Vélez and Nadjah Ríos Villarini</h5></div>
+<p>For more information, visit UPR Caribe Digital’s <a href="https://www.uprcaribedigital.org/" target="_blank">website</a> or follow UPR Digital Caribe Digital  <a href="https://www.facebook.com/UPRCaribeDigital/" target="_blank">on Facebook</a></p>
 
  <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/grantees-upr/">Previous grantees</a>
     </div>
-
-<div class="project-demo-btn">
+<div><h5>Program coordinators:  Mirerza González Vélez and Nadjah Ríos Villarini</h5></div>
+<!-- <div class="project-demo-btn">
     <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Follow UPR Caribe Digital on Facebook</a>
-</div>
+</div> -->
 </div>

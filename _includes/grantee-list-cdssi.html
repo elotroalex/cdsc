@@ -6,19 +6,24 @@
   </div>
 
   <div class="grantee-list">
-    {% assign grouped_grantees = site.data.grantees-cdssi | group_by: "Program"
-    %} {% for program in grouped_grantees %}
-    <!-- Debugging: Output the program name -->
-
-    {% if program.name == "Summer Institute cohort 2024" %}
-    <div id="program-2024" class="program-group">
-      <h3 class="mt-5">{{ program.name }}</h3>
-      <!-- Program title -->
-
-      {% assign grouped_courses = program.items | group_by: "Course taken" %} {%
+    {% assign grouped_grantees = site.data.grantees-cdssi | group_by:
+    "program_en" %} {% for program in grouped_grantees %} {% assign year = "" %}
+    {% if program.name contains "2024" %} {% assign year = "2024" %} {% elsif
+    program.name contains "2023" %} {% assign year = "2023" %} {% endif %} {% if
+    year != "" %}
+    <div id="program-{{ year }}" class="program-group">
+      <h3 class="mt-5">
+        {% if site.active_lang == "es" %} {{ program.items[0].program_es }} {%
+        elsif site.active_lang == "fr" %} {{ program.items[0].program_fr }} {%
+        else %} {{ program.items[0].program_en }} {% endif %}
+      </h3>
+      {% assign grouped_courses = program.items | group_by: "course_en" %} {%
       for course in grouped_courses %}
-      <h4 class="mt-5 mb-3 text-decoration-underline">{{ course.name }}</h4>
-      <!-- Course title -->
+      <h4 class="mt-5 mb-3 text-decoration-underline">
+        {% if site.active_lang == "es" %} {{ course.items[0].course_es }} {%
+        elsif site.active_lang == "fr" %} {{ course.items[0].course_fr }} {%
+        else %} {{ course.items[0].course_en }} {% endif %}
+      </h4>
 
       <div class="row">
         {% for grantee in course.items %}
@@ -26,112 +31,38 @@
           <div class="grantee-item mb-3 mt-3">
             <div class="row">
               <!-- Image Column -->
+
               <div class="col-2">
-                {% if grantee["Picture of cohort"] %}
+                <!-- alternates images in checkered display -->
+                {% assign row_index = forloop.index0 | divided_by: 2 %} {%
+                assign is_even_row = row_index | modulo: 2 %} {% assign
+                is_left_col = forloop.index0 | modulo: 2 %} {% if is_even_row ==
+                0 %} {% if is_left_col == 0 %} {% assign image_number = "01" %}
+                {% else %} {% assign image_number = "02" %} {% endif %} {% else
+                %} {% if is_left_col == 0 %} {% assign image_number = "02" %} {%
+                else %} {% assign image_number = "01" %} {% endif %} {% endif %}
+
                 <img
-                  src="{{ grantee['Picture of cohort'] }}"
-                  alt="Picture of {{ grantee['Name of participant'] }}"
+                  src="{{ '/assets/images/grantee' | append: image_number | append: '.png' | relative_url }}"
+                  alt="Placeholder Image"
                   class="img-fluid"
                 />
-                {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
-                {% if image_index == 0 %}
-                <img
-                  src="/assets/images/grantee01.png"
-                  alt="Placeholder Image 1"
-                  class="img-fluid"
-                />
-                {% else %}
-                <img
-                  src="/assets/images/grantee02.png"
-                  alt="Placeholder Image 2"
-                  class="img-fluid"
-                />
-                {% endif %} {% endif %}
               </div>
 
               <!-- Text Column -->
               <div class="col-9 pl-0">
-                <h4 class="mb-0">{{ grantee["Name of participant"] }}</h4>
+                <h4 class="mb-0">{{ grantee.participant }}</h4>
 
-                {% unless grantee["Status"] == "n/a" %}
+                {% unless grantee.status_en == "n/a" %}
                 <p class="m-0 pt-2">
-                  {% if site.active_lang == "en" %} {{ grantee["Status"] }} {%
-                  elsif site.active_lang == "es" %} {{ grantee["Status Español"]
-                  }} {% elsif site.active_lang == "fr" %} {{ grantee["Status
-                  Franais"] }} {% else %} {{ grantee["Status"] }}
-                  <!-- Default to English -->
-                  {% endif %}
+                  {% if site.active_lang == "es" %} {{ grantee.status_es }} {%
+                  elsif site.active_lang == "fr" %} {{ grantee.status_fr }} {%
+                  else %} {{ grantee.status_en }} {% endif %}
                 </p>
-                {% endunless %} {% unless grantee["Institutional Affiliation"]
-                == "n/a" %}
+                {% endunless %} {% unless grantee.instiutional_affiliation ==
+                "n/a" %}
                 <p class="mt-0 small-text">
-                  {{ grantee["Institutional Affiliation"] }}
-                </p>
-                {% endunless %}
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-      {% endfor %}
-    </div>
-    {% elsif program.name == "Summer Institute cohort 2023" %}
-    <div id="program-2023" class="program-group">
-      <h3 class="mt-5">{{ program.name }}</h3>
-      <!-- Program title -->
-
-      {% assign grouped_courses = program.items | group_by: "Course taken" %} {%
-      for course in grouped_courses %}
-      <h4 class="mt-5 mb-3 text-decoration-underline">{{ course.name }}</h4>
-      <!-- Course title -->
-
-      <div class="row">
-        {% for grantee in course.items %}
-        <div class="col-sm-6 col-12 mb-4">
-          <div class="grantee-item mb-3 mt-3">
-            <div class="row">
-              <!-- Image Column -->
-              <div class="col-2">
-                {% if grantee["Picture of cohort"] %}
-                <img
-                  src="{{ grantee['Picture of cohort'] }}"
-                  alt="Picture of {{ grantee['Name of participant'] }}"
-                  class="img-fluid"
-                />
-                {% else %} {% assign image_index = forloop.index0 | modulo: 2 %}
-                {% if image_index == 0 %}
-                <img
-                  src="/assets/images/grantee01.png"
-                  alt="Placeholder Image 1"
-                  class="img-fluid"
-                />
-                {% else %}
-                <img
-                  src="/assets/images/grantee02.png"
-                  alt="Placeholder Image 2"
-                  class="img-fluid"
-                />
-                {% endif %} {% endif %}
-              </div>
-
-              <!-- Text Column -->
-              <div class="col-9 pl-0">
-                <h4 class="mb-0">{{ grantee["Name of participant"] }}</h4>
-
-                {% unless grantee["Status"] == "n/a" %}
-                <p class="m-0 pt-2">
-                  {% if site.active_lang == "en" %} {{ grantee["Status"] }} {%
-                  elsif site.active_lang == "es" %} {{ grantee["Status Español"]
-                  }} {% elsif site.active_lang == "fr" %} {{ grantee["Status
-                  Franais"] }} {% else %} {{ grantee["Status"] }}
-                  <!-- Default to English -->
-                  {% endif %}
-                </p>
-                {% endunless %} {% unless grantee["Institutional Affiliation"]
-                == "n/a" %}
-                <p class="mt-0 small-text">
-                  {{ grantee["Institutional Affiliation"] }}
+                  {{ grantee.instiutional_affiliation }}
                 </p>
                 {% endunless %}
               </div>

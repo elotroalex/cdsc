@@ -24,11 +24,14 @@ bullet_type: "Type de support : formation"
     <li><strong>Caribbean Writers' Room :</strong> cette plateforme en ligne pour les écrivains émergents de la Caraïbe offre un espace d'apprentissage et de partage de travaux au sein de la région et au-delà. Elle réunit les avantages des humanités numériques, des plateformes open source et d'édition, ainsi qu'une communauté littéraire enthousiaste sur une plateforme en ligne. Caribbean Writers' Room propose des ateliers d'écriture virtuels de six semaines, des masterclasses en direct et enregistrées avec des écrivains caribéens, des ressources sur l'édition, les festivals, les agents littéraires et le développement de l'art d'écrire.</li>
 </ul>
 <p>Le CCRI fonctionne depuis 2014 sous la direction de la professeure Schuyler Esprit et organise divers programmes et activités annuels, notamment le Create and Code Summer Tech Camp.</p>
-<p>Pour plus d'informations, visitez le <a href="http://createcaribbean.org/" target="_blank">site</a> du Create Caribbean Research Institute.</p>
+<p>Pour plus d'informations, visitez le <a href="https://createcaribbean.org/create/" target="_blank">site</a> du Create Caribbean Research Institute.</p>
 
-    <div><h5>Coordinatrice du programme: Schuyler Esprit</h5></div>
-    <div class="project-demo-btn">
+    <!-- <div class="project-demo-btn">
         <a class="btn project-btn" href="http://createcaribbean.org" target="_blank">Visite Create Caribbean</a>
+    </div> -->
+        <div class="project-demo-btn">
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-ccri/">Bénéficiaires précédents</a>
     </div>
 
+ <div><h5>Coordinatrice du programme: Schuyler Esprit</h5></div>
 </div>

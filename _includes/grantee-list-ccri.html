@@ -1,0 +1,74 @@
+<div class="container">
+  <!-- Navigation Links -->
+  <div class="program-navigation">
+    <a href="#RTC Internship 2025-2027" class="btn btn-link">2025</a> |
+    <a href="#RTC Internship 2024-2026" class="btn btn-link">2024</a> |
+    <a href="#RTC Internship 2023-2025" class="btn btn-link">2023</a> |
+    <a href="#RTC Internship 2022-2024" class="btn btn-link">2022</a> |
+    <a href="#RTC Internship 2021-2023" class="btn btn-link">2021</a> |
+    <a href="#RTC Internship 2020-2022" class="btn btn-link">2020</a> |
+    <a href="#Graduate Fellows Program" class="btn btn-link">Fellows</a>
+  </div>
+
+  <div class="grantee-list">
+    {% assign grantees = site.data.grantees-ccri %} {% assign grouped_grantees =
+    grantees | group_by: "program_name" %} {% for program in grouped_grantees %}
+    {% assign program_id = program.name | replace: " ", "-" | replace: "(", "" |
+    replace: ")", "" | downcase %}
+    <div id="{{ program.name }}" class="program-group">
+      <h3 class="mt-5">{{ program.name }}</h3>
+
+      <div class="row">
+        {% for grantee in program.items %}
+        <div class="col-sm-6 col-12 mb-4">
+          <div class="grantee-item mb-3 mt-3">
+            <div class="row">
+              <!-- Image Column -->
+              <div class="col-2">
+                {% assign row_index = forloop.index0 | divided_by: 2 %} {%
+                assign is_even_row = row_index | modulo: 2 %} {% assign
+                is_left_col = forloop.index0 | modulo: 2 %} {% if is_even_row ==
+                0 %} {% if is_left_col == 0 %} {% assign image_number = "03" %}
+                {% else %} {% assign image_number = "04" %} {% endif %} {% else
+                %} {% if is_left_col == 0 %} {% assign image_number = "04" %} {%
+                else %} {% assign image_number = "03" %} {% endif %} {% endif %}
+
+                <img
+                  src="{{ '/assets/images/grantee' | append: image_number | append: '.png' | relative_url }}"
+                  alt="Placeholder Image"
+                  class="img-fluid"
+                />
+              </div>
+
+              <!-- Text Column -->
+              <div class="col-9 pl-0">
+                <h4 class="mb-0">{{ grantee.name }}</h4>
+
+                {% if grantee.affiliation and grantee.affiliation != "N/A" %}
+                <p class="mt-0 mb-1 small-text">{{ grantee.affiliation }}</p>
+                {% endif %} {% if grantee.project and grantee.project != "N/A"
+                %}
+                <p class="m-0 pt-2 lh-1-25">{{ grantee.project }}</p>
+                {% endif %} {% if grantee.project_link and grantee.project_link
+                != "N/A" %}
+                <p class="m-0 pt-0">
+                  {% assign links = grantee.project_link | split: ";" %} {% for
+                  link in links %}
+                  <a
+                    href="{{ link | strip }}"
+                    target="_blank"
+                    class="btn btn-link px-0"
+                    >View Project</a
+                  >{% unless forloop.last %} , {% endunless %} {% endfor %}
+                </p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Grantees
+title: Grantees Microgrants
 permalink: grantees-microgrants/
 ---
 
@@ -9,8 +9,17 @@ permalink: grantees-microgrants/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="section-title center-title no-border">Grantees</h2>
-        <h4>Microgrants</h4>
+        <h2 class="section-title center-title no-border">
+          {% if site.active_lang == "es" %} Beneficiarios {% elsif
+          site.active_lang == "fr" %} Bénéficiaires {% else %} Grantees {% endif
+          %}
+        </h2>
+
+        <h4>
+          {% if site.active_lang == "es" %} Micro-becas {% elsif
+          site.active_lang == "fr" %} Micro-subventions {% else %} Microgrants
+          {% endif %}
+        </h4>
 
         <!-- <p>
           Welcome to the list of grantees who have benefited from our program.

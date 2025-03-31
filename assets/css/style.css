@@ -113,7 +113,7 @@ h2 {
 
 h3 {
   font-size: 1.563em;
-  width: 100%;
+  /* width: 100%; */
 }
 
 h4 {
@@ -340,6 +340,10 @@ pre {
   font-weight: bold;
   font-size: 60px;
   color: #ccc;
+}
+
+.lh-1-25 { 
+  line-height: 1.25; 
 }
 
 /*--------------------------------------------------------------
@@ -713,6 +717,8 @@ dd {
 .fl-none {
   float: none !important;
 }
+
+
 
 @media only screen and (max-width: 800px) {
   .mb-fl-none {
@@ -2755,6 +2761,13 @@ a.button-apply{
 .btn:hover{
   color: white;
 }
+
+.btn.btn-link {
+  color: #00abff;
+  }
+.btn.btn-link:hover{
+  color: #00abff;
+}
 @media only screen and (max-width: 991px){
   .apply-module{
     margin-bottom: 1em;
@@ -4215,6 +4228,15 @@ header.sticky-header + section {
 /*--------------------------------------------------------------
 # Author about
 --------------------------------------------------------------*/
+.arrow-icon {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.arrow-icon.rotate {
+  transform: rotate(180deg);
+}
+
 .about-img-block {
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.14);

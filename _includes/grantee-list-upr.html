@@ -1,59 +1,74 @@
 <div class="container">
-  <!-- Navigation Links -->
+  <!-- Navigation Links for UPR DH Scholars -->
   <div class="program-navigation">
-    <a href="#program-2022-23" class="btn btn-link">2022-23</a> |
-    <a href="#program-2023-24" class="btn btn-link">2023-24</a>
+    <a href="#dh-scholars-2023" class="btn btn-link">2023–24</a> |
+    <a href="#dh-scholars-2022" class="btn btn-link">2022–23</a>
   </div>
 
   <div class="grantee-list">
-    {% assign grouped_grantees = site.data.grantees-upr | group_by: "Program Name" %}
-    {% for program in grouped_grantees %}
-    {% if program.name == "DH Scholars in Residence 2023-24" %}
-    <div id="program-2023-24" class="program-group">
-      <h2 class="program-title">{{ program.name }}</h2>
-      <div class="row">
-        {% for grantee in program.items %}
-        <div class="col-12">
-          <div class="grantee-item mb-3 mt-3 row">
-            <!-- Image Column -->
-            <div class="col-2">
-              {% assign image_index = forloop.index0 | modulo: 2 %}
-              {% if image_index == 0 %}
-              <img src="/assets/images/54.png" alt="Placeholder Image 1" class="img-fluid" />
-              {% else %}
-              <img src="/assets/images/55.png" alt="Placeholder Image 2" class="img-fluid" />
-              {% endif %}
-            </div>
+    {% assign grouped_upr = site.data.grantees-upr | group_by: "program_name" %}
 
-            <!-- Text Column -->
-            <div class="col-9">
-              <h4 class="mb-0">{{ grantee["Project Title"] }}</h4>
-              <p class="m-0 pt-2 small-text"><strong>DH Scholars:</strong> {{ grantee["DH Scholars"] }}</p>
-              <p class="m-0 small-text"><strong>Community Partner:</strong> {{ grantee["Community partner"] }}</p>
-              <p class="m-0 small-text"><strong>Mentor:</strong> {{ grantee["Mentor"] }}</p>
-              
-              <div class="description">
-                <p class="mt-3 collapse-content">{{ grantee["Project description (150 words)"] }}</p>
-                <div class="view-more-link mt-2" style="display: none;">
-                  {% if grantee["External Links"] %}
-                  <a href="{{ grantee["External Links"] }}" target="_blank" class="btn btn-outline-primary btn-sm">Visit project page</a>
-                  <p></p>
-                  {% endif %}
+    {% for program in grouped_upr %}
+      {% assign year = "" %}
+      {% if program.name contains "2023-24" %}
+        {% assign year = "2023" %}
+      {% elsif program.name contains "2022-23" %}
+        {% assign year = "2022" %}
+      {% endif %}
+
+      {% if year != "" %}
+        <div id="dh-scholars-{{ year }}" class="program-group">
+          <h2 class="program-title mt-5">{{ program.items[0].program_name }}</h2>
+
+
+          <div class="row">
+            {% for grantee in program.items %}
+              <div class="col-12">
+                <div class="grant-item mb-5 mt-5 row">
+                  <!-- Image Column -->
+                  <div class="col-2">
+                    {% assign image_index = forloop.index0 | modulo: 2 %}
+                    {% if image_index == 0 %}
+                      <img src="/assets/images/grantee01.png" alt="Placeholder Image 1" class="img-fluid" />
+                    {% else %}
+                      <img src="/assets/images/grantee02.png" alt="Placeholder Image 2" class="img-fluid" />
+                    {% endif %}
+                  </div>
+
+                  <!-- Text Column -->
+                  <div class="col-9">
+                    <h4 class="mb-0">{{ grantee["Project Title"] }}</h4>
+                    <p class="m-0 pt-3">DH Scholar: {{ grantee["DH Scholars"] }}</p>
+                    <p class="m-0 small-text">Community partner: {{ grantee["Community partner"] }}</p>
+                    <p class="mt-0 mb-2 small-text">Mentor: {{ grantee["Mentor"] }}</p>
+                    <div class="description">
+                      <p class="mt-3 mb-0 collapse-content">
+                        {% if site.active_lang == 'es' %}
+                          {{ grantee.project_description_sp }}
+                        {% elsif site.active_lang == 'fr' %}
+                          {{ grantee.project_description_fr }}
+                        {% else %}
+                          {{ grantee.project_description_en }}
+                        {% endif %}
+                      </p>
+                      <div class="view-more-link mt-0" style="display: none;">
+                        {% if grantee["External Links"] and grantee["External Links"] != "N/A" %}
+                          <a href="{{ grantee["External Links"] | strip }}" target="_blank" class="btn btn-link px-0">Visit project page</a>
+                        {% endif %}
+                      </div>
+                      <a href="#" class="toggle-description mt-4 btn btn-program">See more</a>
+                    </div>
+                  </div>
                 </div>
-                <a href="#" class="toggle-description mt-2 text-decoration-underline fw-bold">See more</a>
               </div>
-              
-        
-            </div>
+            {% endfor %}
           </div>
         </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
+
 
 <!-- CSS -->
 <style>
@@ -73,28 +88,27 @@
 
 <!-- JavaScript -->
 <script>
-document.querySelectorAll('.toggle-description').forEach(toggle => {
-  toggle.addEventListener('click', function (event) {
-    event.preventDefault();
+  document.querySelectorAll(".toggle-description").forEach((toggle) => {
+    toggle.addEventListener("click", function (event) {
+      event.preventDefault();
 
-    const description = this.closest('.description');
-    const collapseContent = description.querySelector('.collapse-content');
-    const viewMoreLink = description.querySelector('.view-more-link');
+      const description = this.closest(".description");
+      const collapseContent = description.querySelector(".collapse-content");
+      const viewMoreLink = description.querySelector(".view-more-link");
 
-    if (description.classList.contains('expanded')) {
-      // Collapse content
-      description.classList.remove('expanded');
-      this.textContent = 'See more';
-      collapseContent.style.display = '-webkit-box'; // Reapply truncation
-      if (viewMoreLink) viewMoreLink.style.display = 'none'; // Hide link
-    } else {
-      // Expand content
-      description.classList.add('expanded');
-      this.textContent = 'See less';
-      collapseContent.style.display = 'block'; // Show full content
-      if (viewMoreLink) viewMoreLink.style.display = 'block'; // Show link
-    }
+      if (description.classList.contains("expanded")) {
+        // Collapse content
+        description.classList.remove("expanded");
+        this.textContent = "See more";
+        collapseContent.style.display = "-webkit-box"; // Reapply truncation
+        if (viewMoreLink) viewMoreLink.style.display = "none"; // Hide link
+      } else {
+        // Expand content
+        description.classList.add("expanded");
+        this.textContent = "See less";
+        collapseContent.style.display = "block"; // Show full content
+        if (viewMoreLink) viewMoreLink.style.display = "block"; // Show link
+      }
+    });
   });
-});
-
 </script>

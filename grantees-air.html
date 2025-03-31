@@ -9,9 +9,18 @@ permalink: grantees-air/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="section-title center-title no-border">Grantees</h2>
-        <h4>Digital Artist’s Virtual Residency</h4>
+        <h2 class="section-title center-title no-border">
+          {% if site.active_lang == "es" %} Beneficiarios {% elsif
+          site.active_lang == "fr" %} Bénéficiaires {% else %} Grantees {% endif
+          %}
+        </h2>
 
+        <h4>
+          {% if site.active_lang == "es" %} Residencia Virtual de Artistas
+          Digitales {% elsif site.active_lang == "fr" %} Digital Artist’s
+          Virtual Residency {% else %} Digital Artist’s Virtual Residency {%
+          endif %}
+        </h4>
         <!-- <p>
           Welcome to the list of grantees who have benefited from our program.
         </p> -->

@@ -1,20 +1,89 @@
-- Program: "Artist in Residence 2024"
-  Name of Artist: "Zoe Osborne"
-  Artist statement: "Zoe Osborne is a Barbadian artist based in Toronto and Barbados whose work tells narratives of homesickness and escapism in the context of Caribbean culture and architecture. Zoe has showcased animations in international digital and physical exhibitions and her art can be found in private and public collections worldwide. We excitedly welcome her to our team and cannot wait to see all she accomplishes throughout her residency with our partners, Alice Yard."
-  Country of Origin: "Canada"
-  Amount awarded: "$5,000"
-  External links: "https://zoeosborne.myportfolio.com/"
-
-- Program: "Artist in Residence 2023"
-  Name of Artist: "Ruben Cabenda"
-  Artist statement: "Ruben Cabenda is an artist who mainly focuses on slavery and identity. In his animation, he uses a language that abstractly and figuratively depicts the history of slavery. The moving images in his work show how the past is still interwoven with the present, and decolonization is still an ongoing process. Through his animation, you see how descendants of the slaves, their identities, are snatched and deformed, bearing the traces of colonialism. The process of decolonizing our mindset is on the move to perceive things from a different perspective."
-  Country of Origin: "Suriname"
-  Amount awarded: "$5,000"
-  External links: "https://www.instagram.com/rubencabenda/"
-
-- Program: "Artist in Residence 2022"
-  Name of Artist: "Marinna Shareef"
-  Artist statement: "Marinna Shareef pivoted from exploring bipolarity in virtual worlds to creating emotionally resonant work through photography and video. Inspired by resurfaced memories of her father and mentored by Christopher Cozier, Shareef developed her project with influences from Versia Harris and 'Inside Number 9.' Collaborating with North Eleven, she refined her projections for the Granderson Lab presentation. The residency concluded with exhibitions in Puerto Rico and Trinidad, where Shareef showcased 'The Things I Cannot Say,' a digital media exhibition that explores enmeshment in Indo-Caribbean families through interactive storytelling."
-  Country of Origin: "Trinidad and Tobago"
-  Amount awarded: "$5,000"
-  External links: "https://mahrinnart.pb.gallery/"
+- program_en: Artist in Residence 2024
+  program_es: Artista en Residencia 2024
+  program_fr: Artiste en résidence 2024
+  artist: Zoe Osborne
+  statement_en:
+    Zoe Osborne is a Barbadian artist based in Toronto and Barbados whose
+    work tells narratives of homesickness and escapism in the context of Caribbean
+    culture and architecture. Zoe has showcased animations in international digital
+    and physical exhibitions and her art can be found in private and public collections
+    worldwide.
+  statement_es:
+    Zoe Osborne es una artista barbadense radicada en Toronto y Barbados
+    cuyo trabajo cuenta narrativas de nostalgia y escapismo en el contexto de la cultura
+    y la arquitectura caribeñas. Zoe ha presentado animaciones en exposiciones físicas
+    y digitales internacionales y su arte se puede encontrar en colecciones públicas
+    y privadas de todo el mundo.
+  statement_fr:
+    Zoe Osborne est une artiste barbadienne basée à Toronto et à la Barbade
+    dont le travail raconte des récits de mal du pays et d''évasion dans le contexte
+    de la culture et de l''architecture caribéenne. Zoe a présenté des animations
+    dans des expositions numériques et physiques internationales et son art se retrouve
+    dans des collections privées et publiques du monde entier.
+  Country of Origin: Canada
+  Amount awarded: $5,000
+  External links (if applicable): https://zoeosborne.myportfolio.com/
+- program_en: Artist in Residence 2023
+  program_es: Artista en Residencia 2023
+  program_fr: Artiste en résidence 2023
+  artist: Ruben Cabenda
+  statement_en:
+    Ruben Cabenda is an artist focused on slavery and identity. During
+    his residency, he developed several animation pieces that explore language to
+    abstractly and figuratively depict the history of slavery and its legacy. His
+    animations show how the past is still interwoven with the present, and decolonization
+    is still an ongoing process. Through his animation, viewers can see how descendants
+    of the slaves, their identities, are snatched and deformed, bearing the traces
+    of colonialism.
+  statement_es:
+    Ruben Cabenda es un artista centrado en la esclavitud y la identidad.
+    Durante su residencia, desarrolló varias piezas de animación que exploran el lenguaje
+    para representar de manera abstracta y figurativa la historia de la esclavitud
+    y su legado. Sus animaciones muestran cómo el pasado todavía está entrelazado
+    con el presente y cómo la descolonización sigue siendo un proceso en curso. A
+    través de su animación, los espectadores pueden ver cómo los descendientes de
+    los esclavos, sus identidades, son arrebatadas y deformadas, llevando las huellas
+    del colonialismo.
+  statement_fr:
+    Ruben Cabenda est un artiste axé sur l'esclavage et l'identité. Au
+    cours de sa résidence, il a développé plusieurs pièces d'animation qui explorent
+    le langage pour décrire de manière abstraite et figurative l'histoire de l'esclavage
+    et son héritage. Ses animations montrent comment le passé est toujours lié au
+    présent et comment la décolonisation est toujours un processus en cours. À travers
+    son animation, les spectateurs peuvent voir comment les descendants des esclaves,
+    leurs identités, sont arrachés et déformés, portant les traces du colonialisme.
+  Country of Origin: Surinam
+  Amount awarded: $5,000
+  External links (if applicable): https://www.instagram.com/rubencabenda/
+- program_en: Artist in Residence 2022
+  program_es: Artista en Residencia 2022
+  program_fr: Artiste en résidence 2022
+  artist: Marinna Shareef
+  statement_en:
+    Marinna Shareef uses photography and video to create virtual spaces
+    that explore the world of emotion. During the residency, Shareef developed her
+    work under Christopher Cozier's mentorship and collaborated with North Eleven
+    to refine her project’s presentation for the Granderson Lab. The residency concluded
+    with exhibitions in Puerto Rico and Trinidad, where she showcased "The Things
+    I Cannot Say," a digital media exhibition exploring enmeshment in Indo-Caribbean
+    families through interactive storytelling.
+  statement_es:
+    Marinna Shareef utiliza la fotografía y el vídeo para crear espacios
+    virtuales que exploran el mundo de las emociones. Durante la residencia, Shareef
+    desarrolló su trabajo bajo la tutoría de Christopher Cozier y colaboró ​​con North
+    Eleven para perfeccionar la presentación de su proyecto para Granderson Lab. La
+    residencia concluyó con exposiciones en Puerto Rico y Trinidad, donde presentó
+    "Las cosas que no puedo decir", una exposición de medios digitales que explora
+    el entrelazamiento de las familias indocaribeñas a través de narraciones interactivas.
+  statement_fr:
+    Marinna Shareef utilise la photographie et la vidéo pour créer des
+    espaces virtuels qui explorent le monde de l'émotion. Au cours de la résidence,
+    Shareef a développé son travail sous le mentorat de Christopher Cozier et a collaboré
+    avec North Eleven pour affiner la présentation de son projet pour le Granderson
+    Lab. La résidence s'est terminée par des expositions à Porto Rico et à Trinidad,
+    où elle a présenté « The Things I Cannot Say », une exposition sur les médias
+    numériques explorant l'enchevêtrement des familles indo-caribéennes à travers
+    la narration interactive.
+  Country of Origin: Trinidad and Tobago
+  Amount awarded: $5,000
+  External links (if applicable): https://mahrinnart.pb.gallery/

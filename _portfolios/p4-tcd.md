@@ -20,7 +20,7 @@ bullet_type: "Type of support: Travel stipend"
 <p>For more information on The Caribbean Digital annual conferences, visit the <a href="http://caribbeandigitalnyc.net/" target="_blank">official site.</a></p>
 <div><h5>Coordinators: Kaiama L. Glover, Alex Gil, Kelly Baker Josephs, and Andreina Soto</h5></div>
     
-    <div class="project-demo-btn">
+    <!-- <div class="project-demo-btn">
     <a class="btn project-btn" href="http://caribbeandigitalnyc.net/" target="_blank">Visit The Caribbean Digital</a>
-</div>
+</div> -->
 </div>

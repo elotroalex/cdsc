@@ -19,11 +19,6 @@ bullet_type: "Tipo de apoyo: entrenamiento y gastos de viaje"
 <hr>
 <br> -->
 
-<div class="project-demo-btn" style="margin-top: 30px;
-        margin-bottom: 45px; width:100%; text-align: center;">
-        <a class="btn project-btn" href="{{site.baseurl}}/summer-school/cfp2025/">2025 Convocatoria</a>
-    </div>
-
 <div class="portfolio-details">
    <p>El Instituto de Verano de Estudios del Caribe Digital (CDSsi, por sus siglas en inglés) entrena a académicos interesados ​​en abordar los estudios del Caribe y las humanidades digitales como campos de investigación y participación orgánicamente integrados. Los programas de estudio que integran estos dos dominios son difíciles de encontrar en las universidades actuales. Una solución estándar ha sido la creación de institutos de verano generalistas (como el Instituto de Verano de Humanidades Digitales de la Universidad de Victoria o el Dream Lab de la Universidad de Pensilvania). Sin embargo, estos programas han demostrado ser inaccesibles para muchos académicos del Caribe debido al alto costo, la logística de los viajes internacionales y la tendencia a centrarse en Europa, Canadá y los EE. UU. Ante este desafío, debemos asegurar un futuro viable para la investigación digital en los estudios del Caribe que amplíe el número de profesionales en estas áreas de especialización.</p>
 

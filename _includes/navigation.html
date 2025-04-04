@@ -8,36 +8,40 @@
           <a
             href="{{ nav.url | relative_url }}"
             class="{% if nav.text == 'English' or nav.text == 'Español' or nav.text == 'Français' %} language-switcher {% endif %}"
-            >{{nav.text}} <i class="fa fa-angle-down"></i
-          ></a>
+          >
+            {{ nav.text }} <i class="fa fa-angle-down"></i>
+          </a>
           <ul class="sub-menu">
-            {% assign submenu_data = nav.submenu %} {% for submenu_list in
-            submenu_data %}
+            {% for submenu_list in nav.submenu %} {% assign lang_code = '' %} {%
+            if submenu_list.text == 'English' %} {% assign lang_code = 'en' %}
+            {% elsif submenu_list.text == 'Español' %} {% assign lang_code =
+            'es' %} {% elsif submenu_list.text == 'Français' %} {% assign
+            lang_code = 'fr' %} {% endif %} {% assign new_url = page.url %} {%
+            if lang_code != '' %} {% if lang_code == site.default_lang %} {%
+            assign new_url = page.url %} {% else %} {% assign new_url = '/' |
+            append: lang_code | append: page.url %} {% endif %}
             <li>
-              <a
-                href="{{ submenu_list.url }}"
-                class="{% if submenu_list.text == 'Español' or submenu_list.text == 'Français' or submenu_list.text == 'English' %} language-option {% endif %}"
-                >{{submenu_list.text}}</a
-              >
+              <a class="language-option" href="{{ new_url | relative_url }}">
+                {{ submenu_list.text }}
+              </a>
             </li>
-            {% endfor %}
+            {% else %}
+            <li>
+              <a href="{{ submenu_list.url | relative_url }}">
+                {{ submenu_list.text }}
+              </a>
+            </li>
+            {% endif %} {% endfor %}
           </ul>
         </li>
         {% else %}
         <li>
           <a
             class="{% if page.url contains nav.url %} active {% endif %}"
-            href="{% if nav.text == 'English' %}
-            {{ '/' | append: 'en' | prepend: site.baseurl }}
-          {% elsif nav.text == 'Español' %}
-            {{ '/' | append: 'es' | prepend: site.baseurl }}
-          {% elsif nav.text == 'Français' %}
-            {{ '/' | append: 'fr' | prepend: site.baseurl }}
-          {% else %}
-            {{ nav.url | relative_url }}
-          {% endif %}"
-            >{{ nav.text }}</a
+            href="{{ nav.url | relative_url }}"
           >
+            {{ nav.text }}
+          </a>
         </li>
         {% endif %} {% endfor %}
       </ul>

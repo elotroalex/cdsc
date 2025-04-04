@@ -33,6 +33,9 @@ collections:
   summer-school:
     output: true
     permalink: /:collection/:name
+  tcdr:
+    output: true
+    permalink: /:collection/:name
 
 # --------------------------------------------------------------
 # POLYGLOT I18N LOCALIZATION

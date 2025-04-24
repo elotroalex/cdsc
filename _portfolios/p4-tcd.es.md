@@ -19,7 +19,7 @@ bullet_type: "Tipo de apoyo: Estipendio de viaje"
 <p>Históricamente, TCD ha sido financiado ad hoc por una combinación de pequeños socios institucionales y pequeñas subvenciones de investigación, con el fin de seguir siendo gratuito para los presentadores y participantes. Durante el período de la subvención Mellon, organizaremos dos conferencias abiertas y dos simposios con oradores invitados. Para ello, el CDSC cubre los costos de matrícula, viaje y alojamiento de los presentadores y oradores principales que participan en el TCD. También ofrecemos becas de viaje a estudiantes graduados de instituciones de bajos recursos que demuestren interés en los estudios digitales del Caribe.</p>
 <p>Para obtener más información sobre las conferencias anuales de Caribbean Digital, visite el <a href="http://caribbeandigitalnyc.net/" target="_blank">sitio web oficial.</a></p>
     <div><h5>Coordinadores: Kaiama L. Glover, Alex Gil, Kelly Baker Josephs, y Andreína Soto</h5></div>
-    <div class="project-demo-btn">
+    <!-- <div class="project-demo-btn">
     <a class="btn project-btn" href="http://caribbeandigitalnyc.net/" target="_blank">Visita El Caribe Digital</a>
-</div>
+</div> -->
 </div>

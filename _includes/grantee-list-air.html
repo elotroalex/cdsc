@@ -1,50 +1,126 @@
 <div class="container">
-    <div class="grantee-list">
-      {% assign grouped_grantees = site.data.grantees-air | group_by: "Program" %}
-      {% for program in grouped_grantees %}
-      <div class="program-group">
-        <h2 class="program-title">{{ program.name }}</h2>
-        <!-- Program title -->
-  
-        <div class="row">
-          {% for grantee in program.items %}
-          <div class="col-12">
-          <!-- <div class="col-sm-6 col-12 mb-4"> -->
-            <div class="grantee-item mb-3 mt-3 row">
-              <!-- Image Column -->
-              <div class="col-2">
-                {% assign image_index = forloop.index0 | modulo: 2 %}
-                {% if image_index == 0 %}
-                <img
-                  src="/assets/images/54.png"
-                  alt="Placeholder Image 1"
-                  class="img-fluid"
-                />
-                {% else %}
-                <img
-                  src="/assets/images/55.png"
-                  alt="Placeholder Image 2"
-                  class="img-fluid"
-                />
-                {% endif %}
-              </div>
-  
-              <!-- Text Column -->
-              <div class="col-9">
-                <h4 class="mb-0">{{ grantee["Name of Artist"] }}</h4>
-                <p class="m-0 pt-2">{{ grantee["Country of Origin"] }}</p>
-                <p class="mt-0 small-text">Amount awarded:{{ grantee["Amount awarded"] }}</p>
-                <p class="mt-3">{{ grantee["Artist statement"] }}</p>
-                <p class="mt-1">
-                  <a href="{{ grantee["External links"] }}" target="_blank">View more</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+  <!-- Navigation Links for AIR -->
+  <div class="program-navigation">
+    <a href="#artist-in-residence-2024" class="btn btn-link">2024</a> |
+    <a href="#artist-in-residence-2023" class="btn btn-link">2023</a> |
+    <a href="#artist-in-residence-2022" class="btn btn-link">2022</a>
   </div>
-  
+
+  <div class="grantee-list">
+    {% assign air_grantees = site.data.grantees-air %}
+    {% assign grouped_air = air_grantees | group_by: "program_en" %}
+
+    {% for program in grouped_air %}
+      {% assign year = "" %}
+      {% if program.name contains "2024" %}
+        {% assign year = "2024" %}
+      {% elsif program.name contains "2023" %}
+        {% assign year = "2023" %}
+      {% elsif program.name contains "2022" %}
+        {% assign year = "2022" %}
+      {% endif %}
+
+      {% if year != "" %}
+        <div id="artist-in-residence-{{ year }}" class="program-group">
+          <h2 class="program-title mt-5">
+            {% if site.active_lang == 'es' %}
+              {{ program.items[0].program_es }}
+            {% elsif site.active_lang == 'fr' %}
+              {{ program.items[0].program_fr }}
+            {% else %}
+              {{ program.items[0].program_en }}
+            {% endif %}
+          </h2>
+
+          <div class="row">
+            {% for grantee in program.items %}
+              <div class="col-12">
+                <div class="grant-item mb-5 mt-5 row">
+                  <!-- Image Column -->
+                  <div class="col-2">
+                    {% assign image_index = forloop.index0 | modulo: 2 %}
+                    {% if image_index == 0 %}
+                      <img src="/assets/images/grantee05.png" alt="Placeholder Image 1" class="img-fluid" />
+                    {% else %}
+                      <img src="/assets/images/grantee06.png" alt="Placeholder Image 2" class="img-fluid" />
+                    {% endif %}
+                  </div>
+
+                  <!-- Text Column -->
+                  <div class="col-9">
+                    <h4 class="mb-0">{{ grantee.artist }}</h4>
+                    <p class="m-0 pt-3">{{ grantee["Country of Origin"] }}</p>
+                    <p class="mt-0 small-text">{{ grantee["Amount awarded"] }}</p>
+                    <div class="description">
+                      <p class="mt-3 mb-0 collapse-content">
+                        {% if site.active_lang == 'es' %}
+                          {{ grantee.statement_es }}
+                        {% elsif site.active_lang == 'fr' %}
+                          {{ grantee.statement_fr }}
+                        {% else %}
+                          {{ grantee.statement_en }}
+                        {% endif %}
+                      </p>
+                      <div class="view-more-link mt-0" style="display: none;">
+                        {% if grantee["External links (if applicable)"] and grantee["External links (if applicable)"] != "N/A" %}
+                          <a href="{{ grantee["External links (if applicable)"] | strip }}" target="_blank" class="btn btn-link px-0">Visit project page</a>
+                        {% endif %}
+                      </div>
+                      <a href="#" class="toggle-description mt-4 btn btn-program">See more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+
+<!-- CSS -->
+<style>
+  .collapse-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .description.expanded .collapse-content {
+    display: block;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: unset;
+    overflow: visible;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  document.querySelectorAll('.toggle-description').forEach(toggle => {
+    toggle.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const description = this.closest('.description');
+      const collapseContent = description.querySelector('.collapse-content');
+      const viewMoreLink = description.querySelector('.view-more-link');
+
+      if (description.classList.contains('expanded')) {
+        // Collapse content
+        description.classList.remove('expanded');
+        this.textContent = 'See more';
+        collapseContent.style.display = '-webkit-box'; // Reapply truncation
+        if (viewMoreLink) viewMoreLink.style.display = 'none'; // Hide link
+      } else {
+        // Expand content
+        description.classList.add('expanded');
+        this.textContent = 'See less';
+        collapseContent.style.display = 'block'; // Show full content
+        if (viewMoreLink) viewMoreLink.style.display = 'block'; // Show link
+      }
+    });
+  });
+</script>

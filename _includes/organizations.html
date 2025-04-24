@@ -11,9 +11,17 @@
         {% endif %}
 
            <!-- Collapse Arrow Icon -->
-           <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#orgCollapse" aria-expanded="false" aria-controls="teamCollapse">
-            <i class="bi bi-caret-down-fill"></i> <!-- Bootstrap Icon for the arrow -->
-          </button>
+           <button
+           class="btn btn-link p-0"
+           type="button"
+           data-toggle="collapse"
+           data-target="#orgCollapse"
+           aria-expanded="false"
+           aria-controls="orgCollapse"
+         >
+           <i class="bi bi-caret-down-fill arrow-icon ml-3"></i>
+         </button>
+         
       </div>
     </div>
        <!-- Collapsible Team Content -->
@@ -38,3 +46,17 @@
   </div>
   <!--  /.container -->
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var orgArrow = document.querySelector('[data-target="#orgCollapse"] .arrow-icon');
+
+    $('#orgCollapse').on('show.bs.collapse', function () {
+      orgArrow.classList.add('rotate');
+    });
+
+    $('#orgCollapse').on('hide.bs.collapse', function () {
+      orgArrow.classList.remove('rotate');
+    });
+  });
+</script>

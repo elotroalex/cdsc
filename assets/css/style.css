@@ -2814,7 +2814,24 @@ a.button-apply{
   }
 }
 
+.ig-height{
+  max-height: 390px;
+  overflow: hidden;
+ margin-bottom: 6em;
+}
 
+@media only screen and (max-width: 768px){
+
+  .ig-height{
+    max-height: 370px;
+  }
+}
+@media only screen and (max-width: 375px){
+
+  .ig-height{
+    max-height: 528px;
+  }
+}
 /*--------------------------------------------------------------
 ## Navigation Responsive
 --------------------------------------------------------------*/

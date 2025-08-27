@@ -3,21 +3,32 @@
 <section class="our-team pd-b-90">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 d-flex justify-content-start align-items-center">
-        {% if site.active_lang == 'en'%}
-        <h3 class="section-title">Our Team</h3>
-        {% elsif site.active_lang == 'es' %}
-        <h3 class="section-title">Nuestro equipo</h3>
-        {% elsif site.active_lang == 'fr' %}
-        <h3 class="section-title">Notre équipe</h3>
-        {% endif %}
-        
+      <div class="col-md-12 d-flex align-items-center">
+        <h3 class="section-title m-0">
+          {% if site.active_lang == 'en'%}
+            Our Team
+          {% elsif site.active_lang == 'es' %}
+            Nuestro equipo
+          {% elsif site.active_lang == 'fr' %}
+            Notre équipe
+          {% endif %}
+        </h3>
+    
         <!-- Collapse Arrow Icon -->
-        <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#teamCollapse" aria-expanded="false" aria-controls="teamCollapse">
-          <i class="bi bi-caret-down-fill"></i> <!-- Bootstrap Icon for the arrow -->
-        </button>
+        <button
+        class="btn btn-link p-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#teamCollapse"
+        aria-expanded="false"
+        aria-controls="teamCollapse"
+      >
+        <i class="bi bi-caret-down-fill arrow-icon ml-3"></i>
+      </button>     
+        
       </div>
     </div>
+    
     
         <!-- Collapsible Team Content -->
         <div class="collapse" id="teamCollapse">
@@ -273,6 +284,7 @@
         {% endif %}
       </div>
     </div>
+    <!-- past members -->
     <div class="mt-5">
       {% if site.active_lang == 'en'%}
       <h3 class="section-title">Past members</h3>
@@ -309,54 +321,26 @@
         </div>
       </div>
     </div>
-    <!-- <p>
-      Hope Culinam, CUNY — Mia Toledo-Navarro, Yale University — Sophia Pollack,
-      Barnard College — Tess Abraham, Barnard College — Naomi Coke, Barnard
-      College — Tandile Jackson Vinson, Barnard College
-    </p> -->
 
-    <!-- <ul>
-      <li>Hope Culinam - CUNY</li>
-      <li>Mia Toledo-Navarro - Yale University</li>
-      <li>Sophia Pollack - Barnard College</li>
-      <li>Tess Abraham - Barnard College</li>
-      <li>Naomi Coke - Barnard College</li>
-      <li>Tandile Jackson Vinson - Barnard College</li>
-    </ul> -->
+    <!-- interns -->
+    <!-- <div class="pd-t-60-b-90">{% include grantee-list-interns.html %}</div> -->
   </div>
   <!--  /.container -->
 </section>
-<!--  /.our-team -->
 
-<!-- <h3>Our Team</h3>
-<p>Our team includes professors, researchers, students, and administrators across the United States and the Caribbean who help execute and expand our vision. We partner with Caribbean artists and community organizations to bring digital projects and art initiatives to life.</p>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var arrow = document.querySelector('[data-target="#teamCollapse"] .arrow-icon');
 
-<ul>
-    <li>Kaiama Glover - Principal Investigator, Yale University</li>
-    <li>Alexander Gil - Co-Principal Investigator, Yale University</li>
-    <li>Kelly Baker Josephs - Co-Principal Investigator, Miami University</li>
-    <li>Schuyler Esprit - Co-Principal Investigator, <a href="https://createcaribbean.org/" target="_blank">Create Caribbean Research Institute</a></li>
-    <li>Nadjah Ríos Villarini - Co-Principal Investigator, <a href="https://www.uprrp.edu/" target="_blank">University of Puerto Rico-Rio Piedras</a></li>
-    <li>Mirerza González - Co-Principal Investigator, <a href="https://www.uprrp.edu/" target="_blank">University of Puerto Rico-Rio Piedras</a></li>
-</ul>
+    $('#teamCollapse').on('show.bs.collapse', function () {
+      arrow.classList.add('rotate');
+    });
 
-<p>Our team also includes several additional roles:</p>
-<ul>
-    <li>Andreína Soto - Senior Grant Associate Director - Yale University</li>
-    <li>Clifton E. Sorrell III - Digital Curator Fellow - University of Texas at Austin</li>
-    <li>Gabrielle Jean-Louis - Assistant coordinator of the Summer Institute, University of Miami</li>
-    <li>Mila Aponte González - Microgrant Mentor - <a href="https://www.uprrp.edu/" target="_blank">University of Puerto Rico-Rio Piedras</a></li>
-    <li>Kelton Moorman - Marketing Assistant, Yale University</li>
-    <li>Maliya Francis - Marketing Assistant, Yale University</li>
-    <li>Matthew Chen - Marketing Assistant, Yale University</li>
-</ul>
+    $('#teamCollapse').on('hide.bs.collapse', function () {
+      arrow.classList.remove('rotate');
+    });
+  });
+</script>
 
-<h3>Past Members</h3>
-<ul>
-    <li>Hope Culinam - CUNY</li>
-    <li>Mia Toledo-Navarro - Yale University</li>
-    <li>Sophia Pollack - Barnard College</li>
-    <li>Tess Abraham - Barnard College</li>
-    <li>Naomi Coke - Barnard College</li>
-    <li>Tandile Jackson Vinson - Barnard College</li>
-</ul> -->
+
+

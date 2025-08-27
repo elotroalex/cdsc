@@ -9,6 +9,8 @@
       url: "/es/micro-grants/"
     - text: "El Caribe digital"
       url: "/es/tcd/"
+    - text: "Residencia arte digital"
+      url: "/es/tcdr/"
     - text: "UPR Caribe Digital"
       url: "/es/upr/"
 - text: "Noticias"
@@ -19,6 +21,6 @@
   url: "#"
   submenu:
     - text: "English"
-      url: " /"
+      url: "https://cdscollective.org"
     - text: "Français"
       url: "/fr/"

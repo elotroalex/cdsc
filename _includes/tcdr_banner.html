@@ -1,0 +1,30 @@
+<!-- banner for home page promoting aiR for TCD program -->
+<section class="apply-module">
+  <div class="bg-blue-04">
+    <div class="circle-bg rgt-btm op-blue-01"></div>
+    <div class="container apply-rect">
+      <div class="apply-title">
+        {% if site.active_lang == 'en' %}
+        <h1 class="text-blue-01">
+          The Caribbean Digital Virtual Artist’s Residency 2025
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/tcdr/cfp2025/">apply</a>
+        {% elsif site.active_lang == 'es' %}
+        <h1 class="text-blue-01">
+          Residencia Virtual de Artistas Digitales 2025
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/tcdr/cfp2025/">aplicar</a>
+        {% elsif site.active_lang == 'fr' %}
+        <h1 class="text-blue-01">
+          The Caribbean Digital Virtual Artist’s Residency 2025
+
+        </h1>
+        </div> <!-- Closing div for 'apply-title' -->
+        <a class="btn button-apply bg-blue-01 text-blue-04" href="{{site.baseurl}}/tcdr/cfp2025/">postuler</a>
+        {% endif %}
+    </div>
+    <div class="circle-bg lft-top op-blue-01"></div>
+  </div>
+</section>

@@ -9,7 +9,12 @@ permalink: grantees-upr/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="section-title center-title no-border">Grantees</h2>
+        <h2 class="section-title center-title no-border">
+          {% if site.active_lang == "es" %} Beneficiarios {% elsif
+          site.active_lang == "fr" %} Bénéficiaires {% else %} Grantees {% endif
+          %}
+        </h2>
+
         <h4>UPR Caribe Digital</h4>
 
         <!-- <p>

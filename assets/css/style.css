@@ -113,7 +113,7 @@ h2 {
 
 h3 {
   font-size: 1.563em;
-  width: 100%;
+  /* width: 100%; */
 }
 
 h4 {
@@ -340,6 +340,10 @@ pre {
   font-weight: bold;
   font-size: 60px;
   color: #ccc;
+}
+
+.lh-1-25 { 
+  line-height: 1.25; 
 }
 
 /*--------------------------------------------------------------
@@ -713,6 +717,8 @@ dd {
 .fl-none {
   float: none !important;
 }
+
+
 
 @media only screen and (max-width: 800px) {
   .mb-fl-none {
@@ -2713,6 +2719,10 @@ pagination
   background-color: #00ABFF;
   /* opacity: 20%; */
 }
+.op-blue-01{
+  background-color: #0020ff;
+  opacity: 12%;
+}
 a.button-apply{
   border-radius: 30px;
   padding: 15px 45px;
@@ -2750,6 +2760,13 @@ a.button-apply{
 
 .btn:hover{
   color: white;
+}
+
+.btn.btn-link {
+  color: #00abff;
+  }
+.btn.btn-link:hover{
+  color: #00abff;
 }
 @media only screen and (max-width: 991px){
   .apply-module{
@@ -2797,7 +2814,24 @@ a.button-apply{
   }
 }
 
+.ig-height{
+  max-height: 390px;
+  overflow: hidden;
+ margin-bottom: 6em;
+}
 
+@media only screen and (max-width: 768px){
+
+  .ig-height{
+    max-height: 370px;
+  }
+}
+@media only screen and (max-width: 375px){
+
+  .ig-height{
+    max-height: 528px;
+  }
+}
 /*--------------------------------------------------------------
 ## Navigation Responsive
 --------------------------------------------------------------*/
@@ -4211,6 +4245,15 @@ header.sticky-header + section {
 /*--------------------------------------------------------------
 # Author about
 --------------------------------------------------------------*/
+.arrow-icon {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.arrow-icon.rotate {
+  transform: rotate(180deg);
+}
+
 .about-img-block {
   -webkit-box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.14);

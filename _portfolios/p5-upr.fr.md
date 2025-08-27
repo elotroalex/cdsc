@@ -21,14 +21,15 @@ bullet_type: "Type de support: académique"
   <li>Le mineur académique de premier cycle en humanités numériques (DHUAM) : conscient que l'avenir des humanités numériques caribéennes repose sur ses utilisateurs, UPR Caribe Digital crée le premier mineur académique de premier cycle en humanités numériques à Porto Rico dans le cadre du <a href="http://humanidades.uprrp.edu/prei/" target="_blank">Programme d'Études Interdisciplinaires</a> au sein de la Faculté des Humanités de l'UPR-RP.</li>
 </ul>
 <p>UPR Caribe Digital mène ces initiatives avec l'aide du <a href="https://cea.uprrp.edu/" target="_blank">Centre pour l'Excellence Académique</a> et du Bureau du Doyen des Affaires Académiques. Ils prévoient que ces initiatives bénéficieront à plus de 120 professeurs et bibliothécaires, 65 étudiants universitaires et 15 organisations communautaires.</p>
-<p>Pour plus d'informations, visitez le <a href="https://www.uprcaribedigital.org/" target="_blank">site web</a> de UPR Caribe Digital .</p>
-   <div><h5>Coordinateurs :</strong> Mirerza González Vélez, Nadjah Ríos Villarini</h5></div>
+<p>Pour plus d'informations, visitez le <a href="https://www.uprcaribedigital.org/" target="_blank">site web</a> de UPR Caribe Digital ou suivez UPR Caribe Digital  <a href="https://www.facebook.com/UPRCaribeDigital/" target="_blank">sur Facebook</a> .</p>
 
  <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/grantees-upr/">Bénéficiaires précédents</a>
     </div>
 
-<div class="project-demo-btn">
+   <div><h5>Coordinateurs: Mirerza González Vélez, Nadjah Ríos Villarini</h5></div>
+
+<!-- <div class="project-demo-btn">
     <a class="btn project-btn" href="https://www.facebook.com/UPRCaribeDigital/">Suivez UPR Caribe Digital sur Facebook</a>
-</div>
+</div> -->
 </div>

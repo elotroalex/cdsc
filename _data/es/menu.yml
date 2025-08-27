@@ -21,6 +21,6 @@
   url: "#"
   submenu:
     - text: "English"
-      url: " /"
+      url: "https://cdscollective.org"
     - text: "Français"
       url: "/fr/"

@@ -13,11 +13,11 @@ bullet_date: "Fecha clave: enero-marzo 2025"
 bullet_type: "Tipo de apoyo: residencia"
 ---
 
-<div class="project-demo-btn">
+<!-- <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/tcdr/cfp2025/">LLamado 2025</a>
     </div>
 <hr>
-<br>
+<br> -->
 
 <div class="portfolio-details">
 <p>Las artes que emergen del Caribe y sus diásporas presentan una forma creativa de producción de conocimiento que plantea las mismas preguntas e inquietudes que los académicos abordan, ofreciendo modos alternativos de expresión a audiencias que se extienden mucho más allá de la academia.</p>

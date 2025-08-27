@@ -16,12 +16,21 @@
             if submenu_list.text == 'English' %} {% assign lang_code = 'en' %}
             {% elsif submenu_list.text == 'Español' %} {% assign lang_code =
             'es' %} {% elsif submenu_list.text == 'Français' %} {% assign
-            lang_code = 'fr' %} {% endif %} {% assign new_url = page.url %} {%
-            if lang_code != '' %} {% if lang_code == site.default_lang %} {%
-            assign new_url = page.url %} {% else %} {% assign new_url = '/' |
-            append: lang_code | append: page.url %} {% endif %}
+            lang_code = 'fr' %} {% endif %} {% if lang_code != '' %} {%- assign
+            current_path = page.url -%} {%- comment -%} normalize path: remove
+            current lang prefix if present {%- endcomment -%} {% if
+            site.active_lang != site.default_lang %} {% assign lang_prefix = '/'
+            | append: site.active_lang %} {% if current_path == lang_prefix or
+            current_path == lang_prefix | append: '/' %} {% assign current_path
+            = '/' %} {% else %} {% assign current_path = current_path |
+            replace_first: lang_prefix, '' %} {% endif %} {% endif %} {%-
+            comment -%} build destination URL {%- endcomment -%} {% if lang_code
+            == site.default_lang %} {% assign new_url = current_path %} {% else
+            %} {% assign new_url = '/' | append: lang_code | append:
+            current_path %} {% endif %}
+
             <li>
-              <a class="language-option" href="{{ new_url | relative_url }}">
+              <a class="language-option" href="{{ submenu_list.url }}">
                 {{ submenu_list.text }}
               </a>
             </li>
@@ -47,4 +56,5 @@
       </ul>
     </div>
   </div>
+  <p>DEBUG: active_lang={{ site.active_lang }} | page.url={{ page.url }}</p>
 </nav>

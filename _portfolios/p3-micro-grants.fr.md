@@ -28,7 +28,7 @@ bullet_type: "Type de soutien : subvention"
 <!-- <p>Pour plus d'informations sur l'éligibilité et les conditions de candidature, visitez notre <a href="/_micro-grants/cfp2024.es.html" target="_blank">appel à propositions</a>.</p> -->
 <p>Pour des exemples de ressources numériques résultant de – et destinées à – l’étude des Caraïbes, explorez les <a href="{{site.baseurl}}/grantees-microgrants/">bénéficiaires de micro-subventions </a><!--(link a beneficiarios)--> et <a href="https://thecaribbeandigital.org/caridischo/" target="_blank">CariDiScho</a>, un répertoire de bourses d’études digitales des Caraïbes.</p>
  <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/grantees-microgrants/">Previous grantees</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-microgrants/">Bénéficiaires précédents</a>
     </div>
 
 <div><h5>Coordinateurs du programme: Alex Gil y Andreína Soto</h5></div>

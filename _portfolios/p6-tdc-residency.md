@@ -13,11 +13,11 @@ bullet_date: "Key dates: January-March 2025"
 bullet_type: "Type of support: Residency"
 ---
 
-<div class="project-demo-btn">
+<!-- <div class="project-demo-btn">
         <a class="btn project-btn" href="{{site.baseurl}}/tcdr/cfp2025/">Apply for 2025</a>
     </div>
 <hr>
-<br>
+<br> -->
 
 <div class="portfolio-details">
 <p>Creative arts emerging from the Caribbean and its diasporas present a form of knowledge production that raises the same questions and concerns as those academics engage, offering alternative modes of expression to audiences that extend well beyond the academy.</p>

@@ -28,7 +28,7 @@ bullet_type: "Tipo de apoyo: beca"
 <!-- <p>Para obtener más información sobre los requisitos de elegibilidad y solicitud, visite nuestra <a href="/_micro-grants/cfp2024.es.html" target="_blank">Convocatoria de propuestas</a>.</p> -->
 <p>Para conocer ejemplos de recursos digitales resultantes de (y destinados a) el estudio del Caribe, consulte los <a href="{{site.baseurl}}/grantees-microgrants/">beneficiarios de las micro-becas </a>y <a href="https://thecaribbeandigital.org/caridischo/es/" target="_blank">CariDiScho</a>, un directorio de becas digitales del Caribe.</p>
  <div class="project-demo-btn">
-        <a class="btn project-btn" href="{{site.baseurl}}/grantees-microgrants/">Previous grantees</a>
+        <a class="btn project-btn" href="{{site.baseurl}}/grantees-microgrants/">Beneficiarios anteriores</a>
     </div>
 <div><h5>Coordinadores del programa: Alex Gil y Andreína Soto</h5></div>
 

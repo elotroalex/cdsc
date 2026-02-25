@@ -2,14 +2,16 @@
   <!-- Navigation Links -->
   <div class="program-navigation">
     <a href="#program-2023" class="btn btn-link">2023</a> |
-    <a href="#program-2024" class="btn btn-link">2024</a>
+    <a href="#program-2024" class="btn btn-link">2024</a> |
+    <a href="#program-2025" class="btn btn-link">2025</a>
   </div>
 
   <div class="grantee-list">
     {% assign grouped_grantees = site.data.grantees-cdssi | group_by:
     "program_en" %} {% for program in grouped_grantees %} {% assign year = "" %}
-    {% if program.name contains "2024" %} {% assign year = "2024" %} {% elsif
-    program.name contains "2023" %} {% assign year = "2023" %} {% endif %} {% if
+    {% if program.name contains "2025" %} {% assign year = "2025" %} {% elsif
+    program.name contains "2024" %} {% assign year = "2024" %} {% elsif
+      program.name contains "2023" %} {% assign year = "2023" %} {% endif %} {% if
     year != "" %}
     <div id="program-{{ year }}" class="program-group">
       <h3 class="mt-5">

@@ -4,7 +4,7 @@ title: "TCD XII at Northwestern 2025"
 date: 2026-03-06
 author: CDSC
 permalink: tcdxii-recap/
-post_image: "/assets/images/news/" #add name of image in github repository after backslash
+post_image: "/assets/images/news/TCDXII_002.png" 
 excerpt: "TCD X held at Yale University in December 2023"
 lang: en
 ---
@@ -18,16 +18,12 @@ The micro-grantees showcase was followed by panels that addressed larger themes 
 
 <div class="gallery">
 
-<a href="/assets/images/photo1.jpg">
-  <img src="/assets/images/photo1.jpg">
+<a href="/assets/images/news/TCDXII_005.png">
+  <img src="/assets/images/news/TCDXII_005.png">
 </a>
 
-<a href="/assets/images/photo2.jpg">
-  <img src="/assets/images/photo2.jpg">
-</a>
-
-<a href="/assets/images/photo3.jpg">
-  <img src="/assets/images/photo3.jpg">
+<a href="/assets/images/news/TCDXII_004.png">
+  <img src="/assets/images/news/TCDXII_004.png">
 </a>
 
 </div>
